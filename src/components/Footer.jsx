@@ -13,7 +13,7 @@ export default function Footer() {
               src="/images/a1-logo.jpeg"
               alt="A1 Electricals Ltd logo"
             />
-            <p style={{ maxWidth: 280, fontSize: "13.5px" }}>
+            <p style={{ maxWidth: 280, fontSize: "13.5px", color: "white" }}>
               Kampala's one-stop shop for genuine electrical products and
               accessories, serving homes, businesses and contractors across
               Uganda.
@@ -23,6 +23,7 @@ export default function Footer() {
                 marginTop: 18,
                 fontFamily: "var(--mono)",
                 fontSize: "12.5px",
+                color: "white"
               }}
             >
               Plot no. 49 Luthuli Avenue, Industrial Area, Bugolobi, P.O. Box 31503, Kampala, Uganda

@@ -41,7 +41,10 @@ export default function Header() {
 
   useEffect(() => {
     function handleOutside(e) {
-      if (!e.target.closest(".navitem")) setOpenDropdown(null);
+      if (!e.target.closest(".site")) {
+        setOpenDropdown(null);
+        setMobileOpen(false);
+      }
     }
     function handleScroll() {
       setOpenDropdown(null);
@@ -107,11 +110,19 @@ export default function Header() {
             onChange={(e) => setMobileOpen(e.target.checked)}
           />
 
-          <nav className="primary">
+          <label
+            htmlFor="navToggle"
+            className={`burger${mobileOpen ? " open" : ""}`}
+            aria-label="Toggle menu"
+            onClick={(e) => { e.preventDefault(); setMobileOpen(v => !v); }}
+          >
+            <span className="icon-open"><BurgerIcon /></span>
+            <span className="icon-close"><CloseIcon /></span>
+          </label>
+
+          <nav className={`primary${mobileOpen ? " mobile-open" : ""}`}>
             <ul>
-              <li
-                className={`navitem${location.pathname === "/" ? " active" : ""}`}
-              >
+              <li className={`navitem${location.pathname === "/" ? " active" : ""}`}>
                 <Link to="/">Home</Link>
               </li>
 
@@ -119,22 +130,12 @@ export default function Header() {
                 className={`navitem${isProductsActive ? " active" : ""}${openDropdown === "products" ? " open" : ""}${closing === "products" ? " closing" : ""}`}
                 data-nav="products"
               >
-                <Link
-                  to="/products"
-                  onClick={(e) => toggleDropdown("products", e)}
-                >
+                <Link to="/products" onClick={(e) => toggleDropdown("products", e)}>
                   Products <CaretIcon />
                 </Link>
-                <div
-                  className="dropdown"
-                  ref={(el) => (dropdownRefs.current.products = el)}
-                >
+                <div className="dropdown" ref={(el) => (dropdownRefs.current.products = el)}>
                   {PRODUCTS.map((p) => (
-                    <Link
-                      key={p.slug}
-                      to={`/products/${p.slug}`}
-                      onClick={() => closeDropdown("products")}
-                    >
+                    <Link key={p.slug} to={`/products/${p.slug}`} onClick={() => closeDropdown("products")}>
                       <span>{p.name}</span>
                       <span className="n">{p.n}</span>
                     </Link>
@@ -149,57 +150,29 @@ export default function Header() {
                 <Link to="/brands" onClick={(e) => toggleDropdown("brands", e)}>
                   Brands <CaretIcon />
                 </Link>
-                <div
-                  className="dropdown"
-                  ref={(el) => (dropdownRefs.current.brands = el)}
-                >
+                <div className="dropdown" ref={(el) => (dropdownRefs.current.brands = el)}>
                   {BRANDS.map((b) => (
-                    <Link
-                      key={b.slug}
-                      to={`/brands/${b.slug}`}
-                      onClick={() => closeDropdown("brands")}
-                    >
+                    <Link key={b.slug} to={`/brands/${b.slug}`} onClick={() => closeDropdown("brands")}>
                       <span>{b.name}</span>
                     </Link>
                   ))}
                 </div>
               </li>
 
-              <li
-                className={`navitem${location.pathname === "/customer-service" ? " active" : ""}`}
-              >
+              <li className={`navitem${location.pathname === "/customer-service" ? " active" : ""}`}>
                 <Link to="/customer-service">Customer service</Link>
               </li>
-              <li
-                className={`navitem${location.pathname === "/ordering-delivery" ? " active" : ""}`}
-              >
+              <li className={`navitem${location.pathname === "/ordering-delivery" ? " active" : ""}`}>
                 <Link to="/ordering-delivery">Ordering &amp; delivery</Link>
               </li>
-              <li
-                className={`navitem${location.pathname === "/about" ? " active" : ""}`}
-              >
+              <li className={`navitem${location.pathname === "/about" ? " active" : ""}`}>
                 <Link to="/about">About</Link>
               </li>
               <li className="navitem">
-                <Link to="/contact" className="navcta">
-                  Contact
-                </Link>
+                <Link to="/contact" className="navcta">Contact</Link>
               </li>
             </ul>
           </nav>
-
-          <label
-            htmlFor="navToggle"
-            className="burger"
-            aria-label="Toggle menu"
-          >
-            <span className="icon-open">
-              <BurgerIcon />
-            </span>
-            <span className="icon-close">
-              <CloseIcon />
-            </span>
-          </label>
         </div>
       </header>
     </>

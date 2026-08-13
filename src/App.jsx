@@ -1,4 +1,11 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
+import { useEffect } from "react";
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
+  return null;
+}
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import { LogoRow } from "./components/Shared.jsx";
@@ -19,6 +26,7 @@ import NotFound from "./pages/NotFound.jsx";
 export default function App() {
   return (
     <ToastProvider>
+      <ScrollToTop />
       <Header />
       <main>
         <Routes>
