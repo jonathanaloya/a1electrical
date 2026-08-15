@@ -1232,29 +1232,35 @@
 
   .split {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.4fr 1fr;
     align-items: stretch;
     background: #fff;
+    margin-bottom: 0;
+    padding: 20px;
+    gap: 16px;
   }
 
   .split-media {
     position: relative;
-    min-height: 400px;
+    min-height: 240px;
+    padding: 8px;
   }
 
   .split-media img {
     position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
+    inset: 8px;
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
     object-fit: cover;
+    border: 2px solid #e5e7eb;
+    border-radius: 4px;
   }
 
   .split-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px 64px;
+    padding: 24px 36px;
   }
 
   .split.reverse .split-media {
@@ -1266,14 +1272,14 @@
   }
 
   .split-content h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
+    font-size: 26px;
+    margin-bottom: 12px;
     color: var(--ink);
   }
 
   .split-content p {
-    margin-bottom: 16px;
-    font-size: 16px;
+    margin-bottom: 10px;
+    font-size: 15px;
   }
 
   .split-list {
@@ -1307,34 +1313,55 @@
     .split,
     .split.reverse {
       grid-template-columns: 1fr;
+      padding: 16px;
+      gap: 12px;
     }
 
     .split-media {
-      min-height: 280px;
+      min-height: 200px;
       order: 1 !important;
+      padding: 6px;
+    }
+
+    .split-media img {
+      inset: 6px;
+      width: calc(100% - 12px);
+      height: calc(100% - 12px);
     }
 
     .split-content {
       order: 2 !important;
-      padding: 36px 24px;
-    }
-
-    .split-content h2 {
-      font-size: 26px;
-    }
-  }
-
-  @media(max-width:600px) {
-    .split-media {
-      min-height: 220px;
-    }
-
-    .split-content {
-      padding: 28px 16px;
+      padding: 24px;
     }
 
     .split-content h2 {
       font-size: 22px;
+    }
+  }
+
+  @media(max-width:600px) {
+    .split {
+      padding: 12px;
+      gap: 10px;
+    }
+
+    .split-media {
+      min-height: 160px;
+      padding: 6px;
+    }
+
+    .split-media img {
+      inset: 6px;
+      width: calc(100% - 12px);
+      height: calc(100% - 12px);
+    }
+
+    .split-content {
+      padding: 20px 16px;
+    }
+
+    .split-content h2 {
+      font-size: 20px;
     }
   }
 

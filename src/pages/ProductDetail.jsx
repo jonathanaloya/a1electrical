@@ -1,5 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import { findProduct } from "../data/products.js";
+import { getSubCategories, getLeadingBrand } from "../data/brands.js";
 import EnquiryForm from "../components/EnquiryForm.jsx";
 import {
   CtaStrip,
@@ -133,30 +134,45 @@ export default function ProductDetail() {
         </a>
       </Statement>
 
-      <SplitSection
-        media={<img src={heroImage} alt={p.name} />}
-        heading={`${p.name} Solutions`}
-      >
-        <p>{p.split1}</p>
-      </SplitSection>
+      {(() => {
+        const subCats = getSubCategories(p.name);
+        const leadingBrand = getLeadingBrand(p.name);
+        const sections = [];
 
-      <SplitSection
-        reverse
-        media={
-          <img src="/images/a1-storefront.webp" alt="A1 Electricals showroom" />
+        subCats.forEach((subCat, i) => {
+          sections.push(
+            <SplitSection
+              key={subCat.heading}
+              reverse={i % 2 === 1}
+              media={<img src={heroImage} alt={p.name} />}
+              heading={subCat.heading}
+            >
+              <p>{subCat.content}</p>
+            </SplitSection>
+          );
+        });
+
+        if (leadingBrand) {
+          sections.push(
+            <SplitSection
+              key="manufacturer"
+              reverse={subCats.length % 2 === 1}
+              media={
+                leadingBrand.logo ? (
+                  <img src={leadingBrand.logo} alt={leadingBrand.name} />
+                ) : (
+                  <div className="bmark">{leadingBrand.init}</div>
+                )
+              }
+              heading={`Leading ${leadingBrand.name} Quality`}
+            >
+              <p>{leadingBrand.desc}</p>
+            </SplitSection>
+          );
         }
-        heading="Quality You Can Trust"
-      >
-        <p>{p.split2}</p>
-        <p>Key details on this range: {specLine}.</p>
-      </SplitSection>
 
-      <SplitSection
-        media={<img src="/images/a1-storefront.webp" alt="A1 Electricals showroom" />}
-        heading="Available Across Uganda"
-      >
-        <p>{p.split3}</p>
-      </SplitSection>
+        return sections;
+      })()}
 
       <CtaStrip />
     </>
