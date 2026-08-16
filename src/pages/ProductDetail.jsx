@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-import { findProduct } from "../data/products.js";
+import { findProduct, PRODUCTS } from "../data/products.js";
 import { getSubCategories, getLeadingBrand } from "../data/brands.js";
 import EnquiryForm from "../components/EnquiryForm.jsx";
 import {
@@ -173,6 +173,33 @@ export default function ProductDetail() {
 
         return sections;
       })()}
+
+      <section className="tight">
+        <div className="wrap">
+          <h2 style={{ fontSize: 28, marginBottom: 28 }}>More Products</h2>
+          <div className="mp-grid">
+            {PRODUCTS.filter((r) => r.slug !== p.slug)
+              .slice(0, 6)
+              .map((r, i) => {
+                const usePhoto = r.heroImage && !r.heroImage.includes("a1-storefront");
+                const tone = i % 2 === 0 ? "#EAEAE4" : "var(--ink)";
+                const stroke = i % 2 === 0 ? "var(--steel)" : "#fff";
+                return (
+                  <Link key={r.slug} to={`/products/${r.slug}`} className="mp-card">
+                    {usePhoto ? (
+                      <img src={r.heroImage} alt={r.name} />
+                    ) : (
+                      <div className="icon-fill" style={{ background: tone }}>
+                        <PlugIcon stroke={stroke} strokeWidth={1} />
+                      </div>
+                    )}
+                    <span className="mp-pill">{r.name}</span>
+                  </Link>
+                );
+              })}
+          </div>
+        </div>
+      </section>
 
       <CtaStrip />
     </>

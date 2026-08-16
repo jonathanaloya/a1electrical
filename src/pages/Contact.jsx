@@ -57,7 +57,7 @@ export default function Contact() {
                 <div className="contact-detail-item">
                   <div className="contact-detail-icon"><PhoneIcon /></div>
                   <div>
-                    <b><a href="tel:+256414347100">+256 414 347100</a></b>
+                    <b><a href="tel:+256752347110">+256 752 347110</a></b>
                     <span>Mon–Sat, 8:30am–6:00pm EAT</span>
                   </div>
                 </div>

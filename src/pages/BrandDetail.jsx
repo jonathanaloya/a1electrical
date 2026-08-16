@@ -134,6 +134,27 @@ export default function BrandDetail() {
         </div>
       </section>
 
+      <section className="tight">
+        <div className="wrap">
+          <h2 style={{ fontSize: 28, marginBottom: 28 }}>Related Brands</h2>
+          <div className="grid-4">
+            {BRANDS.filter((rb) => rb.slug !== b.slug)
+              .slice(0, 4)
+              .map((rb) => (
+                <Link key={rb.slug} to={`/brands/${rb.slug}`} className="brandcard">
+                  {rb.logo ? (
+                    <img src={rb.logo} alt={rb.name} style={{ width: 80, height: 54, objectFit: 'contain', margin: '0 auto 14px' }} />
+                  ) : (
+                    <div className="bmark">{rb.init}</div>
+                  )}
+                  <h3>{rb.name}</h3>
+                  <p>{rb.cat}</p>
+                </Link>
+              ))}
+          </div>
+        </div>
+      </section>
+
       <CtaStrip />
     </>
   );

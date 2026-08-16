@@ -10,8 +10,8 @@ function Topbar() {
       <div className="wrap">
         <a href="mailto:info@a1electricalsltd.com">info@a1electricalsltd.com</a>
         <div className="tb-right">
-          <span>Kampala, Uganda — <a href="https://wa.me/256755347100" target="_blank" rel="noopener noreferrer">WhatsApp orders welcome</a></span>
-          <a href="tel:+256414347100">+256 414 347100</a>
+          <span>Kampala, Uganda — <a href="https://wa.me/256752347110" target="_blank" rel="noopener noreferrer">WhatsApp orders welcome</a></span>
+          <a href="tel:+256752347110">+256 752 347110</a>
         </div>
       </div>
     </div>
