@@ -85,19 +85,32 @@ export default function ProductDetail() {
             </p>
             <div className="pdcontact-row">
               <a
-                href="https://wa.me/256755347100"
+                href="https://wa.me/256752347110"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 WhatsApp us
               </a>
-              <a href="tel:+256414347100">+256 414 347100</a>
+              <a href="tel:+256752347110">+256 752 347110</a>
               <a href="mailto:info@a1electricalsltd.com">
                 info@a1electricalsltd.com
               </a>
             </div>
           </div>
-          <EnquiryForm defaultMessage={`I'm interested in ${p.name}...`} />
+          <div className="pdside">
+            {(() => {
+              const leadingBrand = getLeadingBrand(p.cat);
+              if (leadingBrand && leadingBrand.logo) {
+                return (
+                  <div className="pdform pdform-branded">
+                    <img src={leadingBrand.logo} alt={leadingBrand.name} className="pdform-brand-logo" />
+                    <EnquiryForm defaultMessage={`I'm interested in ${p.name}...`} />
+                  </div>
+                );
+              }
+              return <EnquiryForm defaultMessage={`I'm interested in ${p.name}...`} />;
+            })()}
+          </div>
         </div>
       </section>
 
@@ -108,9 +121,9 @@ export default function ProductDetail() {
           reputation for quality and service.
         </p>
         <p>
-          Our catalogue draws on leading manufacturers including ABB, Schneider
-          Electric, Havells, Crabtree, Thorn, Osram, LEDVANCE, Philips, Marshall
-          Tufflex, Sollatek, Crompton Greaves and Larsen &amp; Toubro.
+          Our catalogue draws on leading manufacturers including ABB, Siemens,
+          VAF Power, Philips &amp; Signify, Marshall-Tufflex, Orient Electric,
+          RR Electric, Sollatek, Eaton and Neelkanth Cables.
         </p>
         <p>
           Whatever electrical products you need, our team is on hand to deliver
@@ -124,7 +137,7 @@ export default function ProductDetail() {
           Contact Us
         </Link>
         <a
-          href="https://wa.me/256755347100"
+          href="https://wa.me/256752347110"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-outline-white"
@@ -135,8 +148,8 @@ export default function ProductDetail() {
       </Statement>
 
       {(() => {
-        const subCats = getSubCategories(p.name);
-        const leadingBrand = getLeadingBrand(p.name);
+        const subCats = getSubCategories(p.cat);
+        const leadingBrand = getLeadingBrand(p.cat);
         const sections = [];
 
         subCats.forEach((subCat, i) => {

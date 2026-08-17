@@ -10,7 +10,7 @@ export const HERO_SLIDES = [
   {
     eyebrow: "Genuine Brands",
     heading: "Trusted brands, honest prices",
-    lead: "ABB, Schneider Electric, Havells and more — genuine products, always in stock at our showroom.",
+    lead: "ABB, Siemens, VAF Power and more — genuine products, always in stock at our showroom.",
     btnText: "View brands",
     btnHref: "/brands",
     img: "/images/drop_lights.jpeg",

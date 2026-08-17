@@ -57,9 +57,9 @@ export default function OrderingDelivery() {
         heading="Leading Manufacturers"
       >
         <p>
-          We only stock products from leading manufacturers like ABB, Schneider
-          Electric and Havells, so you can be confident they have been
-          manufactured to the highest standards.
+          We only stock products from leading manufacturers like ABB, Siemens
+          and VAF Power, so you can be confident they have been manufactured
+          to the highest standards.
         </p>
         <p>
           Whatever electrical products you're looking for, our genuine, branded

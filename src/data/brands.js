@@ -4,96 +4,88 @@ export const BRANDS = [
     name: "ABB",
     init: "AB",
     cat: "Switchgear Distribution",
-    desc: "Global manufacturer of switchgear, breakers and industrial automation equipment.",
+    desc: "ABB switches are designed for reliable, safe and long-lasting electrical control in residential, commercial and industrial applications. They offer modern designs, high-quality materials, and a wide range of switch, socket and control solutions — including DBs, contactors, overload relays, MCBs, MCCBs, RCBs, drives, motors, ATS and change-overs — providing excellent performance, easy installation and dependable operation for professional electrical installations.",
     logo: "/images/brands/abb.jpeg",
   },
   {
-    slug: "schneider-electric",
-    name: "Schneider Electric",
-    init: "SC",
+    slug: "siemens",
+    name: "Siemens",
+    init: "SI",
     cat: "Switchgear Distribution",
-    desc: "Global specialist in energy management, distribution boards and automation equipment.",
-    logo: "/images/brands/schneider.jpeg",
+    desc: "Siemens electrical products are designed for high performance, safety, and reliable operation across residential, commercial, and industrial applications. The range includes switches, sockets, circuit breakers, contactors, protection devices, control equipment, and distribution solutions, offering modern design, advanced technology, easy installation, and long-lasting performance for professional electrical systems.",
+    logo: "/images/brands/siemens.png",
   },
   {
-    slug: "havells",
-    name: "Havells",
-    init: "HA",
+    slug: "vaf-power",
+    name: "VAF Power",
+    init: "VP",
     cat: "Wiring Accessories",
-    desc: "Leading manufacturer of switches, wiring devices and electrical accessories.",
-    logo: null,
+    desc: "VAF Power offers a complete range of electrical products including switches, sockets, fans, distribution boards, and home & commercial decorative lighting solutions, combining modern designs, reliable performance, safety features, and quality construction for residential, commercial, and industrial applications. VAF Power also supplies lightning arresters and earthing copper accessories — including earth rods, tapes, clamps and cable lugs — for protection against lightning and electrical surges.",
+    logo: "/images/brands/vaf-power.png",
   },
   {
-    slug: "crabtree-electrical",
-    name: "Crabtree",
-    init: "CR",
-    cat: "Wiring Accessories",
-    desc: "Long-established brand of switches, sockets and consumer units.",
-    logo: null,
-  },
-  {
-    slug: "thorn-lighting",
-    name: "Thorn",
-    init: "TH",
-    cat: "Light Fittings & Luminaires",
-    desc: "Lighting manufacturer with decades of commercial and outdoor lighting experience.",
-    logo: null,
-  },
-  {
-    slug: "osram",
-    name: "Osram",
-    init: "OS",
-    cat: "Lamps, Bulbs & Tubes",
-    desc: "Global lamp manufacturer covering LED, fluorescent and specialist lighting.",
-    logo: null,
-  },
-  {
-    slug: "ledvance",
-    name: "LEDVANCE",
-    init: "LV",
-    cat: "Lamps, Bulbs & Tubes",
-    desc: "LED lamp and luminaire manufacturer for home and commercial lighting.",
-    logo: "/images/brands/ledvance.jpeg",
-  },
-  {
-    slug: "philips-lighting",
-    name: "Philips",
+    slug: "philips-signify",
+    name: "Philips & Signify",
     init: "PH",
     cat: "Light Fittings & Luminaires",
-    desc: "Global lighting manufacturer spanning LED lamps, luminaires and lighting systems.",
+    desc: "Philips & Signify Lighting provide innovative, energy-efficient lighting solutions for residential, commercial, industrial, architectural, and outdoor applications. The range includes LED lamps, panels, downlights, floodlights, street lighting, decorative luminaires, and smart connected lighting systems.",
     logo: "/images/brands/phillips.jpeg",
   },
   {
     slug: "marshall-tufflex",
-    name: "Marshall Tufflex",
+    name: "Marshall-Tufflex",
     init: "MT",
     cat: "PVC Trunking & Conduits",
-    desc: "Manufacturer of PVC trunking, conduit and cable management systems.",
+    desc: "Marshall-Tufflex provides high-quality cable management and electrical installation solutions for commercial, industrial, and building projects. The range includes trunking, conduit, cable trays, dado systems, floor systems, and accessories for safe and organised cable routing, offering durable construction, easy installation, professional finish, and reliable long-term performance.",
     logo: "/images/brands/marshall-tufflex.jpeg",
+  },
+  {
+    slug: "orient-electric",
+    name: "Orient Electric",
+    init: "OE",
+    cat: "Ventilation & Fans",
+    desc: "Orient Electric offers a wide range of high-quality fans and air-circulation solutions for residential, commercial, and industrial applications. The range includes ceiling fans, wall fans, exhaust fans, pedestal fans, and energy-efficient smart fan solutions, combining modern design, powerful airflow, energy efficiency, quiet operation, and reliable long-lasting performance.",
+    logo: "/images/brands/orient_electric.jpg",
+  },
+  {
+    slug: "rr-electric",
+    name: "RR Electric",
+    init: "RR",
+    cat: "Cables & Wires",
+    desc: "RR Motor Rewinding Wire offers high-quality enameled copper winding wires designed for motors, transformers, pumps, and other electrical equipment. The wires provide excellent conductivity, thermal resistance, insulation, and reliable performance in demanding applications, and are available in various sizes and insulation grades to ensure efficient motor operation, durability, and long service life.",
+    logo: "/images/brands/rr.png",
   },
   {
     slug: "sollatek",
     name: "Sollatek",
     init: "SO",
     cat: "Power Protection",
-    desc: "Specialist in voltage stabilisers and surge protection for unstable power supplies.",
+    desc: "Sollatek Protection provides reliable power protection and voltage regulation solutions for residential, commercial, and industrial applications. The range includes voltage stabilizers, surge protectors, automatic voltage switches, power conditioners, and specialized protection systems, helping protect sensitive electrical and electronic equipment from voltage fluctuations, surges, spikes, and unstable power.",
     logo: "/images/brands/sollatek.jpeg",
   },
   {
-    slug: "crompton-greaves",
-    name: "Crompton Greaves",
-    init: "CG",
-    cat: "Motor Controls & Starters",
-    desc: "Manufacturer of motors, starters and industrial electrical equipment.",
-    logo: null,
+    slug: "eaton",
+    name: "Eaton",
+    init: "EA",
+    cat: "Security & Fire Alarms",
+    desc: "Eaton Fire Alarm Systems provide reliable fire detection, alarm, and life-safety solutions for residential, commercial, and industrial buildings. The range includes fire alarm panels, detectors, sounders, manual call points, modules, emergency signaling, and system accessories, offering fast detection, dependable performance, easy integration, and enhanced safety for complete fire protection systems.",
+    logo: "/images/eaton.jpeg",
   },
   {
-    slug: "larsen-toubro",
-    name: "Larsen & Toubro",
-    init: "LT",
-    cat: "Circuit Protection",
-    desc: "Manufacturer of circuit breakers, switchgear and industrial electricals.",
-    logo: "/images/brands/larsen-toubro.jpeg",
+    slug: "neelkanth-cables",
+    name: "Neelkanth Cables",
+    init: "NC",
+    cat: "Cables & Wires",
+    desc: "Neelkanth Cable offers a complete range of wires and cables for house, commercial and factory wiring. PVC/XLPE insulated, copper and aluminium cables, including single, multicore and flexible types, plus armoured and power cables for safe, reliable and long-lasting electrical installations. Cable glands in brass, nickel-plated brass and other types are supplied for safe cable entry and protection.",
+    logo: "/images/brands/neelkanth.png",
+  },
+  {
+    slug: "servo-stabilizers",
+    name: "Servo Stabilizers",
+    init: "SV",
+    cat: "Power Protection",
+    desc: "Servo Automatic Voltage Stabilizers protect appliances and electrical equipment against high and low voltage fluctuations, providing stable output voltage with overload and short-circuit protection for reliable operation.",
+    logo: null,
   },
 ];
 
@@ -104,12 +96,12 @@ export const PRODUCT_SUB_CATEGORIES = {
     {
       heading: "Cable Solutions",
       content:
-        "Sartra provide cable and wiring products sourced from leading electrical product manufacturers for domestic, commercial, industrial and power distribution applications. We offer a full range of electrical wires and cables manufactured to the highest standards by leading British and European manufacturers suitable for use in all applications. Our large stocks ensure we can meet urgent requirements for quick shipment while offering extremely competitive prices.",
+        "A1 Electricals provide cable and wiring products sourced from leading electrical product manufacturers for domestic, commercial, industrial and power distribution applications. We offer a full range of electrical wires and cables manufactured to the highest standards by leading British and European manufacturers suitable for use in all applications. Our large stocks ensure we can meet urgent requirements for quick shipment while offering extremely competitive prices.",
     },
     {
       heading: "Product Range",
       content:
-        "Sartra can supply a wide range of wires and cables including underground cables and systems, medium and low voltage cables, voice video and data transmission cables, optical fibres and optical and copper cables. We provide a solution for a wide variety of applications such as power grids, underground cabling, telecoms, infrastructure and transport.",
+        "A1 Electricals can supply a wide range of wires and cables including underground cables and systems, medium and low voltage cables, voice video and data transmission cables, optical fibres and optical and copper cables. We provide a solution for a wide variety of applications such as power grids, underground cabling, telecoms, infrastructure and transport.",
     },
     {
       heading: "Cable Management",
@@ -126,19 +118,19 @@ export const PRODUCT_SUB_CATEGORIES = {
     {
       heading: "Industrial Lighting",
       content:
-        "Sartra offer the most comprehensive range of industrial lighting for factories, manufacturing plants, warehouses, cold rooms, ports, stadiums and airports. We can supply HID power luminaires or the most energy efficient LED luminaires dependent on your specific requirements. We also supply modular luminaires, corrosion resistant fittings, floodlights, bulkheads, ceiling fittings and emergency lighting from top manufacturers.",
+        "A1 Electricals offer the most comprehensive range of industrial lighting for factories, manufacturing plants, warehouses, cold rooms, ports, stadiums and airports. We can supply HID power luminaires or the most energy efficient LED luminaires dependent on your specific requirements. We also supply modular luminaires, corrosion resistant fittings, floodlights, bulkheads, ceiling fittings and emergency lighting from top manufacturers.",
     },
     {
       heading: "Street and Security Lighting",
       content:
-        "Whether you require conventional, LED energy saving or solar street lighting, Sartra can offer luminaires, poles and highmast fittings to meet your every need. A full range of downlights, spotlights and floodlights mean whatever your needs we can supply quickly at the most competitive prices.",
+        "Whether you require conventional, LED energy saving or solar street lighting, A1 Electricals can offer luminaires, poles and highmast fittings to meet your every need. A full range of downlights, spotlights and floodlights mean whatever your needs we can supply quickly at the most competitive prices.",
     },
   ],
   "Wiring Accessories": [
     {
       heading: "Sockets",
       content:
-        "Sartra offer a comprehensive range of switch sockets for domestic and commercial use. From standard sockets to multi-use sockets we can find the right product for your requirements. We can also supply a range of combination plates which offer a combined functionality of power, audio visual and data connectivity at one single point in the room. Our sockets come in a wide range of finishes from standard white to contemporary polished chrome and also natural finishes like wood.",
+        "A1 Electricals offer a comprehensive range of switch sockets for domestic and commercial use. From standard sockets to multi-use sockets we can find the right product for your requirements. We can also supply a range of combination plates which offer a combined functionality of power, audio visual and data connectivity at one single point in the room. Our sockets come in a wide range of finishes from standard white to contemporary polished chrome and also natural finishes like wood.",
     },
     {
       heading: "Switches and Dimmers",
@@ -148,7 +140,7 @@ export const PRODUCT_SUB_CATEGORIES = {
     {
       heading: "Lighting Controls",
       content:
-        "Sartra offer a wide range of lighting control systems suitable for commercial buildings and domestic use. Sensors and dimming switches are available which can help reduce energy costs. Multi-panel grids can help reduce installation costs housing a number of light switches on one panel.",
+        "A1 Electricals offer a wide range of lighting control systems suitable for commercial buildings and domestic use. Sensors and dimming switches are available which can help reduce energy costs. Multi-panel grids can help reduce installation costs housing a number of light switches on one panel.",
     },
   ],
   "Cable Trays & Conduits": [
@@ -206,41 +198,41 @@ export const PRODUCT_SUB_CATEGORIES = {
     {
       heading: "Indoor Lighting Controls",
       content:
-        "A wide range of lighting controls with wallbox dimmers, occupancy sensors and wireless devices are supplied by Sartra. These are ideal for residential properties or single room commercial buildings. Dimmers let you control the amount of energy used helping you save electricity and extend the life of bulbs. Occupancy and vacancy sensors are one of the easiest ways to save energy in the home office and are easy to install.",
+        "A wide range of lighting controls with wallbox dimmers, occupancy sensors and wireless devices are supplied by A1 Electricals. These are ideal for residential properties or single room commercial buildings. Dimmers let you control the amount of energy used helping you save electricity and extend the life of bulbs. Occupancy and vacancy sensors are one of the easiest ways to save energy in the home office and are easy to install.",
     },
     {
       heading: "Outdoor Lighting Controls",
       content:
-        "Sartra supply outdoor lighting control systems that allow remote management of the entire lighting infrastructure. This can offer a number of benefits including a flexible lighting system that can be adapted for special events, energy and CO2 savings and maintenance cost savings. Photocells for daylight-linked switching and time switches for scheduled on/off control of external lighting reduce energy use while maintaining security.",
+        "A1 Electricals supply outdoor lighting control systems that allow remote management of the entire lighting infrastructure. This can offer a number of benefits including a flexible lighting system that can be adapted for special events, energy and CO2 savings and maintenance cost savings. Photocells for daylight-linked switching and time switches for scheduled on/off control of external lighting reduce energy use while maintaining security.",
     },
     {
       heading: "Emergency Lighting",
       content:
-        "A wide range of emergency lighting products are available from Sartra. All products offer high power and efficient LED lighting for excellent performance over a wide area. We supply emergency lighting for indoor and outdoor use. High performance exit signs with LED lights are also available for surface or suspended application.",
+        "A wide range of emergency lighting products are available from A1 Electricals. All products offer high power and efficient LED lighting for excellent performance over a wide area. We supply emergency lighting for indoor and outdoor use. High performance exit signs with LED lights are also available for surface or suspended application.",
     },
   ],
   "Lamps, Bulbs & Tubes": [
     {
       heading: "LED Bulbs",
       content:
-        "Sartra offer a wide range of LED energy efficient bulbs incorporating standard GLS type domestic lamps, LED candle bulbs and globe bulbs. These include B22, E27 and E14 lampholders in both clear and opal finish. In addition, a full range of GU10 spot and flood lights, all of which offer instant start and flicker free long life. LED lamps now offer a direct replacement for almost every legacy lamp format with lifespans of up to 50,000 hours and energy consumption up to 80% lower than incandescent equivalents.",
+        "A1 Electricals offer a wide range of LED energy efficient bulbs incorporating standard GLS type domestic lamps, LED candle bulbs and globe bulbs. These include B22, E27 and E14 lampholders in both clear and opal finish. In addition, a full range of GU10 spot and flood lights, all of which offer instant start and flicker free long life. LED lamps now offer a direct replacement for almost every legacy lamp format with lifespans of up to 50,000 hours and energy consumption up to 80% lower than incandescent equivalents.",
     },
     {
       heading: "Fluorescent Tubes",
       content:
-        "Sartra offer an excellent range of retro-fit LED tubes – top quality with double ended rotatable power end caps in either T8 or T5 models. Energy saving, long life with superb packaging and real value for money. We also offer a full range of standard fluorescent tubes suitable for all applications. All tubes are available in a variety of colours including daylight, cool white, warm white and white.",
+        "A1 Electricals offer an excellent range of retro-fit LED tubes – top quality with double ended rotatable power end caps in either T8 or T5 models. Energy saving, long life with superb packaging and real value for money. We also offer a full range of standard fluorescent tubes suitable for all applications. All tubes are available in a variety of colours including daylight, cool white, warm white and white.",
     },
     {
       heading: "HID Lamps",
       content:
-        "Sartra are pleased to offer a full range of High Intensity Discharge sodium, metal halide and mercury discharge lamps. These lamps are suitable for use in a wide range of applications like streetlights, floodlights and highbay luminaires. All our lamps are manufactured by leading blue chip brands. Compact fluorescent lamps in all common caps are also available for energy-saving retrofit applications.",
+        "A1 Electricals are pleased to offer a full range of High Intensity Discharge sodium, metal halide and mercury discharge lamps. These lamps are suitable for use in a wide range of applications like streetlights, floodlights and highbay luminaires. All our lamps are manufactured by leading blue chip brands. Compact fluorescent lamps in all common caps are also available for energy-saving retrofit applications.",
     },
   ],
   "Solar LED Lighting": [
     {
       heading: "Solar LED Street Lights",
       content:
-        "In today's rapidly evolving solar market, Sartra are perfectly positioned to provide you with a range of solar lighting products suitable for commercial and residential usage. Solar powered LED lighting is easy to install with no digging up roads, trenching or cables required. Ongoing maintenance is low and the units will produce light within 24 hours of installation. We work with industry-leading providers to ensure the products we supply are reliable and durable and comply with all relevant standards.",
+        "In today's rapidly evolving solar market, A1 Electricals are perfectly positioned to provide you with a range of solar lighting products suitable for commercial and residential usage. Solar powered LED lighting is easy to install with no digging up roads, trenching or cables required. Ongoing maintenance is low and the units will produce light within 24 hours of installation. We work with industry-leading providers to ensure the products we supply are reliable and durable and comply with all relevant standards.",
     },
     {
       heading: "Advantages of Solar LED Lighting",
@@ -262,7 +254,7 @@ export const PRODUCT_SUB_CATEGORIES = {
     {
       heading: "Distribution Boards",
       content:
-        "Sartra supply a wide range of medium and low voltage power distribution products. These include panel boards, switchboards, transformers and busways. We also supply a range of switches, disconnects and enclosed circuit breakers. From a domestic consumer unit to a 630A industrial distribution board, our switchgear range covers the full spectrum of LV power distribution.",
+        "A1 Electricals supply a wide range of medium and low voltage power distribution products. These include panel boards, switchboards, transformers and busways. We also supply a range of switches, disconnects and enclosed circuit breakers. From a domestic consumer unit to a 630A industrial distribution board, our switchgear range covers the full spectrum of LV power distribution.",
     },
     {
       heading: "Consumer Units and Enclosures",
@@ -296,7 +288,7 @@ export const PRODUCT_SUB_CATEGORIES = {
     {
       heading: "Star-Delta Starters",
       content:
-        "Star-delta starters for motors up to 150kW, providing reduced-current starting for larger industrial loads with proper interlocking arrangements. Contactors and overload relays from ABB and Schneider Electric form the core of our motor control range, with thermal and electronic overload relays providing accurate motor protection across the full load range.",
+        "Star-delta starters for motors up to 150kW, providing reduced-current starting for larger industrial loads with proper interlocking arrangements. Contactors and overload relays from ABB and Siemens form the core of our motor control range, with thermal and electronic overload relays providing accurate motor protection across the full load range.",
     },
     {
       heading: "Soft-Start Units",
@@ -308,7 +300,7 @@ export const PRODUCT_SUB_CATEGORIES = {
     {
       heading: "Protecting Your Assets",
       content:
-        "We offer a comprehensive package of UPS systems and inverters. These are available in both three phase and single phase units and help to offer stable and regulated power supply to expensive IT and electronic equipment. Sartra can supply a full range of reliable power protection solutions to protect against the damaging effects of lightning, utility switching, switching electric motors, and blackouts. All products comply with the latest industry standards.",
+        "We offer a comprehensive package of UPS systems and inverters. These are available in both three phase and single phase units and help to offer stable and regulated power supply to expensive IT and electronic equipment. A1 Electricals can supply a full range of reliable power protection solutions to protect against the damaging effects of lightning, utility switching, switching electric motors, and blackouts. All products comply with the latest industry standards.",
     },
     {
       heading: "UPS Systems",
@@ -342,7 +334,7 @@ export const PRODUCT_SUB_CATEGORIES = {
     {
       heading: "Comprehensive Product Range",
       content:
-        "Sartra provide a wide range of Security and Fire systems sourced from leading electrical product manufacturers for domestic, commercial and industrial applications. Whether you are installing fire detection or security systems our extensive product range will meet your needs. We can also source and supply most advanced equipment needed for specialist projects. Our range includes fire detection, security alarms, fire panels, smoke and heat detectors, alarm bells, electronic sounders, break glass units, emergency lighting, PIRs and CCTV.",
+        "A1 Electricals provide a wide range of Security and Fire systems sourced from leading electrical product manufacturers for domestic, commercial and industrial applications. Whether you are installing fire detection or security systems our extensive product range will meet your needs. We can also source and supply most advanced equipment needed for specialist projects. Our range includes fire detection, security alarms, fire panels, smoke and heat detectors, alarm bells, electronic sounders, break glass units, emergency lighting, PIRs and CCTV.",
     },
     {
       heading: "Fire Detection Systems",
@@ -404,6 +396,40 @@ export const PRODUCT_SUB_CATEGORIES = {
       heading: "Import Coordination",
       content:
         "Import and logistics coordination for overseas manufacturers, with consolidation of bespoke items with standard stock orders for single delivery. Lead times and minimum order quantities vary by product and manufacturer, and we'll give you a realistic timeline and cost before you commit.",
+    },
+  ],
+  "Transformers & Power Distribution": [
+    {
+      heading: "Distribution Transformers",
+      content:
+        "Oil-filled distribution transformers from 25kVA to 2500kVA for utility, industrial and commercial step-down applications, alongside dry-type cast-resin transformers for indoor and fire-sensitive installations. Pole-mounted and pad-mounted options are available depending on your site layout and safety requirements.",
+    },
+    {
+      heading: "Transformer Protection",
+      content:
+        "HRC fuses, drop-out fuses and Buchholz relays protect transformers against overload and internal fault conditions. Correct protection coordination between the transformer and upstream network is essential for both equipment longevity and system stability, and our team can advise on the right protection scheme for your installation.",
+    },
+    {
+      heading: "Power Distribution Equipment",
+      content:
+        "Power distribution panels, ring main units (RMUs) and associated switchgear complete the supply chain from transformer to final distribution. We also stock transformer oil, bushings and spare parts to support ongoing maintenance of existing installations.",
+    },
+  ],
+  "Industrial Control & Automation": [
+    {
+      heading: "Drives & Motor Control",
+      content:
+        "Variable speed drives (VSDs/VFDs) and soft-starters provide precise motor speed control and smooth acceleration, reducing mechanical stress and energy consumption compared to fixed-speed operation. We stock drives suitable for pumps, fans and general industrial motor applications.",
+    },
+    {
+      heading: "PLCs & Process Control",
+      content:
+        "Programmable logic controllers (PLCs) and HMI touch panels give plant managers precise control and visibility over industrial processes. We supply control relays, timers and industrial push-buttons alongside PLCs for building out complete control panels.",
+    },
+    {
+      heading: "Sensors & Panel Building",
+      content:
+        "Proximity, level, pressure and temperature sensors feed real-world data back into your control system. We also stock the panel-building components — terminal blocks, DIN rail and wiring ducts — needed to assemble control panels to IP54 or IP65 enclosure ratings.",
     },
   ],
 };

@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-import { findBrand, brandRangeItems } from "../data/brands.js";
+import { findBrand, brandRangeItems, BRANDS } from "../data/brands.js";
 import { PRODUCTS } from "../data/products.js";
 import EnquiryForm from "../components/EnquiryForm.jsx";
 import { CtaStrip, LogoRow } from "../components/Shared.jsx";
@@ -110,7 +110,7 @@ export default function BrandDetail() {
           <h2 style={{ fontSize: 28, marginBottom: 28 }}>More Products</h2>
           <div className="mp-grid">
             {relatedProducts.map((r, i) => {
-              const usePhoto = r.slug === "cables-wires";
+              const usePhoto = r.slug === "cables-cable-accessories";
               const tone = i % 2 === 0 ? "#EAEAE4" : "var(--ink)";
               const stroke = i % 2 === 0 ? "var(--steel)" : "#fff";
               return (

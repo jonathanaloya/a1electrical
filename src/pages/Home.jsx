@@ -11,19 +11,19 @@ import { ArrowIcon, PlugIcon } from "../components/icons.jsx";
 import { findProduct } from "../data/products.js";
 
 const TILES = [
-  { slug: "cables-wires", photo: "/images/wires-and-cables.webp", bg: null },
+  { slug: "cables-cable-accessories", photo: "/images/wires-and-cables.webp", bg: null },
   {
-    slug: "light-fittings-luminaires",
+    slug: "indoor-outdoor-led-lighting",
     photo: "/images/a1_lights.jpeg",
     bg: "#EAEAE4",
   },
   {
-    slug: "switchgear-distribution",
+    slug: "electrical-panels-distribution-boards",
     photo: "/images/latestblog.jpeg",
     bg: "var(--ink)",
   },
   {
-    slug: "security-fire",
+    slug: "transformers-power-distribution",
     photo: "/images/eaton.jpeg",
     bg: "#EAEAE4",
   },
@@ -71,9 +71,8 @@ export default function Home() {
                 <h3>Leading Brands</h3>
                 <p>
                   A1 Electricals only supply products from leading manufacturers
-                  like ABB, Schneider Electric and Havells so you can be
-                  confident they have been manufactured to the highest
-                  standards.
+                  like ABB, Siemens and VAF Power so you can be confident
+                  they have been manufactured to the highest standards.
                 </p>
                 <Link to="/brands" className="promo-btn">
                   View Brands
@@ -180,9 +179,9 @@ export default function Home() {
           reputation for quality and service.
         </p>
         <p>
-          Our catalogue draws on leading manufacturers including ABB, Schneider
-          Electric, Havells, Crabtree, Thorn, Osram, LEDVANCE, Philips, Marshall
-          Tufflex, Sollatek, Crompton Greaves and Larsen &amp; Toubro.
+          Our catalogue draws on leading manufacturers including ABB, Siemens,
+          VAF Power, Philips &amp; Signify, Marshall-Tufflex, Orient Electric,
+          RR Electric, Sollatek, Eaton and Neelkanth Cables.
         </p>
         <p>
           Whatever electrical products you need, our team is on hand to deliver

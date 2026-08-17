@@ -68,9 +68,9 @@ export default function CustomerService() {
         heading="Leading Manufacturers"
       >
         <p>
-          We only stock products from leading manufacturers like ABB, Schneider
-          Electric and Havells, so you can be confident they have been
-          manufactured to the highest standards.
+          We only stock products from leading manufacturers like ABB, Siemens
+          and VAF Power, so you can be confident they have been manufactured
+          to the highest standards.
         </p>
         <p>
           Whatever electrical products you're looking for, our genuine, branded
@@ -97,7 +97,7 @@ export default function CustomerService() {
             </div>
             <div className="spec">
               <span className="k">Phone</span>
-              <span className="v">+256 414 347100</span>
+              <span className="v">+256 752 347110</span>
             </div>
             <div className="spec">
               <span className="k">Hours</span>

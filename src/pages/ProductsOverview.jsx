@@ -31,7 +31,7 @@ export default function ProductsOverview() {
                   <img src={p.heroImage ?? "/images/a1-storefront.webp"} alt={p.name} />
                 </div>
                 <div className="card-body">
-                  <div className="n">{p.n} / 18</div>
+                  <div className="n">{p.n} / 20</div>
                   <h3>{p.name}</h3>
                   <p>{p.blurb}</p>
                   <span className="card-link">
