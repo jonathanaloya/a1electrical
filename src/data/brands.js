@@ -385,7 +385,7 @@ export const PRODUCT_SUB_CATEGORIES = {
     {
       heading: "Non-Standard Items",
       content:
-        "Not every project fits neatly within a standard product catalogue. When your specification calls for something outside our stocked range, our sourcing team works directly with manufacturers and distributors to find and procure it. We have established relationships with manufacturers across the UK, Europe, India and the Far East, and experience navigating the import and logistics requirements for electrical equipment entering Uganda.",
+        "Not every project fits neatly within a standard product catalogue. When your specification calls for something outside our stocked range, our sourcing team works directly with manufacturers and distributors to find and procure it. We have established relationships with manufacturers across the UK, Europe and the Far East, and experience navigating the import and logistics requirements for electrical equipment entering Uganda.",
     },
     {
       heading: "Custom Assemblies",

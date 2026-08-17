@@ -4,7 +4,7 @@ export default function About() {
   return (
     <>
       <section className="pdhero">
-        <img src="/images/mccb.jpeg" alt="Customer Service" />
+        <img src="/images/banner.jpeg" alt="About Us" />
         <div className="pdhero-label">About Us</div>
       </section>
       <SplitSection
