@@ -11,7 +11,7 @@ import { ArrowIcon, PlugIcon } from "../components/icons.jsx";
 import { findProduct } from "../data/products.js";
 
 const TILES = [
-  { slug: "cables-cable-accessories", photo: "/images/wires-and-cables.webp", bg: null },
+  { slug: "cables-cable-accessories", photo: "/images/banner.jpeg", bg: null },
   {
     slug: "indoor-outdoor-led-lighting",
     photo: "/images/a1_lights.jpeg",
@@ -44,7 +44,7 @@ export default function Home() {
             <div className="promocard">
               <div className="pimg">
                 <img
-                  src="/images/wires-and-cables.webp"
+                  src="/images/hero-banner-2.jpeg"
                   alt="A1 Electricals product range"
                 />
               </div>
@@ -62,17 +62,14 @@ export default function Home() {
             </div>
             <div className="promocard">
               <div className="pimg">
-                <img
-                  src="/images/image.png"
-                  alt="A1 Electricals showroom"
-                />
+                <img src="/images/image.png" alt="A1 Electricals showroom" />
               </div>
               <div className="pbody">
                 <h3>Leading Brands</h3>
                 <p>
                   A1 Electricals only supply products from leading manufacturers
-                  like ABB, Siemens and VAF Power so you can be confident
-                  they have been manufactured to the highest standards.
+                  like ABB, Siemens and VAF Power so you can be confident they
+                  have been manufactured to the highest standards.
                 </p>
                 <Link to="/brands" className="promo-btn">
                   View Brands
@@ -104,7 +101,7 @@ export default function Home() {
 
       <SplitSection
         media={
-          <img src="/images/wires-and-cables.webp" alt="A1 Electricals showroom" />
+          <img src="/images/drop_lights2.jpeg" alt="A1 Electricals showroom" />
         }
         heading="Trusted Electrical Supplier"
       >
@@ -210,7 +207,12 @@ export default function Home() {
             return (
               <Link key={t.slug} to={`/products/${t.slug}`} className="ptile">
                 <div className="ptile-visual">
-                  <img src={t.photo || p?.heroImage || "/images/a1-storefront.webp"} alt={p?.name || "A1 Electricals"} />
+                  <img
+                    src={
+                      t.photo || p?.heroImage || "/images/a1-storefront.webp"
+                    }
+                    alt={p?.name || "A1 Electricals"}
+                  />
                 </div>
                 <div className="ptile-label">
                   <span>{p.name}</span>
