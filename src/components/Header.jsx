@@ -24,11 +24,13 @@ export default function Header() {
   const [openDropdown, setOpenDropdown] = useState(null);
   const [closing, setClosing] = useState(null);
   const dropdownRefs = useRef({});
+  const closeTimerRef = useRef(null);
 
   function closeDropdown(key) {
     setClosing(key);
     setOpenDropdown(null);
-    setTimeout(() => setClosing(null), 300);
+    clearTimeout(closeTimerRef.current);
+    closeTimerRef.current = setTimeout(() => setClosing(null), 300);
   }
 
   const isProductsActive = location.pathname.startsWith("/products");
@@ -54,6 +56,7 @@ export default function Header() {
     return () => {
       document.removeEventListener("click", handleOutside);
       window.removeEventListener("scroll", handleScroll);
+      clearTimeout(closeTimerRef.current);
     };
   }, []);
 

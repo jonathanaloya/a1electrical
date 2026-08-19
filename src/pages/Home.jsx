@@ -210,16 +210,7 @@ export default function Home() {
             return (
               <Link key={t.slug} to={`/products/${t.slug}`} className="ptile">
                 <div className="ptile-visual">
-                  {t.photo ? (
-                    <img src={t.photo} alt={p.name} />
-                  ) : (
-                    <div className="icon-block" style={{ background: t.bg }}>
-                      <PlugIcon
-                        stroke={t.bg === "var(--ink)" ? "#fff" : "var(--steel)"}
-                        strokeWidth={1}
-                      />
-                    </div>
-                  )}
+                  <img src={t.photo || p?.heroImage || "/images/a1-storefront.webp"} alt={p?.name || "A1 Electricals"} />
                 </div>
                 <div className="ptile-label">
                   <span>{p.name}</span>

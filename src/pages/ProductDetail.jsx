@@ -199,13 +199,7 @@ export default function ProductDetail() {
                 const stroke = i % 2 === 0 ? "var(--steel)" : "#fff";
                 return (
                   <Link key={r.slug} to={`/products/${r.slug}`} className="mp-card">
-                    {usePhoto ? (
-                      <img src={r.heroImage} alt={r.name} />
-                    ) : (
-                      <div className="icon-fill" style={{ background: tone }}>
-                        <PlugIcon stroke={stroke} strokeWidth={1} />
-                      </div>
-                    )}
+                    <img src={r.heroImage || "/images/a1-storefront.webp"} alt={r.name} />
                     <span className="mp-pill">{r.name}</span>
                   </Link>
                 );

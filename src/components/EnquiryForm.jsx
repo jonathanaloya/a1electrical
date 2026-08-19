@@ -11,6 +11,7 @@ export default function EnquiryForm({
   title = "Product Enquiry",
   defaultMessage = "",
   compact = false,
+  onSuccess,
 }) {
   const { showToast, hideToast } = useToast();
   const recaptchaRef = useRef(null);
@@ -22,7 +23,6 @@ export default function EnquiryForm({
     message: defaultMessage,
     hp: "",
   });
-  const [verified, setVerified] = useState(false);
   const [error, setError] = useState("");
   const [submitting, setSubmitting] = useState(false);
 
@@ -91,6 +91,7 @@ export default function EnquiryForm({
       showToast("WhatsApp opened \u2014 your message is ready to send.", "toast-success", 5000);
       setValues({ name: "", company: "", email: "", message: "", hp: "" });
       recaptchaRef.current?.reset();
+      onSuccess?.();
     } catch {
       hideToast();
       setError("Could not open WhatsApp. Please message us directly at +256755347100.");

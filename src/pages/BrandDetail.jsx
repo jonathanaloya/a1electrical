@@ -119,13 +119,7 @@ export default function BrandDetail() {
                   to={`/products/${r.slug}`}
                   className="mp-card"
                 >
-                  {usePhoto ? (
-                    <img src="/images/wires-and-cables.webp" alt={r.name} />
-                  ) : (
-                    <div className="icon-fill" style={{ background: tone }}>
-                      <PlugIcon stroke={stroke} strokeWidth={1} />
-                    </div>
-                  )}
+                  <img src={r.heroImage || "/images/wires-and-cables.webp"} alt={r.name} />
                   <span className="mp-pill">{r.name}</span>
                 </Link>
               );

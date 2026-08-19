@@ -90,7 +90,7 @@ export default function CustomerService() {
               margin: "0 auto",
             }}
           >
-            <div className="eyebrow">Get in touch</div>
+            <div className="eyebrow" style={{ color: "var(--copper)" }}>Get in touch</div>
             <div className="spec">
               <span className="k">Sales enquiries</span>
               <span className="v">info@a1electricalsltd.com</span>

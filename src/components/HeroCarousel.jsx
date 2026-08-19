@@ -38,7 +38,7 @@ export default function HeroCarousel() {
 
   return (
     <section className="hero">
-      <div className="hero-media">
+      <div className={`hero-media${slide.full ? " full" : slide.left ? " left" : ""}`}>
         <img
           className="heroshot"
           style={{ opacity: fading ? 0 : 1 }}

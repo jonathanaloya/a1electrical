@@ -6,7 +6,7 @@ import React, {
   useState,
 } from "react";
 
-const ToastContext = createContext(() => {});
+const ToastContext = createContext({ showToast: () => {}, hideToast: () => {} });
 
 export function ToastProvider({ children }) {
   const [visible, setVisible] = useState(false);

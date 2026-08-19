@@ -4,7 +4,7 @@ export default function About() {
   return (
     <>
       <section className="pdhero">
-        <img src="/images/banner.jpeg" alt="About Us" />
+        <img src="/images/mccb.jpeg" alt="About Us" />
         <div className="pdhero-label">About Us</div>
       </section>
       <SplitSection
@@ -132,6 +132,30 @@ export default function About() {
           ]}
         />
       </SplitSection>
+
+      <section style={{
+        position: 'relative',
+        minHeight: 240,
+        background: 'url(/images/products.jpeg) center/cover no-repeat',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        textAlign: 'center',
+        padding: '60px 24px',
+      }}>
+        <div style={{
+          position: 'absolute',
+          inset: 0,
+          background: 'rgba(0,0,0,0.55)',
+        }} />
+        <div style={{ position: 'relative', zIndex: 1, maxWidth: 800, color: '#fff' }}>
+          <div className="eyebrow" style={{ color: '#fff', opacity: 0.85 }}>Our commitment</div>
+          <h2 style={{ fontSize: 32, marginBottom: 16, color: '#fff' }}>Built on Trust, Backed by Quality</h2>
+          <p style={{ fontSize: 16, lineHeight: 1.7, opacity: 0.95 }}>
+            From our Kampala showroom to sites across Uganda, A1 Electricals stands behind every product we supply with genuine brands, expert advice, and service that keeps customers coming back.
+          </p>
+        </div>
+      </section>
 
       <section className="tight">
         <div className="wrap" style={{ maxWidth: 820, margin: "0 auto", textAlign: "center" }}>

@@ -19,7 +19,8 @@ export function sanitizeText(value, maxLength = 500) {
 }
 
 export function isValidEmail(value) {
-  return EMAIL_RE.test(String(value ?? "").trim()) && value.length <= 254;
+  const str = String(value ?? "").trim();
+  return EMAIL_RE.test(str) && str.length <= 254;
 }
 
 /**
