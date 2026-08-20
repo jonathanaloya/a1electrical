@@ -10,7 +10,7 @@ export default function Contact() {
   return (
     <>
       <section className="pdhero">
-        <img src="/images/a1-storefront.webp" alt="A1 Electricals" />
+        <img src="/images/hero-banner-2.jpeg" alt="A1 Electricals" />
         <div className="pdhero-label">Contact Us</div>
       </section>
 
