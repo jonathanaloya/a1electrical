@@ -8,11 +8,7 @@ import {
   Statement,
   SplitSection,
 } from "../components/Shared.jsx";
-import {
-  PeopleIcon,
-  TruckIcon,
-  CheckIcon,
-} from "../components/icons.jsx";
+import { PeopleIcon, TruckIcon, CheckIcon } from "../components/icons.jsx";
 import NotFound from "./NotFound.jsx";
 
 export default function ProductDetail() {
@@ -71,7 +67,9 @@ export default function ProductDetail() {
             <p>{p.desc}</p>
             {p.bullets && (
               <ul className="pd-bullets">
-                {p.bullets.map((b) => <li key={b}>{b}</li>)}
+                {p.bullets.map((b) => (
+                  <li key={b}>{b}</li>
+                ))}
               </ul>
             )}
             <p>
@@ -103,12 +101,18 @@ export default function ProductDetail() {
               if (leadingBrand && leadingBrand.logo) {
                 return (
                   <div className="pdform pdform-branded">
-                    <img src={leadingBrand.logo} alt={leadingBrand.name} className="pdform-brand-logo" />
-                    <EnquiryForm defaultMessage={`I'm interested in ${p.name}...`} />
+                    <div className="pdform-brand-badge">
+                      <img
+                        src={leadingBrand.logo}
+                        alt={leadingBrand.name}
+                        className="pdform-brand-logo"
+                      />
+                    </div>
+                    <EnquiryForm />
                   </div>
                 );
               }
-              return <EnquiryForm defaultMessage={`I'm interested in ${p.name}...`} />;
+              return <EnquiryForm />;
             })()}
           </div>
         </div>
@@ -148,7 +152,7 @@ export default function ProductDetail() {
       </Statement>
 
       {(() => {
-        const subCats = getSubCategories(p.cat);
+        const subCats = getSubCategories(p);
         const leadingBrand = getLeadingBrand(p.cat);
         const sections = [];
 
@@ -157,11 +161,16 @@ export default function ProductDetail() {
             <SplitSection
               key={subCat.heading}
               reverse={i % 2 === 1}
-              media={<img src={heroImage} alt={p.name} />}
+              media={
+                <img
+                  src={subCat.image || "/images/a1-storefront.webp"}
+                  alt={subCat.heading || p.name}
+                />
+              }
               heading={subCat.heading}
             >
               <p>{subCat.content}</p>
-            </SplitSection>
+            </SplitSection>,
           );
         });
 
@@ -172,7 +181,11 @@ export default function ProductDetail() {
               reverse={subCats.length % 2 === 1}
               media={
                 leadingBrand.logo ? (
-                  <img src={leadingBrand.logo} alt={leadingBrand.name} />
+                  <img
+                    src={leadingBrand.logo}
+                    alt={leadingBrand.name}
+                    className="brand-manufacturer-logo"
+                  />
                 ) : (
                   <div className="bmark">{leadingBrand.init}</div>
                 )
@@ -180,7 +193,7 @@ export default function ProductDetail() {
               heading={`Leading ${leadingBrand.name} Quality`}
             >
               <p>{leadingBrand.desc}</p>
-            </SplitSection>
+            </SplitSection>,
           );
         }
 
@@ -194,12 +207,20 @@ export default function ProductDetail() {
             {PRODUCTS.filter((r) => r.slug !== p.slug)
               .slice(0, 6)
               .map((r, i) => {
-                const usePhoto = r.heroImage && !r.heroImage.includes("a1-storefront");
+                const usePhoto =
+                  r.heroImage && !r.heroImage.includes("a1-storefront");
                 const tone = i % 2 === 0 ? "#EAEAE4" : "var(--ink)";
                 const stroke = i % 2 === 0 ? "var(--steel)" : "#fff";
                 return (
-                  <Link key={r.slug} to={`/products/${r.slug}`} className="mp-card">
-                    <img src={r.heroImage || "/images/a1-storefront.webp"} alt={r.name} />
+                  <Link
+                    key={r.slug}
+                    to={`/products/${r.slug}`}
+                    className="mp-card"
+                  >
+                    <img
+                      src={r.heroImage || "/images/a1-storefront.webp"}
+                      alt={r.name}
+                    />
                     <span className="mp-pill">{r.name}</span>
                   </Link>
                 );

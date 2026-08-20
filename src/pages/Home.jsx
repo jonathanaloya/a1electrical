@@ -44,7 +44,7 @@ export default function Home() {
             <div className="promocard">
               <div className="pimg">
                 <img
-                  src="/images/hero-banner-2.jpeg"
+                  src="/images/products.jpeg"
                   alt="A1 Electricals product range"
                 />
               </div>

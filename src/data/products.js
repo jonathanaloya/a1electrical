@@ -5,7 +5,8 @@ export const PRODUCTS = [
     name: "Switchgear & Protection Equipment",
     n: "01",
     cat: "Switchgear Distribution",
-    blurb: "Isolators, switch-disconnectors and protection equipment for safe LV power distribution.",
+    blurb:
+      "Isolators, switch-disconnectors and protection equipment for safe LV power distribution.",
     desc: "Switch-disconnectors, isolators and general protection equipment sized from domestic installations through to industrial power distribution, providing safe isolation and coordinated protection across a distribution system.",
     specs: [
       ["Poles", "1 – 4 pole assemblies"],
@@ -22,9 +23,12 @@ export const PRODUCTS = [
       "Surge protection devices (SPDs) — Type 1 and Type 2",
       "Metering enclosures and meter panels",
     ],
-    split1: "Safe isolation and coordinated protection sit at the core of every LV power distribution system. Our switchgear and protection range covers isolators, switch-disconnectors, change-over switches and surge protection devices in metal and polycarbonate enclosures, with IP ratings from IP41 for indoor use to IP65 for external and industrial environments — all built to IEC 61439.",
-    split2: "We source switchgear and protection equipment from ABB, Siemens and VAF Power — manufacturers whose products are specified by consulting engineers and accepted by utilities across East Africa. Busbar ratings up to 630A and enclosure sizes to accommodate large switching devices and metering equipment mean we can supply for projects of any scale.",
-    split3: "Our team can help you select the right switchgear for your incoming supply, load schedule and installation environment, and advise on busbar sizing, cable entry arrangements and IP rating selection. Stock items are available for immediate collection; larger assemblies can be sourced to order.",
+    split1:
+      "Safe isolation and coordinated protection sit at the core of every LV power distribution system. Our switchgear and protection range covers isolators, switch-disconnectors, change-over switches and surge protection devices (SPDs) in metal and polycarbonate enclosures, with IP ratings from IP41 for indoor use to IP65 for external and industrial environments — all built to IEC 61439.",
+    split2:
+      "We source heavy-duty switchgear and protection equipment from ABB, Siemens and VAF Power — manufacturers whose products are specified by consulting engineers and accepted by utilities across East Africa. Busbar ratings up to 630A and enclosure sizes to accommodate large switching devices and metering equipment mean we can supply for projects of any scale.",
+    split3:
+      "Our team can help you select the right switchgear for your incoming supply, load schedule and installation environment, and advise on busbar sizing, cable entry arrangements and IP rating selection. Stock items are available for immediate collection; larger custom assemblies can be sourced to order.",
   },
   {
     slug: "circuit-breakers",
@@ -32,7 +36,8 @@ export const PRODUCTS = [
     name: "Circuit Breakers (MCB, MCCB, ACB)",
     n: "02",
     cat: "Circuit Protection",
-    blurb: "MCBs, MCCBs and ACBs protecting circuits against overload and fault current.",
+    blurb:
+      "MCBs, MCCBs and ACBs protecting circuits against overload and fault current.",
     desc: "Miniature circuit breakers (MCB), moulded case circuit breakers (MCCB) and air circuit breakers (ACB), selected to coordinate correctly across a distribution board, protecting people and cable alike.",
     specs: [
       ["Types", "MCB, MCCB, ACB"],
@@ -49,9 +54,12 @@ export const PRODUCTS = [
       "HRC fuses and fuse bases",
       "Isolators and switch-disconnectors",
     ],
-    split1: "Circuit breakers are the last line of defence for both people and property. Our range covers miniature circuit breakers in B, C and D curves, moulded case circuit breakers for higher-current applications, and air circuit breakers for main incomer and bus-tie duty — all with breaking capacities from 6kA up to 25kA.",
-    split2: "Correct discrimination between protective devices — ensuring the device closest to the fault operates first — is critical to a reliable installation. We stock MCBs, MCCBs and ACBs from ABB and Siemens whose time-current characteristics are fully documented, making it straightforward to verify coordination between incoming and outgoing protective devices at the design stage.",
-    split3: "Whether you're populating a new distribution board, replacing a tripped or faulty device, or upgrading an older installation to current standards, we hold stock of the most commonly specified circuit breakers for immediate supply. Our team can advise on curve selection, breaking capacity requirements and device coordination for your specific application.",
+    split1:
+      "Circuit breakers provide essential overcurrent, short-circuit, and earth leakage protection across all distribution levels. Our stock includes miniature circuit breakers (MCBs) in B, C, and D trip curves for resistive, general commercial, and high-inrush motor loads, alongside single-module RCBOs and residual current devices (RCDs) rated from 30mA for shock protection to 300mA for fire prevention.",
+    split2:
+      "For higher-capacity main supply lines, we supply Moulded Case Circuit Breakers (MCCBs) up to 630A and Air Circuit Breakers (ACBs) up to 4000A equipped with adjustable electronic trip units. Designed by ABB and Siemens, these breakers offer verified cascading breaking capacities from 6kA to 100kA, ensuring precise fault discrimination and preventing unnecessary upstream trips.",
+    split3:
+      "Whether you are populating a new TPN distribution board, replacing an obsolete trip unit, or upgrading a commercial facility to modern IEC safety standards, we maintain high stock levels for immediate collection in Kampala. Our engineers assist with fault level calculations and trip curve coordination for your specific project.",
   },
   {
     slug: "contactors-motor-starters",
@@ -59,7 +67,8 @@ export const PRODUCTS = [
     name: "Contactors & Motor Starters",
     n: "03",
     cat: "Motor Controls & Starters",
-    blurb: "DOL and star-delta starters, contactors and overload relays for motor control.",
+    blurb:
+      "DOL and star-delta starters, contactors and overload relays for motor control.",
     desc: "Contactors, overload relays and assembled starters for driving pumps, fans and process motors reliably in demanding industrial environments.",
     specs: [
       ["Starting", "DOL, star-delta, soft-start"],
@@ -76,9 +85,12 @@ export const PRODUCTS = [
       "Electronic overload relays with trip indication",
       "IP54 and IP65 motor control enclosures",
     ],
-    split1: "Reliable motor starting and protection is essential in any industrial or commercial plant — whether you're running pumps, fans, compressors or process machinery. Our range covers direct-on-line starters for smaller motors, star-delta starters for reduced-current starting of larger loads, and soft-start units where smooth acceleration is required, with motor ratings up to 150kW.",
-    split2: "Contactors and overload relays from ABB and Siemens form the core of our motor control range. Thermal and electronic overload relays provide accurate motor protection across the full load range, and our contactors are rated for the AC3 duty cycles typical of pump and fan applications. IP54 and IP65 enclosures are available for installations in wet or dusty environments.",
-    split3: "We supply motor control equipment to industrial plants, water utilities, building services contractors and process engineers across Uganda. Our team can help you select the correct contactor and overload combination for your motor rating, starting method and duty cycle, and advise on control circuit wiring and interlocking arrangements.",
+    split1:
+      "Industrial motors require robust switching devices built to handle the high inrush currents typical of pump, fan, and compressor startup cycles. We supply Direct-On-Line (DOL) starters for small motors up to 15kW, Star-Delta starters to limit starting current spikes on loads up to 150kW, and solid-state soft starters for controlled, jerk-free mechanical acceleration.",
+    split2:
+      "Our contactor range spans AC-1 and AC-3 ratings from 9A up to 630A, sourced from ABB and Siemens. Coupled with thermal and electronic overload relays offering phase-loss detection and adjustable trip classes, our motor control assemblies deliver complete protection against stalled rotors, phase unbalance, and mechanical overload in IP54/IP65 sheet steel enclosures.",
+    split3:
+      "Serving manufacturing plants, agricultural processing facilities, water utilities, and HVAC contractors across Uganda, we stock full motor control kits with auxiliary contact blocks, mechanical interlocks, and replacement AC/DC operating coils. Our team can advise on selecting the optimal starting method and protection settings for your motor rating.",
   },
   {
     slug: "industrial-control-automation",
@@ -86,7 +98,8 @@ export const PRODUCTS = [
     name: "Industrial Control & Automation",
     n: "04",
     cat: "Switchgear Distribution",
-    blurb: "Drives, PLCs, sensors and panel components for automating industrial processes.",
+    blurb:
+      "Drives, PLCs, sensors and panel components for automating industrial processes.",
     desc: "Variable speed drives, programmable logic controllers, industrial sensors and control panel components for automating and monitoring industrial processes and machinery.",
     specs: [
       ["Drives", "VSD/VFD, soft-starters"],
@@ -103,9 +116,12 @@ export const PRODUCTS = [
       "Automation control panels built to IP54/IP65 enclosure ratings",
       "Motor protection and condition-monitoring devices",
     ],
-    split1: "Automating a process reduces manual intervention, improves consistency and gives plant managers real visibility into how their equipment is running. Our range covers variable speed drives for precise motor speed control, PLCs and HMI panels for process logic and operator interface, and the sensors needed to feed real-world data back into the control system.",
-    split2: "We source control and automation components from ABB and Siemens, both established leaders in industrial automation whose products integrate reliably with drives, PLCs and field devices from across their respective ecosystems. Control panels are supplied to IP54 or IP65 depending on the installation environment, with terminal blocks, DIN rail and wiring ducts stocked for panel-building.",
-    split3: "We supply automation components to industrial plants, water utilities and process engineers across Uganda. Our team can help you select the right drive and control architecture for your process, advise on sensor selection for your measurement requirement, and support panel-building projects with the components you need.",
+    split1:
+      "Automating process lines and machinery optimizes throughput, reduces energy overhead, and enhances operational safety. Our automation portfolio features Variable Speed Drives (VSDs/VFDs) for dynamic motor speed and torque control, Programmable Logic Controllers (PLCs) for process logic, and high-resolution HMI touch panels for real-time machine monitoring and operator control.",
+    split2:
+      "We provide precision industrial sensing solutions including inductive proximity switches, photoelectric sensors, ultrasonic level transducers, and digital pressure switches from ABB and Siemens. Designed for harsh tropical industrial environments, these components communicate seamlessly via standard fieldbus protocols to maintain reliable process feedback.",
+    split3:
+      "Supporting panel builders, maintenance teams, and system integrators throughout East Africa, we stock essential control cabinet accessories including DIN-rail terminal blocks, power supplies, control relays, pushbuttons, and wiring ducts. Our technical team offers selection advice for control architectures and enclosure environmental conditioning.",
   },
   {
     slug: "electrical-panels-distribution-boards",
@@ -113,7 +129,8 @@ export const PRODUCTS = [
     name: "Electrical Panels & Distribution Boards",
     n: "05",
     cat: "Switchgear Distribution",
-    blurb: "Distribution boards and panelboards for domestic, commercial and industrial power distribution.",
+    blurb:
+      "Distribution boards and panelboards for domestic, commercial and industrial power distribution.",
     desc: "Distribution boards and panelboards sized from domestic consumer units through to industrial power distribution assemblies, pre-fitted with protective devices where required.",
     specs: [
       ["Poles", "6-way – 24-way (domestic); custom (industrial)"],
@@ -130,9 +147,12 @@ export const PRODUCTS = [
       "Metering enclosures and meter panels",
       "Pre-fitted boards with protective devices on request",
     ],
-    split1: "From a domestic consumer unit to a 630A industrial panelboard, our distribution board range covers the full spectrum of LV power distribution. We stock single, double and three-phase boards in metal and polycarbonate enclosures, with IP ratings from IP41 for indoor use to IP65 for external and industrial environments — all built to IEC 61439.",
-    split2: "We source distribution boards and panelboards from ABB, Siemens and VAF Power — manufacturers whose products are specified by consulting engineers and accepted by utilities across East Africa. Busbar ratings up to 630A and enclosure sizes to accommodate large MCCBs and metering equipment mean we can supply boards for projects of any scale.",
-    split3: "Our team can help you select the right board for your incoming supply, load schedule and installation environment. We supply boards pre-fitted with protective devices where required, and can advise on busbar sizing, cable entry arrangements and IP rating selection. Stock boards are available for immediate collection; larger assemblies can be sourced to order.",
+    split1:
+      "Centralized electrical distribution requires structured panel enclosures that guarantee safe current delivery and easy maintenance access. Our range covers compact 6-way to 24-way single-phase domestic consumer units up to heavy-duty three-phase TPN distribution boards and modular floor-standing panelboards rated up to 630A.",
+    split2:
+      "Constructed from electro-galvanized sheet steel or durable flame-retardant polycarbonate, our enclosures feature fully rated solid copper busbars tested to IEC 61439 standards. With ingress ratings from IP41 for clean interior risers to IP65 for outdoor locations, these boards accommodate main isolators, MCCB incomers, and split-load RCD arrangements.",
+    split3:
+      "We offer pre-assembled and pre-wired distribution boards tailored to your circuit schedules, saving installation time on site. Our Kampala showroom stocks neutral/earth bars, pan assemblies, extension boxes, and metering accessories for rapid delivery and immediate field integration.",
   },
   {
     slug: "indoor-outdoor-led-lighting",
@@ -140,7 +160,8 @@ export const PRODUCTS = [
     name: "Indoor & Outdoor LED Lighting",
     n: "06",
     cat: "Light Fittings & Luminaires",
-    blurb: "High-bay, panel, downlight, floodlight and street LED luminaires for every setting.",
+    blurb:
+      "High-bay, panel, downlight, floodlight and street LED luminaires for every setting.",
     desc: "LED luminaires spanning high & low bay, panel, downlight, floodlight and street lighting formats, sourced from manufacturers whose photometrics are proven across tropical and high-ambient climates.",
     specs: [
       ["IP rating", "IP20 – IP66"],
@@ -157,9 +178,12 @@ export const PRODUCTS = [
       "IP65-rated outdoor luminaires for wet and exposed locations",
       "Emergency and exit sign luminaires",
     ],
-    split1: "Our LED lighting range spans high-bay and low-bay industrial fittings, recessed and surface-mounted panels, downlights, floodlights and street lighting columns — all selected for performance in Uganda's tropical climate. High ambient temperatures and humidity demand fittings with proven thermal management, and every product we stock has been evaluated against those conditions.",
-    split2: "LED technology now dominates new installations for good reason: lower energy consumption, longer service life and reduced maintenance costs. We stock LED luminaires from Philips & Signify and VAF Power alongside conventional alternatives for retrofit projects where lamp replacement is the preferred approach. CCT options from 3000K warm white to 6500K daylight are available across the range.",
-    split3: "Whether you're lighting a warehouse, an office, a retail space, a compound or a road, our team can help you match the right fitting to your lux levels, mounting height and budget. We supply contractors, facilities managers and developers across Kampala and can consolidate mixed luminaire orders into a single delivery.",
+    split1:
+      "Modern LED lighting delivers superior lumen output while dramatically lowering electricity consumption and maintenance costs. Our interior and exterior luminaire range includes high-efficiency UFO high-bays, glare-free 60x60 LED ceiling panels, architectural downlights, weatherproof floodlights, and street luminaires engineered specifically for tropical operating temperatures.",
+    split2:
+      "Sourced from world-leading lighting manufacturers Philips & Signify and VAF Power, our LED fittings incorporate advanced optical lenses and heavy-duty aluminium heat sinks to prevent thermal degradation. Available in colour temperatures from warm 3000K to daylight 6500K, our products carry up to 5-year warranties for long-term peace of mind.",
+    split3:
+      "We assist commercial property developers, warehouse operators, and municipal contractors across Kampala with lux level calculations and fixture positioning. Our showroom holds stock for full building fit-outs, emergency lighting installations, and retrofit projects replacing inefficient discharge lamps.",
   },
   {
     slug: "decorative-architectural-lighting",
@@ -167,7 +191,8 @@ export const PRODUCTS = [
     name: "Decorative & Architectural Lighting",
     n: "07",
     cat: "Light Fittings & Luminaires",
-    blurb: "Feature luminaires and architectural lighting for homes, hotels and public spaces.",
+    blurb:
+      "Feature luminaires and architectural lighting for homes, hotels and public spaces.",
     desc: "Decorative pendants, chandeliers, wall lights and architectural feature luminaires for spaces where lighting is part of the design statement, alongside outdoor architectural and facade lighting.",
     specs: [
       ["Style", "Pendants, chandeliers, wall lights, facade luminaires"],
@@ -184,9 +209,12 @@ export const PRODUCTS = [
       "Custom finishes and fitting styles on request",
       "Decorative luminaires from VAF Power and Philips & Signify",
     ],
-    split1: "Lighting is as much a part of interior and exterior design as it is a functional necessity. Our decorative and architectural range covers pendants, chandeliers, wall lights and facade luminaires for hotels, homes, restaurants and public buildings where the fitting itself is part of the visual statement.",
-    split2: "We source decorative luminaires from VAF Power and Philips & Signify, whose ranges combine LED efficiency with the design detail expected in hospitality and premium residential projects. Dimmable options and a range of finishes allow lighting designers to create the mood and scene control a space calls for.",
-    split3: "Whether you're specifying feature lighting for a hotel lobby, a restaurant, a home or a building facade, our team can help you select fittings that balance aesthetic impact with practical performance and energy efficiency.",
+    split1:
+      "Architectural lighting transforms commercial and residential environments by combining functional illumination with sophisticated interior design. Our decorative portfolio encompasses statement pendant lights, modern chandeliers, sleek wall sconces, LED profile extrusions, and garden landscape luminaires that elevate hotel lobbies, restaurants, and executive residences.",
+    split2:
+      "Crafted with premium materials and refined finishes such as brushed brass, matte black, and polished chrome, our architectural luminaires integrate energy-efficient LED engines from Signify and VAF Power. Dimmable options (TRIAC, 1-10V, and DALI) enable precise scene setting and mood control for any spatial concept.",
+    split3:
+      "We collaborate with architects, interior designers, and electrical contractors to deliver customized feature lighting layouts. From facade wall-washing to underwater pool fixtures, we supply IP65-rated outdoor accent lights built to withstand intense weather while highlighting building architecture.",
   },
   {
     slug: "industrial-commercial-lighting",
@@ -194,7 +222,8 @@ export const PRODUCTS = [
     name: "Industrial & Commercial Lighting",
     n: "08",
     cat: "Light Fittings & Luminaires",
-    blurb: "High-bay, low-bay and commercial luminaires built for demanding work environments.",
+    blurb:
+      "High-bay, low-bay and commercial luminaires built for demanding work environments.",
     desc: "Industrial and commercial luminaires — high-bay, low-bay, batten and weatherproof fittings — specified for the light levels, durability and thermal performance demanded by factories, warehouses and commercial premises.",
     specs: [
       ["IP rating", "IP20 – IP66"],
@@ -211,9 +240,12 @@ export const PRODUCTS = [
       "Emergency and exit sign luminaires for commercial premises",
       "Lamps and tubes (LED, fluorescent, discharge) for maintenance replacement",
     ],
-    split1: "Industrial and commercial spaces demand luminaires that can deliver consistent light levels over long duty cycles while withstanding dust, moisture and mechanical knocks. Our range covers high-bay and low-bay fittings for warehouses and factories, weatherproof and vapour-proof luminaires for harsh environments, and commercial panel lighting for offices and retail.",
-    split2: "LED technology now dominates new industrial and commercial installations for good reason: lower energy consumption, longer service life and reduced maintenance costs. We also stock fluorescent tubes, compact fluorescent lamps and discharge lamps for maintaining existing installations where full LED retrofit isn't yet practical.",
-    split3: "Whether you're lighting a warehouse, a factory floor, an office or a retail space, our team can help you match the right fitting to your lux levels, mounting height and budget, and consolidate mixed lighting orders into a single delivery.",
+    split1:
+      "Demanding commercial facilities, factories, logistics hubs, and workshops require rugged luminaires capable of continuous heavy-duty operation. Our industrial lighting range includes 100W-200W high-bay luminaires for ceiling heights up to 12m, low-bay fittings, and impact-resistant linear LED battens engineered for maximum luminous efficacy (up to 150 lm/W).",
+    split2:
+      "For harsh operating environments exposed to dust, moisture, or chemical vapours, we supply IP65/IP66 weatherproof vapour-tight fittings constructed from UV-stabilized polycarbonate with stainless steel toggles. We also stock fluorescent tube replacements and high-bay HID retrofits for maintaining legacy warehouse lighting systems.",
+    split3:
+      "All industrial luminaires comply with international occupational illumination standards to ensure worker safety and productivity. We provide emergency battery backup kits (3-hour rated) that automatically ignite upon mains power failure, keeping critical emergency exit corridors illuminated.",
   },
   {
     slug: "cables-cable-accessories",
@@ -221,7 +253,8 @@ export const PRODUCTS = [
     name: "Electrical Cables & Cable Accessories",
     n: "09",
     cat: "Cables & Wires",
-    blurb: "Armoured, flexible and fixed-installation cable, plus glands, lugs and cable accessories.",
+    blurb:
+      "Armoured, flexible and fixed-installation cable, plus glands, lugs and cable accessories.",
     desc: "Full-range LV power and control cable, from single-core building wire to SWA armoured feeder cable, together with the cable glands, lugs and connectors needed to terminate and protect it.",
     specs: [
       ["Standards", "BS 6004 / BS 5467 / BS 7211"],
@@ -239,9 +272,12 @@ export const PRODUCTS = [
       "Brass and nickel-plated brass cable glands",
       "Copper and bi-metallic cable lugs for secure termination",
     ],
-    split1: "From single-core building wire to multi-core SWA armoured feeder cable, our range covers every LV power and control application. We stock copper and aluminium conductors in solid and stranded formats, sized for the voltage drop and thermal demands of long-run Ugandan installations — whether that's a domestic rewire or a full industrial feeder run.",
-    split2: "Every cable we supply meets recognised international standards including BS 6004, BS 5467 and BS 7211, sourced from manufacturers including Neelkanth Cables whose quality control is independently verified. We also stock the cable accessories needed to complete an installation — brass and nickel-plated brass glands for safe cable entry, and copper and bi-metallic lugs for secure, reliable termination.",
-    split3: "We hold significant stock of the most commonly specified sizes, so urgent requirements can be fulfilled same-day from our Kampala showroom. Drums are available in 100m, 500m and 1000m lengths, and our team can advise on the correct specification for your load, run length and installation method.",
+    split1:
+      "Reliable power transmission relies on high-grade conductors insulated for long-term thermal and mechanical stresses. We stock single-core PVC building wires (1.5mm² to 16mm²), multi-core flexible rubber cables, and Steel Wire Armoured (SWA) XLPE power cables designed for direct underground burial, external cable trays, and main distribution feeders.",
+    split2:
+      "Manufactured to strict BS 6004, BS 5467, and IEC 60502 specifications by certified producers such as Neelkanth Cables, our copper and EC-grade aluminium cables guarantee optimal conductivity and flame retardancy. We support complete cable runs with indoor/outdoor brass glands (CW/BW), IP68 nylon glands, and heavy-duty copper crimp lugs.",
+    split3:
+      "Available on 100m coils or 500m/1000m wooden drums, our cables are ready for immediate dispatch from our Kampala warehouse. Our technical staff provides voltage drop calculations, current-carrying capacity guidance, and correct gland/lug selection for your cable cross-section.",
   },
   {
     slug: "wiring-accessories",
@@ -249,7 +285,8 @@ export const PRODUCTS = [
     name: "Wiring Accessories",
     n: "10",
     cat: "Wiring Accessories",
-    blurb: "Dimmers, connection units, cover plates and consumer-facing wiring accessories.",
+    blurb:
+      "Dimmers, connection units, cover plates and consumer-facing wiring accessories.",
     desc: "Dimmers, connection units, shaver sockets and cover plates in a range of grid systems and finishes, matched to the wiring regulations of the destination market.",
     specs: [
       ["Grid systems", "Modular & one-piece"],
@@ -266,9 +303,12 @@ export const PRODUCTS = [
       "Fan regulators and speed controllers",
       "Metal-clad and brushed steel finish ranges",
     ],
-    split1: "Wiring accessories are the most visible part of any electrical installation, and the quality of the finish matters as much as the electrical performance. We stock dimmers, connection units, shaver sockets, fan regulators and cover plates in modular and one-piece grid systems, in white, metal-clad and brushed steel finishes to suit both domestic and commercial interiors.",
-    split2: "All accessories in our range are rated and certified to BS or IEC standards, with current ratings from 10A through to 45A for cooker and shower circuits. We source from VAF Power, ABB and Siemens — established manufacturers whose products are designed for long service life and consistent switching feel — not just low unit cost.",
-    split3: "Fitting out a full building or just replacing a few accessories? We can supply in single units or bulk packs, and our team can help you match accessories across a consistent range so your installation looks uniform throughout. Mixed orders are welcome and can be ready for collection or delivery across Kampala.",
+    split1:
+      "Consumer-facing electrical accessories must combine internal electrical safety with clean visual design. Our specialized wiring accessory range includes electronic LED dimmers, 45A double-pole cooker control units, dual USB-A/C charging modules, shaver supply units, shaver sockets, and multi-gang grid switch assemblies.",
+    split2:
+      "Built on flexible modular grid systems, our accessories enable custom plate configurations combining power, data, audio-visual, and switching points on a single faceplate. We supply durable white moulded polycarbonate ranges alongside high-end brushed steel, polished chrome, and heavy-duty metal-clad fittings for industrial workshops.",
+    split3:
+      "Compliant with BS EN standards and tested for high switching endurance, our wiring accessories are ideal for hotel fit-outs, commercial office blocks, and residential housing projects. We offer bulk contractor packs and matching accessories across complete interior ranges for aesthetic consistency.",
   },
   {
     slug: "switches-sockets",
@@ -276,7 +316,8 @@ export const PRODUCTS = [
     name: "Switches & Sockets",
     n: "11",
     cat: "Wiring Accessories",
-    blurb: "1-gang to multi-gang switches and socket outlets in modular and one-piece grid systems.",
+    blurb:
+      "1-gang to multi-gang switches and socket outlets in modular and one-piece grid systems.",
     desc: "Switches and socket outlets in a range of grid systems, ratings and finishes, from standard white moulded ranges to premium metal-clad and smart switching options.",
     specs: [
       ["Grid systems", "Modular & one-piece"],
@@ -293,9 +334,12 @@ export const PRODUCTS = [
       "Wide colour and finish range to match any interior",
       "Waterproof switch and socket ranges for wet areas",
     ],
-    split1: "Switches and sockets are the most-used part of any electrical installation, so finish, feel and long-term reliability matter as much as electrical performance. We stock modular and one-piece grid switches and socket outlets in white, metal-clad and brushed steel finishes, in ratings from 10A through to 20A.",
-    split2: "We source switches and sockets from VAF Power, ABB and Siemens — established manufacturers whose products are designed for long service life and consistent switching feel. Waterproof and IP-rated ranges are stocked for outdoor and industrial environments, and smart switches and sockets are available on demand.",
-    split3: "Fitting out a full building or just replacing a few sockets? We can supply in single units or bulk packs, and our team can help you match accessories across a consistent range so your installation looks uniform throughout.",
+    split1:
+      "Everyday power points and light control points demand high mechanical durability and low contact resistance. We stock 1-gang to 4-gang 10AX/20A light switches, 13A switched single and double socket outlets with child-safety shutter mechanisms, and 15A round-pin sockets suited for heavy inductive loads.",
+    split2:
+      "For outdoor patios, wash bays, and industrial facilities, we supply IP66 weatherproof switched socket outlets with lockable spring-hinged covers that prevent water and dust ingress even with plugs connected. We also offer smart Wi-Fi switches and industrial plug and socket connectors (16A to 63A IP44/IP67).",
+    split3:
+      "Available in standard white, decorative metallic finishes, and industrial metal-clad variants from VAF Power, ABB, and Siemens. Our Kampala showroom supplies contractors with large-volume quantities for estate developments, educational institutions, and commercial complexes.",
   },
   {
     slug: "conduits-cable-management",
@@ -303,7 +347,8 @@ export const PRODUCTS = [
     name: "Conduits & Cable Management Systems",
     n: "12",
     cat: "Cable Trays & Conduits",
-    blurb: "Trunking, conduit, cable tray and dado systems for organised, protected cable routing.",
+    blurb:
+      "Trunking, conduit, cable tray and dado systems for organised, protected cable routing.",
     desc: "Steel and PVC trunking, conduit, cable tray and dado systems for surface-mounted or concealed cable runs, providing mechanical protection and a clean, professional finish across commercial, industrial and domestic installations.",
     specs: [
       ["Material", "Galvanised steel, 316 SS, PVC"],
@@ -320,9 +365,12 @@ export const PRODUCTS = [
       "Hot-dip galvanised and 316 stainless steel options for harsh environments",
       "Full range of bends, tees, reducers, couplers and support brackets",
     ],
-    split1: "Proper cable containment protects your installation from mechanical damage, simplifies future maintenance and keeps cable runs compliant with wiring regulations. Our range spans steel cable tray and trunking, PVC trunking and conduit, and dado and floor systems — covering everything from a light commercial fit-out to a major industrial containment run.",
-    split2: "Steel trunking and tray are available in hot-dip galvanised and 316 stainless steel for long-term corrosion resistance, while our PVC range is manufactured from self-extinguishing, flame-retardant compound to BS EN 61386 and UV-stabilised for Uganda's strong sunlight. Every system comes with a full range of matched fittings — bends, tees, reducers, couplers and support brackets. Our Marshall-Tufflex range covers the full spectrum from domestic dado systems to industrial floor trunking.",
-    split3: "Our team can help you calculate tray and trunking fill, select the correct load class and material for your environment, and identify the fittings you need before you order. We hold stock of the most common sizes and can source less common configurations to order.",
+    split1:
+      "Structured cable containment prevents physical cable damage, ensures fire code compliance, and simplifies future wiring expansion. Our inventory includes perforated steel cable trays (50mm to 900mm wide), heavy-duty cable ladder racks for industrial power feeders, and steel or PVC trunking for surface cable routing.",
+    split2:
+      "Manufactured in hot-dip galvanised steel, 316 stainless steel for aggressive environments, or self-extinguishing flame-retardant PVC compound (BS EN 61386), our containment systems resist UV radiation and mechanical impact. Our dado and skirting trunking systems from Marshall-Tufflex provide segregated compartments for power and data cables.",
+    split3:
+      "We supply a full suite of factory-engineered fittings including internal/external bends, tees, risers, reducers, spring nuts, channel cantilevers, and threaded rod hangers. Our team calculates trunking fill ratios and load-bearing capacities to ensure a robust installation.",
   },
   {
     slug: "earthing-lightning-protection",
@@ -330,7 +378,8 @@ export const PRODUCTS = [
     name: "Earthing & Lightning Protection Systems",
     n: "13",
     cat: "Lightning Protection",
-    blurb: "Air terminals, down conductors, earth rods and earthing accessories.",
+    blurb:
+      "Air terminals, down conductors, earth rods and earthing accessories.",
     desc: "Complete lightning protection systems, from air terminal networks through down conductors to earth electrodes, together with earthing accessories and cable lugs for safe, code-compliant installations.",
     specs: [
       ["Standard", "BS EN 62305"],
@@ -348,9 +397,12 @@ export const PRODUCTS = [
       "Copper/bi-metallic cable lugs for secure cable termination",
       "Earth resistance test kits",
     ],
-    split1: "Uganda sits within one of the world's highest lightning density zones, making effective lightning protection a genuine life-safety requirement rather than an optional extra. Our range covers the complete system from air terminal network through down conductors to earth electrode array, engineered to BS EN 62305 and sized according to the risk assessment for your structure.",
-    split2: "We supply copper and aluminium air rods, flat tape conductors, test clamps, earth rods and inspection pits from VAF Power — everything needed to install a compliant lightning protection and earthing system, along with copper and bi-metallic cable lugs for secure termination. Copper is specified for the most demanding environments and where long service life is critical; aluminium offers a cost-effective alternative for less aggressive conditions.",
-    split3: "Earth resistance testing is an essential part of both commissioning and ongoing maintenance of a lightning protection system. We stock earth resistance test kits and can advise on testing methodology and acceptable resistance values for your installation. Our team can also help you source specialist components for ESE (early streamer emission) systems and equipotential bonding networks.",
+    split1:
+      "Located in an area of high atmospheric lightning activity, structures in Uganda require certified lightning protection systems to safely intercept and dissipate high-energy strikes. We supply copper and aluminium air rods, Early Streamer Emission (ESE) strike terminals, flat copper tape down-conductors, and test clamps engineered to BS EN 62305.",
+    split2:
+      "To achieve low resistance-to-earth connections, we provide high-tensile copper-bonded steel earth rods, heavy-duty concrete and plastic inspection pits, earth enhancing compounds (Marconite and bentonite), and exothermically welded or mechanical rod-to-tape clamps.",
+    split3:
+      "We stock equipotential earth bonding bars, bi-metallic disconnect joints, and digital ground resistance test kits for installation commissioning. Our engineers assist with risk assessment classifications and earth grid layout calculations for commercial buildings, telecom towers, and substations.",
   },
   {
     slug: "transformers-power-distribution",
@@ -358,7 +410,8 @@ export const PRODUCTS = [
     name: "Transformers & Power Distribution Equipment",
     n: "14",
     cat: "Switchgear Distribution",
-    blurb: "Distribution transformers and power distribution equipment for industrial, commercial and utility supply.",
+    blurb:
+      "Distribution transformers and power distribution equipment for industrial, commercial and utility supply.",
     desc: "Oil-filled and dry-type distribution transformers together with associated power distribution equipment, sized for the step-down and supply requirements of industrial, commercial and utility installations across Uganda.",
     specs: [
       ["Type", "Oil-filled & dry-type"],
@@ -375,9 +428,12 @@ export const PRODUCTS = [
       "Transformer oil, bushings and replacement spare parts",
       "Earthing and neutral grounding equipment for transformer installations",
     ],
-    split1: "Reliable step-down transformation sits at the heart of every industrial, commercial and utility power supply. We supply oil-filled and dry-type distribution transformers from 25kVA through to 2500kVA, sized to the load and voltage requirements of your site — whether that's a factory sub-station, a commercial development or a utility feeder point.",
-    split2: "We source transformers and power distribution equipment from established manufacturers including Siemens and ABB, whose products meet IEC 60076 and are specified by consulting engineers and utilities across East Africa. Protection equipment — HRC fuses, drop-out fuses and Buchholz relays — is stocked alongside the transformers themselves so a complete, coordinated installation can be supplied from a single source.",
-    split3: "Correct transformer sizing and protection coordination are critical to a safe, efficient installation. Our team can help you calculate your load requirements, select between oil-filled and dry-type options for your installation environment, and advise on earthing and neutral grounding arrangements for compliant, reliable supply.",
+    split1:
+      "Primary power step-down transformation is essential for connecting industrial, commercial, and agricultural facilities to medium-voltage utility grids (11kV / 33kV). We supply ONAN oil-immersed distribution transformers (25kVA to 2500kVA) for outdoor pole or pad mounting, as well as dry-type cast-resin transformers for indoor basement substations.",
+    split2:
+      "Our medium and low voltage distribution portfolio includes Ring Main Units (RMUs), 11kV/33kV drop-out fuse cutouts, HT HRC fuse links, Buchholz protection relays, surge arresters, and automatic tap changers from Siemens and ABB, fully compliant with IEC 60076 standards.",
+    split3:
+      "We assist project engineers with transformer sizing, vector group selection, and short-circuit protection coordination tailored to UEDCL and Umeme utility connection guidelines. Transformer oil, replacement bushings, and neutral grounding equipment are held in stock for immediate field support.",
   },
   {
     slug: "solar-energy-efficient-solutions",
@@ -385,7 +441,8 @@ export const PRODUCTS = [
     name: "Solar & Energy-Efficient Electrical Solutions",
     n: "15",
     cat: "Solar LED Lighting",
-    blurb: "Off-grid solar lighting and energy-efficient LED solutions to cut consumption and costs.",
+    blurb:
+      "Off-grid solar lighting and energy-efficient LED solutions to cut consumption and costs.",
     desc: "All-in-one solar street lights and solar floodlights for sites without reliable mains power, alongside energy-efficient LED lighting solutions that reduce consumption for grid-connected installations.",
     specs: [
       ["Panel", "Monocrystalline, integrated"],
@@ -403,9 +460,12 @@ export const PRODUCTS = [
       "Energy-efficient LED retrofit solutions for reducing grid consumption",
       "Poles and mounting brackets for new installations",
     ],
-    split1: "Reliable street and area lighting doesn't require a mains grid connection. Our all-in-one solar LED street lights integrate a monocrystalline panel, LiFePO4 battery, LED head and intelligent controller into a single pole-mounted unit — no trenching, no cabling, no ongoing electricity bill. They're ideal for roads, car parks, compounds and rural sites across Uganda where grid power is absent or unreliable.",
-    split2: "LiFePO4 battery chemistry gives our solar lights a significant advantage over older lead-acid or lithium-ion units: longer cycle life, better performance in high ambient temperatures, and up to 3–5 nights of autonomy without sun. For grid-connected sites, we also supply energy-efficient LED retrofit solutions that cut lighting energy consumption without the capital cost of an off-grid system.",
-    split3: "We supply solar and energy-efficient lighting to housing developers, road contractors, schools, health centres and commercial property owners across Uganda. Our team can help you size the system for your latitude, required lux levels and autonomy needs, and advise on pole height and spacing for uniform illumination.",
+    split1:
+      "Stand-alone solar illumination provides continuous, zero-cost lighting for locations without reliable mains grid infrastructure. Our all-in-one solar LED street lights (20W to 200W) integrate high-efficiency monocrystalline solar panels, ultra-bright LED modules, intelligent MPPT charge controllers, and long-life LiFePO4 battery packs into a single compact fixture.",
+    split2:
+      "Featuring deep-cycle LiFePO4 battery technology, our solar street lights and compound floodlights offer superior high-temperature resilience and 3 to 5 nights of autonomous operation during rainy periods. Dusk-to-dawn sensors and microwave motion-boost modes maximize energy conservation while maintaining security.",
+    split3:
+      "We supply residential estates, municipal road projects, commercial parking lots, and rural health centres across Uganda. Our team provides solar resource assessment, mounting pole height/spacing guidance, and energy audit calculations for commercial grid-tied LED retrofit projects.",
   },
 ];
 
