@@ -157,19 +157,19 @@ export const PRODUCT_SUB_CATEGORIES = {
   "industrial-control-automation": [
     {
       heading: "Automation Drives & Process Optimization",
-      image: "/images/products/motor-controls-starters.png",
+      image: "/images/products/automation_drives.jpeg",
       content:
         "Automating process lines and machinery optimizes throughput, reduces energy overhead, and enhances operational safety. Our automation portfolio features Variable Speed Drives (VSDs/VFDs) for dynamic motor speed and torque control, Programmable Logic Controllers (PLCs) for process logic, and high-resolution HMI touch panels for real-time machine monitoring and operator control.",
     },
     {
       heading: "Industrial Sensors & Field Devices",
-      image: "/images/products/fire_alarms.png",
+      image: "/images/products/industrial_sensors.jpeg",
       content:
         "We provide precision industrial sensing solutions including inductive proximity switches, photoelectric sensors, ultrasonic level transducers, and digital pressure switches from ABB and Siemens. Designed for harsh tropical industrial environments, these components communicate seamlessly via standard fieldbus protocols to maintain reliable process feedback.",
     },
     {
       heading: "Control Cabinet Hardware & Panel Components",
-      image: "/images/products/Switchgear Systems.jpeg",
+      image: "/images/products/control_cabinet.jpeg",
       content:
         "Supporting panel builders, maintenance teams, and system integrators throughout East Africa, we stock essential control cabinet accessories including DIN-rail terminal blocks, power supplies, control relays, pushbuttons, and wiring ducts. Our technical team offers selection advice for control architectures and enclosure environmental conditioning.",
     },
@@ -177,19 +177,19 @@ export const PRODUCT_SUB_CATEGORIES = {
   "electrical-panels-distribution-boards": [
     {
       heading: "Distribution Boards & Panel Enclosures",
-      image: "/images/products/Switchgear Systems.jpeg",
+      image: "/images/products/distribution_board.jpeg",
       content:
         "Centralized electrical distribution requires structured panel enclosures that guarantee safe current delivery and easy maintenance access. Our range covers compact 6-way to 24-way single-phase domestic consumer units up to heavy-duty three-phase TPN distribution boards and modular floor-standing panelboards rated up to 630A.",
     },
     {
       heading: "Panelboard Busbars & Ingress Ratings",
-      image: "/images/mccb.jpeg",
+      image: "/images/products/panelboard.jpeg",
       content:
         "Constructed from electro-galvanized sheet steel or durable flame-retardant polycarbonate, our enclosures feature fully rated solid copper busbars tested to IEC 61439 standards. With ingress ratings from IP41 for clean interior risers to IP65 for outdoor locations, these boards accommodate main isolators, MCCB incomers, and split-load RCD arrangements.",
     },
     {
       heading: "Custom Panel Integration & Pre-Wiring",
-      image: "/images/products/power-protection.png",
+      image: "/images/products/custom_panel.jpeg",
       content:
         "We offer pre-assembled and pre-wired distribution boards tailored to your circuit schedules, saving installation time on site. Our Kampala showroom stocks neutral/earth bars, pan assemblies, extension boxes, and metering accessories for rapid delivery and immediate field integration.",
     },
@@ -197,19 +197,19 @@ export const PRODUCT_SUB_CATEGORIES = {
   "indoor-outdoor-led-lighting": [
     {
       heading: "LED Lighting & Energy Efficiency",
-      image: "/images/a1_lights.jpeg",
+      image: "/images/products/led_lighting.jpeg",
       content:
         "Modern LED lighting delivers superior lumen output while dramatically lowering electricity consumption and maintenance costs. Our interior and exterior luminaire range includes high-efficiency UFO high-bays, glare-free 60x60 LED ceiling panels, architectural downlights, weatherproof floodlights, and street luminaires engineered specifically for tropical operating temperatures.",
     },
     {
       heading: "Lighting Optics & Thermal Management",
-      image: "/images/drop_lights.jpeg",
+      image: "/images/products/lighting_optics.jpg",
       content:
         "Sourced from world-leading lighting manufacturers Philips & Signify and VAF Power, our LED fittings incorporate advanced optical lenses and heavy-duty aluminium heat sinks to prevent thermal degradation. Available in colour temperatures from warm 3000K to daylight 6500K, our products carry up to 5-year warranties for long-term peace of mind.",
     },
     {
       heading: "Luminaire Layouts & Photometric Calculations",
-      image: "/images/products/solar-led-lighting.png",
+      image: "/images/products/luminaire_layouts.jpg",
       content:
         "We assist commercial property developers, warehouse operators, and municipal contractors across Kampala with lux level calculations and fixture positioning. Our showroom holds stock for full building fit-outs, emergency lighting installations, and retrofit projects replacing inefficient discharge lamps.",
     },
@@ -237,19 +237,19 @@ export const PRODUCT_SUB_CATEGORIES = {
   "industrial-commercial-lighting": [
     {
       heading: "Industrial High-Bays & Linear Luminaires",
-      image: "/images/products/light-fittings-luminaires.png",
+      image: "/images/products/linear_luminaires.jpeg",
       content:
         "Demanding commercial facilities, factories, logistics hubs, and workshops require rugged luminaires capable of continuous heavy-duty operation. Our industrial lighting range includes 100W-200W high-bay luminaires for ceiling heights up to 12m, low-bay fittings, and impact-resistant linear LED battens engineered for maximum luminous efficacy (up to 150 lm/W).",
     },
     {
       heading: "Weatherproof Battens & Vapour-Tight Luminaires",
-      image: "/images/a1_lights.jpeg",
+      image: "/images/products/weatherproof_battens.jpeg",
       content:
         "For harsh operating environments exposed to dust, moisture, or chemical vapours, we supply IP65/IP66 weatherproof vapour-tight fittings constructed from UV-stabilized polycarbonate with stainless steel toggles. We also stock fluorescent tube replacements and high-bay HID retrofits for maintaining legacy warehouse lighting systems.",
     },
     {
       heading: "Commercial Emergency Backup & Safety Standards",
-      image: "/images/banner.jpeg",
+      image: "/images/products/emergency_backup.jpeg",
       content:
         "All industrial luminaires comply with international occupational illumination standards to ensure worker safety and productivity. We provide emergency battery backup kits (3-hour rated) that automatically ignite upon mains power failure, keeping critical emergency exit corridors illuminated.",
     },
@@ -263,13 +263,13 @@ export const PRODUCT_SUB_CATEGORIES = {
     },
     {
       heading: "Cable Manufacturing Standards & Conductor Quality",
-      image: "/images/products/steel-cable-tranking.png",
+      image: "/images/products/cable_standards.jpeg",
       content:
         "Manufactured to strict BS 6004, BS 5467, and IEC 60502 specifications by certified producers such as Neelkanth Cables, our copper and EC-grade aluminium cables guarantee optimal conductivity and flame retardancy. We support complete cable runs with indoor/outdoor brass glands (CW/BW), IP68 nylon glands, and heavy-duty copper crimp lugs.",
     },
     {
       heading: "Cable Termination Glands & Technical Sizing",
-      image: "/images/products/pvc-trunking-conduits.png",
+      image: "/images/products/cable_termination_glands.jpeg",
       content:
         "Available on 100m coils or 500m/1000m wooden drums, our cables are ready for immediate dispatch from our Kampala warehouse. Our technical staff provides voltage drop calculations, current-carrying capacity guidance, and correct gland/lug selection for your cable cross-section.",
     },
@@ -303,13 +303,13 @@ export const PRODUCT_SUB_CATEGORIES = {
     },
     {
       heading: "Weatherproof Outlets & Industrial Connections",
-      image: "/images/image.png",
+      image: "/images/products/weatherproof_outlets.jpeg",
       content:
         "For outdoor patios, wash bays, and industrial facilities, we supply IP66 weatherproof switched socket outlets with lockable spring-hinged covers that prevent water and dust ingress even with plugs connected. We also offer smart Wi-Fi switches and industrial plug and socket connectors (16A to 63A IP44/IP67).",
     },
     {
       heading: "Commercial Switch Ranges & Smart Controls",
-      image: "/images/products.jpeg",
+      image: "/images/products/smart_controls.jpeg",
       content:
         "Available in standard white, decorative metallic finishes, and industrial metal-clad variants from VAF Power, ABB, and Siemens. Our Kampala showroom supplies contractors with large-volume quantities for estate developments, educational institutions, and commercial complexes.",
     },
@@ -337,19 +337,19 @@ export const PRODUCT_SUB_CATEGORIES = {
   "earthing-lightning-protection": [
     {
       heading: "Lightning Protection & Air Terminal Networks",
-      image: "/images/products/power-protection.png",
+      image: "/images/products/lightning_protection.jpeg",
       content:
         "Located in an area of high atmospheric lightning activity, structures in Uganda require certified lightning protection systems to safely intercept and dissipate high-energy strikes. We supply copper and aluminium air rods, Early Streamer Emission (ESE) strike terminals, flat copper tape down-conductors, and test clamps engineered to BS EN 62305.",
     },
     {
       heading: "Earth Rod Electrodes & Soil Inspection Pits",
-      image: "/images/products/cables-wires.png",
+      image: "/images/products/soil_inspection_pits.jpeg",
       content:
         "To achieve low resistance-to-earth connections, we provide high-tensile copper-bonded steel earth rods, heavy-duty concrete and plastic inspection pits, earth enhancing compounds (Marconite and bentonite), and exothermically welded or mechanical rod-to-tape clamps.",
     },
     {
       heading: "Equipotential Bonding & Ground Testing",
-      image: "/images/products/steel-cable-tranking.png",
+      image: "/images/products/ground_testing.jpeg",
       content:
         "We stock equipotential earth bonding bars, bi-metallic disconnect joints, and digital ground resistance test kits for installation commissioning. Our engineers assist with risk assessment classifications and earth grid layout calculations for commercial buildings, telecom towers, and substations.",
     },
@@ -357,19 +357,19 @@ export const PRODUCT_SUB_CATEGORIES = {
   "transformers-power-distribution": [
     {
       heading: "Distribution Transformers & Step-Down Supply",
-      image: "/images/products/generators.png",
+      image: "/images/products/distribution_transformer.jpeg",
       content:
         "Primary power step-down transformation is essential for connecting industrial, commercial, and agricultural facilities to medium-voltage utility grids (11kV / 33kV). We supply ONAN oil-immersed distribution transformers (25kVA to 2500kVA) for outdoor pole or pad mounting, as well as dry-type cast-resin transformers for indoor basement substations.",
     },
     {
       heading: "Medium Voltage Switchgear & Substation Gear",
-      image: "/images/products/Switchgear Systems.jpeg",
+      image: "/images/products/medium_voltage_switchgear.jpeg",
       content:
         "Our medium and low voltage distribution portfolio includes Ring Main Units (RMUs), 11kV/33kV drop-out fuse cutouts, HT HRC fuse links, Buchholz protection relays, surge arresters, and automatic tap changers from Siemens and ABB, fully compliant with IEC 60076 standards.",
     },
     {
       heading: "Utility Sizing & Substation Protection",
-      image: "/images/products/switchgear-distribution.png",
+      image: "/images/products/substation_protection.jpeg",
       content:
         "We assist project engineers with transformer sizing, vector group selection, and short-circuit protection coordination tailored to UEDCL and Umeme utility connection guidelines. Transformer oil, replacement bushings, and neutral grounding equipment are held in stock for immediate field support.",
     },
