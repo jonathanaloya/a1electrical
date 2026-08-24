@@ -2,16 +2,17 @@ import { useEffect, useRef, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { PRODUCTS } from "../data/products.js";
 import { BRANDS } from "../data/brands.js";
+import { COMPANY } from "../data/company.js";
 import { CaretIcon, BurgerIcon, CloseIcon } from "./icons.jsx";
 
 function Topbar() {
   return (
     <div className="topbar">
       <div className="wrap">
-        <a href="mailto:info@a1electricalsltd.com">info@a1electricalsltd.com</a>
+        <a href={`mailto:${COMPANY.email}`}>{COMPANY.email}</a>
         <div className="tb-right">
-          <span>Kampala, Uganda — <a href="https://wa.me/256752347110" target="_blank" rel="noopener noreferrer">WhatsApp orders welcome</a></span>
-          <a href="tel:+256752347110">+256 752 347110</a>
+          <span>Kampala, Uganda — <a href={COMPANY.whatsappUrl} target="_blank" rel="noopener noreferrer">WhatsApp orders welcome</a></span>
+          <a href={`tel:${COMPANY.phoneRaw}`}>{COMPANY.phone}</a>
         </div>
       </div>
     </div>

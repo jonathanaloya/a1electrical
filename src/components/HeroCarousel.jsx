@@ -44,6 +44,8 @@ export default function HeroCarousel() {
           style={{ opacity: fading ? 0 : 1 }}
           src={slide.img}
           alt="A1 Electricals"
+          fetchPriority="high"
+          decoding="async"
         />
         <div className="hero-diagonal" />
         <div className="hero-content">

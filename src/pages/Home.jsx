@@ -46,6 +46,8 @@ export default function Home() {
                 <img
                   src="/images/products.jpeg"
                   alt="A1 Electricals product range"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="pbody">
@@ -62,7 +64,12 @@ export default function Home() {
             </div>
             <div className="promocard">
               <div className="pimg">
-                <img src="/images/image.png" alt="A1 Electricals showroom" />
+                <img
+                  src="/images/image.png"
+                  alt="A1 Electricals showroom"
+                  loading="lazy"
+                  decoding="async"
+                />
               </div>
               <div className="pbody">
                 <h3>Leading Brands</h3>
@@ -81,6 +88,8 @@ export default function Home() {
                 <img
                   src="/images/a1-storefront.webp"
                   alt="A1 Electricals showroom"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="pbody">
@@ -101,7 +110,12 @@ export default function Home() {
 
       <SplitSection
         media={
-          <img src="/images/drop_lights2.jpeg" alt="A1 Electricals showroom" />
+          <img
+            src="/images/drop_lights2.jpeg"
+            alt="A1 Electricals showroom"
+            loading="lazy"
+            decoding="async"
+          />
         }
         heading="Trusted Electrical Supplier"
       >
@@ -139,7 +153,12 @@ export default function Home() {
       <SplitSection
         reverse
         media={
-          <img src="/images/a1-storefront.webp" alt="A1 Electricals stock" />
+          <img
+            src="/images/a1-storefront.webp"
+            alt="A1 Electricals stock"
+            loading="lazy"
+            decoding="async"
+          />
         }
         heading="Showroom &amp; Stock in Kampala"
       >
@@ -212,6 +231,8 @@ export default function Home() {
                       t.photo || p?.heroImage || "/images/a1-storefront.webp"
                     }
                     alt={p?.name || "A1 Electricals"}
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
                 <div className="ptile-label">

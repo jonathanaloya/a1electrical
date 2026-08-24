@@ -1,6 +1,15 @@
 import { Link } from "react-router-dom";
 import { PRODUCTS } from "../data/products.js";
 import { BRANDS } from "../data/brands.js";
+import { COMPANY } from "../data/company.js";
+import {
+  FacebookIcon,
+  TwitterIcon,
+  InstagramIcon,
+  LinkedInIcon,
+  YouTubeIcon,
+  WhatsAppIcon,
+} from "./icons.jsx";
 
 export default function Footer() {
   return (
@@ -26,7 +35,7 @@ export default function Footer() {
                 color: "white"
               }}
             >
-              Plot no. 49 Luthuli Avenue, Industrial Area, Bugolobi, P.O. Box 31503, Kampala, Uganda
+              {COMPANY.address}
             </div>
           </div>
           <div>
@@ -77,7 +86,73 @@ export default function Footer() {
           </div>
         </div>
         <div className="fbottom">
-          <span>© {new Date().getFullYear()} A1 Electricals Ltd</span>
+          <span>© {new Date().getFullYear()} {COMPANY.name}</span>
+          <div className="footer-socials">
+            {COMPANY.socials.facebook && (
+              <a
+                href={COMPANY.socials.facebook}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                title="Facebook"
+              >
+                <FacebookIcon />
+              </a>
+            )}
+            {COMPANY.socials.twitter && (
+              <a
+                href={COMPANY.socials.twitter}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="X (Twitter)"
+                title="X (Twitter)"
+              >
+                <TwitterIcon />
+              </a>
+            )}
+            {COMPANY.socials.instagram && (
+              <a
+                href={COMPANY.socials.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                title="Instagram"
+              >
+                <InstagramIcon />
+              </a>
+            )}
+            {COMPANY.socials.linkedin && (
+              <a
+                href={COMPANY.socials.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                title="LinkedIn"
+              >
+                <LinkedInIcon />
+              </a>
+            )}
+            {COMPANY.socials.youtube && (
+              <a
+                href={COMPANY.socials.youtube}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="YouTube"
+                title="YouTube"
+              >
+                <YouTubeIcon />
+              </a>
+            )}
+            <a
+              href={COMPANY.whatsappUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp"
+              title="WhatsApp"
+            >
+              <WhatsAppIcon />
+            </a>
+          </div>
         </div>
       </div>
     </footer>

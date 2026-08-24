@@ -1,10 +1,12 @@
 import { useRef, useState } from "react";
 import RecaptchaWidget from "./RecaptchaWidget.jsx";
 import { useToast } from "../context/ToastContext.jsx";
+import { COMPANY } from "../data/company.js";
 import {
   isValidEmail,
   sanitizeText,
   isHoneypotTripped,
+  isSubmittingTooFast,
 } from "../utils/formSecurity.js";
 
 export default function EnquiryForm({
@@ -38,6 +40,11 @@ export default function EnquiryForm({
     e.preventDefault();
     setError("");
 
+    if (isSubmittingTooFast(3000)) {
+      setError("Please wait a moment before submitting again.");
+      return;
+    }
+
     if (isHoneypotTripped(values)) {
       setValues({ name: "", company: "", email: "", message: "", hp: "" });
       return;
@@ -50,7 +57,8 @@ export default function EnquiryForm({
       setError("Please enter a valid email address.");
       return;
     }
-    if (siteKey && !recaptchaRef.current?.getValue()) {
+    const captchaToken = recaptchaRef.current?.getValue();
+    if (siteKey && !captchaToken) {
       setError("Please confirm you're not a robot.");
       return;
     }
@@ -68,7 +76,7 @@ export default function EnquiryForm({
       ].filter(Boolean).join("\n");
 
       window.open(
-        `https://wa.me/256755347100?text=${encodeURIComponent(text)}`,
+        `https://wa.me/${COMPANY.whatsappNumber}?text=${encodeURIComponent(text)}`,
         "_blank",
         "noopener,noreferrer"
       );
@@ -84,6 +92,7 @@ export default function EnquiryForm({
             email: values.email,
             message: values.message,
             botcheck: values.hp,
+            ...(captchaToken ? { "g-recaptcha-response": captchaToken } : {}),
           }),
         }).catch(() => {});
       }
@@ -94,7 +103,7 @@ export default function EnquiryForm({
       onSuccess?.();
     } catch {
       hideToast();
-      setError("Could not open WhatsApp. Please message us directly at +256755347100.");
+      setError(`Could not open WhatsApp. Please message us directly at ${COMPANY.whatsappDisplay}.`);
     } finally {
       setSubmitting(false);
     }

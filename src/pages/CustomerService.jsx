@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { COMPANY } from "../data/company.js";
 import {
   CtaStrip,
   LogoRow,
@@ -93,15 +94,15 @@ export default function CustomerService() {
             <div className="eyebrow" style={{ color: "var(--copper)" }}>Get in touch</div>
             <div className="spec">
               <span className="k">Sales enquiries</span>
-              <span className="v">info@a1electricalsltd.com</span>
+              <span className="v"><a href={`mailto:${COMPANY.email}`} style={{ color: "var(--copper)" }}>{COMPANY.email}</a></span>
             </div>
             <div className="spec">
               <span className="k">Phone</span>
-              <span className="v">+256 752 347110</span>
+              <span className="v"><a href={`tel:${COMPANY.phoneRaw}`} style={{ color: "var(--copper)" }}>{COMPANY.phone}</a></span>
             </div>
             <div className="spec">
               <span className="k">Hours</span>
-              <span className="v">Mon–Sat, 8:30am–6:00pm EAT</span>
+              <span className="v">{COMPANY.openingHours}</span>
             </div>
             <div className="spec">
               <span className="k">Response time</span>

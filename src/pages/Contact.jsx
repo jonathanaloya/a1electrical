@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import EnquiryForm from '../components/EnquiryForm.jsx';
 import { PRODUCTS } from '../data/products.js';
+import { COMPANY } from '../data/company.js';
 import { PhoneIcon, MailIcon, PinIcon, ClockIcon } from '../components/icons.jsx';
 import { CtaStrip } from '../components/Shared.jsx';
 
@@ -50,21 +51,21 @@ export default function Contact() {
                 <div className="contact-detail-item">
                   <div className="contact-detail-icon"><PinIcon /></div>
                   <div>
-                    <b>Plot no. 49 Luthuli Avenue, Industrial Area, Bugolobi, P.O Box 31503, Kampala, Uganda</b>
+                    <b>{COMPANY.address}</b>
                     <span>Kampala, Uganda</span>
                   </div>
                 </div>
                 <div className="contact-detail-item">
                   <div className="contact-detail-icon"><PhoneIcon /></div>
                   <div>
-                    <b><a href="tel:+256752347110">+256 752 347110</a></b>
-                    <span>Mon–Sat, 8:30am–6:00pm EAT</span>
+                    <b><a href={`tel:${COMPANY.phoneRaw}`}>{COMPANY.phone}</a></b>
+                    <span>{COMPANY.openingHours}</span>
                   </div>
                 </div>
                 <div className="contact-detail-item">
                   <div className="contact-detail-icon"><MailIcon /></div>
                   <div>
-                    <b><a href="mailto:info@a1electricalsltd.com">info@a1electricalsltd.com</a></b>
+                    <b><a href={`mailto:${COMPANY.email}`}>{COMPANY.email}</a></b>
                     <span>Product &amp; order enquiries</span>
                   </div>
                 </div>
@@ -72,7 +73,7 @@ export default function Contact() {
                   <div className="contact-detail-icon"><ClockIcon /></div>
                   <div>
                     <b>Opening hours</b>
-                    <span>Mon–Sat: 8:30am – 6:00pm</span>
+                    <span>{COMPANY.openingHours}</span>
                   </div>
                 </div>
               </div>

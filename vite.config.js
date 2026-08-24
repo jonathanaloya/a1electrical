@@ -4,6 +4,17 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   build: {
-    sourcemap: false
+    sourcemap: false,
+    target: 'es2020',
+    cssCodeSplit: true,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'vendor-react': ['react', 'react-dom'],
+          'vendor-router': ['react-router-dom'],
+          'vendor-recaptcha': ['react-google-recaptcha']
+        }
+      }
+    }
   }
 });

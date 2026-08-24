@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { BRANDS } from "../data/brands.js";
+import { COMPANY } from "../data/company.js";
 import { ArrowIcon } from "./icons.jsx";
 
 export function SplitSection({ reverse, media, heading, children }) {
@@ -34,7 +35,7 @@ export function CtaStrip() {
         <p>Get in touch with us today for more information:</p>
         <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
           <a
-            href="https://wa.me/256755347100"
+            href={COMPANY.whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -58,7 +59,7 @@ export function LogoRow() {
           className="logo-chip"
         >
           {b.logo ? (
-            <img src={b.logo} alt={b.name} />
+            <img src={b.logo} alt={b.name} loading="lazy" decoding="async" />
           ) : (
             <div className="bmark">{b.init}</div>
           )}
