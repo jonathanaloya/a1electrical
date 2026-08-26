@@ -17,8 +17,8 @@ export const COMPANY = {
   socials: {
     facebook: "https://facebook.com",
     twitter: "https://x.com",
-    instagram: "https://instagram.com",
-    linkedin: "https://linkedin.com",
+    instagram: "https://www.instagram.com/a1electricalsltd?igsh=djU2MmMwbHMzNXh3&utm_source=qr",
+    linkedin: "https://www.linkedin.com/in/a1-electricals-555558400?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     youtube: "https://youtube.com",
   },
 };

@@ -11,7 +11,16 @@ function Topbar() {
       <div className="wrap">
         <a href={`mailto:${COMPANY.email}`}>{COMPANY.email}</a>
         <div className="tb-right">
-          <span>Kampala, Uganda — <a href={COMPANY.whatsappUrl} target="_blank" rel="noopener noreferrer">WhatsApp orders welcome</a></span>
+          <span>
+            Kampala, Uganda —{" "}
+            <a
+              href={COMPANY.whatsappUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              WhatsApp orders welcome
+            </a>
+          </span>
           <a href={`tel:${COMPANY.phoneRaw}`}>{COMPANY.phone}</a>
         </div>
       </div>
@@ -101,9 +110,6 @@ export default function Header() {
               src="/images/a1-logo.jpeg"
               alt="A1 Electricals Ltd logo"
             />
-            <span>
-              <small style={{ marginTop: 0 }}>Quality Guarantee</small>
-            </span>
           </Link>
 
           <input
@@ -118,28 +124,52 @@ export default function Header() {
             htmlFor="navToggle"
             className={`burger${mobileOpen ? " open" : ""}`}
             aria-label="Toggle menu"
-            onClick={(e) => { e.preventDefault(); setMobileOpen(v => !v); }}
+            onClick={(e) => {
+              e.preventDefault();
+              setMobileOpen((v) => !v);
+            }}
           >
-            <span className="icon-open"><BurgerIcon /></span>
-            <span className="icon-close"><CloseIcon /></span>
+            <span className="icon-open">
+              <BurgerIcon />
+            </span>
+            <span className="icon-close">
+              <CloseIcon />
+            </span>
           </label>
 
           <nav className={`primary${mobileOpen ? " mobile-open" : ""}`}>
             <ul>
-              <li className={`navitem${location.pathname === "/" ? " active" : ""}`}>
+              <li
+                className={`navitem${location.pathname === "/" ? " active" : ""}`}
+              >
                 <Link to="/">Home</Link>
+              </li>
+              <li
+                className={`navitem${location.pathname === "/about" ? " active" : ""}`}
+              >
+                <Link to="/about">About</Link>
               </li>
 
               <li
                 className={`navitem${isProductsActive ? " active" : ""}${openDropdown === "products" ? " open" : ""}${closing === "products" ? " closing" : ""}`}
                 data-nav="products"
               >
-                <Link to="/products" onClick={(e) => toggleDropdown("products", e)}>
+                <Link
+                  to="/products"
+                  onClick={(e) => toggleDropdown("products", e)}
+                >
                   Products <CaretIcon />
                 </Link>
-                <div className="dropdown" ref={(el) => (dropdownRefs.current.products = el)}>
+                <div
+                  className="dropdown"
+                  ref={(el) => (dropdownRefs.current.products = el)}
+                >
                   {PRODUCTS.map((p) => (
-                    <Link key={p.slug} to={`/products/${p.slug}`} onClick={() => closeDropdown("products")}>
+                    <Link
+                      key={p.slug}
+                      to={`/products/${p.slug}`}
+                      onClick={() => closeDropdown("products")}
+                    >
                       <span>{p.name}</span>
                       <span className="n">{p.n}</span>
                     </Link>
@@ -154,26 +184,36 @@ export default function Header() {
                 <Link to="/brands" onClick={(e) => toggleDropdown("brands", e)}>
                   Brands <CaretIcon />
                 </Link>
-                <div className="dropdown" ref={(el) => (dropdownRefs.current.brands = el)}>
+                <div
+                  className="dropdown"
+                  ref={(el) => (dropdownRefs.current.brands = el)}
+                >
                   {BRANDS.map((b) => (
-                    <Link key={b.slug} to={`/brands/${b.slug}`} onClick={() => closeDropdown("brands")}>
+                    <Link
+                      key={b.slug}
+                      to={`/brands/${b.slug}`}
+                      onClick={() => closeDropdown("brands")}
+                    >
                       <span>{b.name}</span>
                     </Link>
                   ))}
                 </div>
               </li>
 
-              <li className={`navitem${location.pathname === "/customer-service" ? " active" : ""}`}>
+              <li
+                className={`navitem${location.pathname === "/customer-service" ? " active" : ""}`}
+              >
                 <Link to="/customer-service">Customer service</Link>
               </li>
-              <li className={`navitem${location.pathname === "/ordering-delivery" ? " active" : ""}`}>
-                <Link to="/ordering-delivery">Ordering &amp; delivery</Link>
-              </li>
-              <li className={`navitem${location.pathname === "/about" ? " active" : ""}`}>
-                <Link to="/about">About</Link>
+              <li
+                className={`navitem${location.pathname === "/careers" ? " active" : ""}`}
+              >
+                <Link to="/careers">Careers</Link>
               </li>
               <li className="navitem">
-                <Link to="/contact" className="navcta">Contact</Link>
+                <Link to="/contact" className="navcta">
+                  Contact
+                </Link>
               </li>
             </ul>
           </nav>

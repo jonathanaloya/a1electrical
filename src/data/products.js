@@ -280,42 +280,11 @@ export const PRODUCTS = [
       "Available on 100m coils or 500m/1000m wooden drums, our cables are ready for immediate dispatch from our Kampala warehouse. Our technical staff provides voltage drop calculations, current-carrying capacity guidance, and correct gland/lug selection for your cable cross-section.",
   },
   {
-    slug: "wiring-accessories",
-    heroImage: "/images/products/wiring-accessories.png",
-    name: "Wiring Accessories",
-    n: "10",
-    cat: "Wiring Accessories",
-    blurb:
-      "Dimmers, connection units, cover plates and consumer-facing wiring accessories.",
-    desc: "Dimmers, connection units, shaver sockets and cover plates in a range of grid systems and finishes, matched to the wiring regulations of the destination market.",
-    specs: [
-      ["Grid systems", "Modular & one-piece"],
-      ["Finishes", "White, metal-clad, brushed steel"],
-      ["Ratings", "10A – 45A"],
-      ["Certification", "BS & IEC compliant"],
-    ],
-    bullets: [
-      "Dimmer switches for LED and conventional lamps",
-      "Shaver sockets and bathroom accessories",
-      "Cooker and shower connection units (45A)",
-      "Grid switch plates and modular faceplate systems",
-      "USB charger modules and connection units",
-      "Fan regulators and speed controllers",
-      "Metal-clad and brushed steel finish ranges",
-    ],
-    split1:
-      "Consumer-facing electrical accessories must combine internal electrical safety with clean visual design. Our specialized wiring accessory range includes electronic LED dimmers, 45A double-pole cooker control units, dual USB-A/C charging modules, shaver supply units, shaver sockets, and multi-gang grid switch assemblies.",
-    split2:
-      "Built on flexible modular grid systems, our accessories enable custom plate configurations combining power, data, audio-visual, and switching points on a single faceplate. We supply durable white moulded polycarbonate ranges alongside high-end brushed steel, polished chrome, and heavy-duty metal-clad fittings for industrial workshops.",
-    split3:
-      "Compliant with BS EN standards and tested for high switching endurance, our wiring accessories are ideal for hotel fit-outs, commercial office blocks, and residential housing projects. We offer bulk contractor packs and matching accessories across complete interior ranges for aesthetic consistency.",
-  },
-  {
     slug: "switches-sockets",
     heroImage: "/images/side.jpeg",
     name: "Switches & Sockets",
-    n: "11",
-    cat: "Wiring Accessories",
+    n: "10",
+    cat: "Switches & Sockets",
     blurb:
       "1-gang to multi-gang switches and socket outlets in modular and one-piece grid systems.",
     desc: "Switches and socket outlets in a range of grid systems, ratings and finishes, from standard white moulded ranges to premium metal-clad and smart switching options.",
@@ -345,7 +314,7 @@ export const PRODUCTS = [
     slug: "conduits-cable-management",
     heroImage: "/images/products/cable-trays-conduits.png",
     name: "Conduits & Cable Management Systems",
-    n: "12",
+    n: "11",
     cat: "Cable Trays & Conduits",
     blurb:
       "Trunking, conduit, cable tray and dado systems for organised, protected cable routing.",
@@ -376,7 +345,7 @@ export const PRODUCTS = [
     slug: "earthing-lightning-protection",
     heroImage: "/images/products/lightning-protection.png",
     name: "Earthing & Lightning Protection Systems",
-    n: "13",
+    n: "12",
     cat: "Lightning Protection",
     blurb:
       "Air terminals, down conductors, earth rods and earthing accessories.",
@@ -408,7 +377,7 @@ export const PRODUCTS = [
     slug: "transformers-power-distribution",
     heroImage: "/images/products/power-protection.png",
     name: "Transformers & Power Distribution Equipment",
-    n: "14",
+    n: "13",
     cat: "Switchgear Distribution",
     blurb:
       "Distribution transformers and power distribution equipment for industrial, commercial and utility supply.",
@@ -439,7 +408,7 @@ export const PRODUCTS = [
     slug: "solar-energy-efficient-solutions",
     heroImage: "/images/products/solar-led-lighting.png",
     name: "Solar & Energy-Efficient Electrical Solutions",
-    n: "15",
+    n: "14",
     cat: "Solar LED Lighting",
     blurb:
       "Off-grid solar lighting and energy-efficient LED solutions to cut consumption and costs.",

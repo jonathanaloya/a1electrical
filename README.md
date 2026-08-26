@@ -27,7 +27,7 @@ src/
 ├── components/              Header, Footer, HeroCarousel, EnquiryForm,
 │                             RecaptchaWidget, shared layout pieces, icons
 └── pages/                   Home, Products, ProductDetail, Brands,
-                              BrandDetail, CustomerService, OrderingDelivery,
+                              BrandDetail, CustomerService, Careers,
                               About, Contact, Privacy, NotFound
 public/images/                Site images (logo, storefront, stock photo,
                                and real brand logos where available)
@@ -105,7 +105,7 @@ was written.
 
 ## Notes
 - Brand logos: real logo images are used where available in the repo (ABB,
-  Schneider Electric, LEDVANCE, Philips, Marshall Tufflex, Sollatek, Larsen &
+  Siemens, LEDVANCE, Philips, Marshall Tufflex, Sollatek, Larsen &
   Toubro); the rest fall back to initials badges since no logo file exists
   for them yet — drop a file in `public/images/brands/` and add the path in
   `src/data/brands.js` to swap one in.

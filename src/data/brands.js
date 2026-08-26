@@ -6,92 +6,1368 @@ export const BRANDS = [
     name: "ABB",
     init: "AB",
     cat: "Switchgear Distribution",
-    desc: "ABB switches are designed for reliable, safe and long-lasting electrical control in residential, commercial and industrial applications. They offer modern designs, high-quality materials, and a wide range of switch, socket and control solutions — including DBs, contactors, overload relays, MCBs, MCCBs, RCBs, drives, motors, ATS and change-overs — providing excellent performance, easy installation and dependable operation for professional electrical installations.",
+    tagline: "Global Technology Leader in Electrification & Automation",
+    catalogueTitle: "ABB Power Distribution, Switchgear & Control Catalogue",
+    desc: "ABB is a world-leading electrification leader offering dependable, precision-engineered electrical control solutions for residential, commercial and heavy industrial applications. The A1 Electricals ABB catalogue includes distribution boards, contactors, electronic overload relays, MCBs, MCCBs, ACBs, variable speed drives, motors, change-over switches and ATS assemblies — ensuring maximum safety, proven performance and long service life.",
     logo: "/images/brands/abb.jpeg",
+    highlights: [
+      "IEC 61439 Certified Low Voltage Systems",
+      "High Breaking Capacities (6kA up to 100kA)",
+      "Full Range of Contactors, Relays & Soft Starters",
+      "Held in Stock at Our Kampala Showroom",
+    ],
+    rangeItems: [
+      "System pro M compact® MCBs & RCDs (1A – 125A)",
+      "Formula & Tmax XT Moulded Case Circuit Breakers (up to 630A)",
+      "Emax 2 Air Circuit Breakers (ACBs up to 4000A)",
+      "AF Series Industrial Contactors & Overload Relays",
+      "ACS Variable Speed Drives (VFDs) & Soft Starters",
+      "Mistral & ArTu Low Voltage Distribution Enclosures",
+    ],
+    products: [
+      {
+        name: "ABB System pro M compact® S200 MCBs",
+        model: "S200 Series (1A – 63A)",
+        cat: "Miniature Circuit Breakers",
+        desc: "High-performance DIN-rail MCBs offering B, C and D trip curves with 6kA/10kA breaking capacity for residential, commercial and industrial LV installations.",
+        image: "/images/products/circuit_breaker.jpeg",
+        specs: [
+          ["Breaking Capacity", "6kA / 10kA"],
+          ["Poles", "1P, 2P, 3P, 4P"],
+          ["Trip Curves", "B, C, D"],
+          ["Standard", "IEC/EN 60898-1"],
+        ],
+      },
+      {
+        name: "ABB Formula & Tmax XT Moulded Case Breakers",
+        model: "Tmax XT1 – XT5 (up to 630A)",
+        cat: "Moulded Case Breakers",
+        desc: "Compact MCCBs equipped with thermal-magnetic and electronic trip units providing high breaking capacity up to 70kA and selective grading.",
+        image: "/images/mccb.jpeg",
+        specs: [
+          ["Rated Current", "16A – 630A"],
+          ["Breaking Capacity", "36kA – 70kA"],
+          ["Trip Unit", "TMD / Ekip Dip"],
+          ["Standard", "IEC 60947-2"],
+        ],
+      },
+      {
+        name: "ABB AF Series Industrial 3-Pole Contactors",
+        model: "AF09 – AF370 (up to 185kW)",
+        cat: "Motor Contactors",
+        desc: "Electronically controlled wide-band AC/DC operating coils with built-in surge suppression for dependable pump, fan, and compressor motor starting.",
+        image: "/images/products/overload_relay.jpg",
+        specs: [
+          ["Control Voltage", "100V – 250V AC/DC"],
+          ["Motor Duty", "AC-3 Rated"],
+          ["Surge Protection", "Built-in Varistor"],
+          ["Mounting", "DIN Rail / Base Plate"],
+        ],
+      },
+      {
+        name: "ABB ACS380 / ACS580 Machinery & Process Drives",
+        model: "ACS380 & ACS580 (0.75kW – 250kW)",
+        cat: "Variable Speed Drives",
+        desc: "Precision variable frequency drives delivering optimal motor speed control, energy optimization, integrated Safe Torque Off (STO), and Modbus.",
+        image: "/images/products/automation_drives.jpeg",
+        specs: [
+          ["Supply Voltage", "3-Phase 380-480V"],
+          ["Control Modes", "Vector & Scalar"],
+          ["Enclosure", "IP21 / IP55"],
+          ["EMC Filter", "Class C2 Integrated"],
+        ],
+      },
+      {
+        name: "ABB Mistral65 IP65 Weatherproof Distribution Boards",
+        model: "Mistral65 Series (8 – 72 Modules)",
+        cat: "Distribution Enclosures",
+        desc: "Durable halogen-free thermoplastic consumer units and panelboards engineered for high dust, water, and UV resistance in outdoor or factory settings.",
+        image: "/images/products/distribution_board.jpeg",
+        specs: [
+          ["Ingress Protection", "IP65 / IK09"],
+          ["Material", "Halogen-Free Polycarbonate"],
+          ["Door", "Transparent Smoked / Opaque"],
+          ["Temperature", "-25°C to +60°C"],
+        ],
+      },
+      {
+        name: "ABB OT & OTM Manual & Motorized Changeover Switches",
+        model: "OT16 – OT1600 (16A – 1600A)",
+        cat: "Transfer Switches",
+        desc: "Heavy-duty 3P and 4P changeover switches with positive break contacts and high mechanical endurance for mains-generator transfer assemblies.",
+        image: "/images/products/Switchgear Systems.jpeg",
+        specs: [
+          ["Poles", "3-Pole & 4-Pole"],
+          ["Operation", "Manual / Automatic (ATS)"],
+          ["Isolation", "Positive Break Contact"],
+          ["Standard", "IEC 60947-3 / 60947-6-1"],
+        ],
+      },
+    ],
   },
   {
     slug: "siemens",
     name: "Siemens",
     init: "SI",
     cat: "Switchgear Distribution",
-    desc: "Siemens electrical products are designed for high performance, safety, and reliable operation across residential, commercial, and industrial applications. The range includes switches, sockets, circuit breakers, contactors, protection devices, control equipment, and distribution solutions, offering modern design, advanced technology, easy installation, and long-lasting performance for professional electrical systems.",
+    tagline: "Pioneering Infrastructure & Industrial Electrical Technology",
+    catalogueTitle: "Siemens Automation, Switchgear & Protection Catalogue",
+    desc: "Siemens electrical and automation products deliver high performance, advanced safety, and dependable reliability across modern buildings and industrial installations. The catalogue spans modular circuit breakers, heavy-duty contactors, protection devices, industrial control equipment, PLC automation, and low-voltage distribution systems engineered for optimal energy efficiency and continuous uptime.",
     logo: "/images/brands/siemens.png",
+    highlights: [
+      "German Precision Engineering Standards",
+      "IEC / EN Standards Verified & Utility Approved",
+      "Seamless Integration with Building & Factory Systems",
+      "Prompt Collection & Uganda-Wide Delivery",
+    ],
+    rangeItems: [
+      "SENTRON 5SY / 5SL MCBs & Residual Current Devices",
+      "3VA Moulded Case Circuit Breakers (MCCB up to 630A)",
+      "SIRIUS 3RT Contactors & 3RU Thermal Overload Relays",
+      "SIMATIC S7 PLCs, HMI Touch Panels & Process Control",
+      "Delta Switch & Socket Outlets for Commercial Fitouts",
+      "ALPHA Low-Voltage Distribution Boards & Control Enclosures",
+    ],
+    products: [
+      {
+        name: "Siemens SENTRON 5SY4 / 5SL6 Miniature Circuit Breakers",
+        model: "SENTRON 5SY / 5SL (0.5A – 63A)",
+        cat: "Miniature Circuit Breakers",
+        desc: "Precision German-engineered DIN rail MCBs with tool-free quick-release slider mechanism and 6kA/10kA breaking capacity.",
+        image: "/images/products/circuit_breaker.jpeg",
+        specs: [
+          ["Breaking Capacity", "6kA / 10kA (IEC/EN 60898-1)"],
+          ["Poles", "1P, 2P, 3P, 4P"],
+          ["Trip Curves", "B, C, D Curves"],
+          ["Standards", "IEC/EN 60898-1 & IEC 60947-2"],
+        ],
+      },
+      {
+        name: "Siemens 3VA1 & 3VA2 Moulded Case Circuit Breakers",
+        model: "3VA Series (16A – 630A)",
+        cat: "Moulded Case Breakers",
+        desc: "Modular MCCBs with ETU electronic trip units, selective fault discrimination, and breaking capacities up to 100kA at 415V.",
+        image: "/images/mccb.jpeg",
+        specs: [
+          ["Current Rating", "16A – 630A"],
+          ["Breaking Capacity", "36kA – 100kA at 415V"],
+          ["Trip Unit", "ETU 3-Series & 5-Series"],
+          ["Standard", "IEC 60947-2"],
+        ],
+      },
+      {
+        name: "Siemens SIRIUS 3RT20 Industrial Power Contactors",
+        model: "SIRIUS 3RT201 – 3RT204",
+        cat: "Motor Contactors",
+        desc: "Heavy-duty contactors up to 55kW motor power with spring-loaded or screw terminals, integrated varistors, and 30 million mechanical cycles.",
+        image: "/images/products/motor_starter.jpeg",
+        specs: [
+          ["Sizes", "S00, S0, S2, S3 (up to 55kW)"],
+          ["Terminals", "Screw & Spring-Loaded"],
+          ["Auxiliary", "Built-in 1NO + 1NC Contacts"],
+          ["Standards", "IEC/EN 60947-4-1"],
+        ],
+      },
+      {
+        name: "Siemens SIMATIC S7-1200 Compact PLC Controllers",
+        model: "CPU 1212C / 1214C / 1215C",
+        cat: "Industrial Automation",
+        desc: "Compact modular programmable logic controllers with integrated PROFINET interface, high-speed counters, and flexible signal board expansions.",
+        image: "/images/products/control_cabinet.jpeg",
+        specs: [
+          ["Interface", "Integrated PROFINET Ethernet"],
+          ["I/O Expansion", "Signal Modules & Comm Boards"],
+          ["Software", "TIA Portal STEP 7"],
+          ["Memory", "Up to 150KB Work Memory"],
+        ],
+      },
+      {
+        name: "Siemens Delta Iris & Delta Style Rocker Switches & Sockets",
+        model: "Delta Series 13A / 15A Outlets",
+        cat: "Wiring Accessories",
+        desc: "Architectural switches and switched socket outlets featuring silver-inlay contacts, child-safety shutters, and anti-microbial faceplates.",
+        image: "/images/products/wiring_accessories.jpeg",
+        specs: [
+          ["Finishes", "Titanium White, Aluminium, Anthracite"],
+          ["Ratings", "10AX Switches / 13A Shuttered Sockets"],
+          ["Contact Material", "Silver Inlay High Conductivity"],
+          ["Standards", "BS 1363 / IEC 60669-1"],
+        ],
+      },
+      {
+        name: "Siemens ALPHA 160 / ALPHA 630 Distribution Panelboards",
+        model: "ALPHA Modular LV System",
+        cat: "Distribution Boards",
+        desc: "Floor-standing and wall-mounted sheet steel low voltage panelboards tested to IEC 61439-1/2 for main incoming and sub-distribution.",
+        image: "/images/products/distribution_board.jpeg",
+        specs: [
+          ["Busbar Rating", "Rated up to 630A"],
+          ["Ingress Protection", "IP43 / IP55 Sheet Steel"],
+          ["Mounting", "Surface, Flush & Free-Standing"],
+          ["Standard", "IEC 61439-1 & 2 Verified"],
+        ],
+      },
+    ],
+  },
+  {
+    slug: "larsen-toubro",
+    aliases: ["lt", "l-and-t", "l&t"],
+    name: "Larsen & Toubro",
+    init: "LT",
+    cat: "Switchgear Distribution",
+    tagline: "Heavy-Duty Electrical Switchgear, Starters & Power Distribution",
+    catalogueTitle: "Larsen & Toubro Switchgear & Industrial Control Catalogue",
+    desc: "Larsen & Toubro (L&T) is renowned worldwide for heavy-duty switchgear, motor control centres, and power distribution equipment engineered for tough tropical environments. Available through A1 Electricals in Kampala, L&T switchgear provides high short-circuit withstand capacity, robust mechanical endurance, and proven reliability for commercial complexes, manufacturing lines, and agricultural processing plants.",
+    logo: "/images/brands/larsen-toubro.jpeg",
+    highlights: [
+      "Heavy-Duty Industrial Grade Construction",
+      "Tropicalized Insulation Designed for High Ambient Temperatures",
+      "MK1 & MNX Direct-On-Line and Star-Delta Motor Starters",
+      "Immediate Availability for Contractors & Factories in Uganda",
+    ],
+    rangeItems: [
+      "Exora Modular MCBs, Isolators & Residual Current Devices",
+      "DU100H & DU250H Moulded Case Circuit Breakers",
+      "MK1 & MNX Series Direct-On-Line & Star-Delta Starters",
+      "Thermal Bi-Metallic Overload Relays with Single-Phasing Protection",
+      "Changeover Switches & On-Load Bypass Switches",
+      "Heavy-Duty Metal Enclosed Industrial Distribution Boards",
+    ],
+    products: [
+      {
+        name: "L&T Exora 10kA Miniature Circuit Breakers & Isolators",
+        model: "Exora Series (0.5A – 63A)",
+        cat: "Miniature Circuit Breakers",
+        desc: "Rugged DIN-rail MCBs with bi-connect dual terminals, true contact position indication flag, and 10kA fault breaking capacity.",
+        image: "/images/products/circuit_breaker.jpeg",
+        specs: [
+          ["Breaking Capacity", "10kA (IEC 60898-1)"],
+          ["Bi-Connect", "Cable & Busbar Dual Connection"],
+          ["Indicator", "True Red/Green Flag"],
+          ["Trip Curves", "B & C Characteristics"],
+        ],
+      },
+      {
+        name: "L&T DU100H & DU250H Moulded Case Circuit Breakers",
+        model: "DU Series (16A – 250A)",
+        cat: "Moulded Case Breakers",
+        desc: "Reliable MCCBs with adjustable thermal settings (0.8–1.0x In) and 30kA–50kA breaking capacity for commercial and industrial boards.",
+        image: "/images/mccb.jpeg",
+        specs: [
+          ["Breaking Capacity", "30kA – 50kA at 415V"],
+          ["Adjustable Thermal", "0.8 to 1.0 x In Range"],
+          ["Magnetic Setting", "Fixed / Adjustable"],
+          ["Standards", "IEC 60947-2 / IS 13947-2"],
+        ],
+      },
+      {
+        name: "L&T MK1 & MNX Direct-On-Line & Star-Delta Starters",
+        model: "MK1 / MNX (up to 75HP)",
+        cat: "Motor Starters",
+        desc: "Legendary heavy-duty motor starters with wide-band tropicalized operating coils, single phasing prevention, and IP54 metal enclosures.",
+        image: "/images/products/motor_starter.jpeg",
+        specs: [
+          ["Starter Types", "DOL & Automatic Star-Delta"],
+          ["Coil Reliability", "Wide Voltage Band Tropicalized Coil"],
+          ["Single Phasing", "Built-in SPP Protection"],
+          ["Enclosure", "IP54 Deep Drawn Sheet Steel"],
+        ],
+      },
+      {
+        name: "L&T RTA & RTC Bi-Metallic Thermal Overload Relays",
+        model: "RTA1 / RTA2 / RTC Relays",
+        cat: "Motor Protection",
+        desc: "Ambient temperature compensated thermal relays (0.15A–120A) with manual/auto reset selector and Class 10A trip characteristics.",
+        image: "/images/products/overload_relay.jpg",
+        specs: [
+          ["Current Range", "0.15A to 120A Selectable"],
+          ["Compensation", "-5°C to +55°C Ambient Range"],
+          ["Reset Modes", "Manual and Auto Reset Selector"],
+          ["Trip Class", "Class 10A Overload Protection"],
+        ],
+      },
+      {
+        name: "L&T On-Load Changeover Switches (CO Series)",
+        model: "CO Series (63A – 1000A)",
+        cat: "Transfer Switches",
+        desc: "Four-pole manual transfer changeover switches with heavy de-ionizing arc chutes and positive make-and-break switching.",
+        image: "/images/products/Switchgear Systems.jpeg",
+        specs: [
+          ["Poles", "4-Pole Open & Enclosed Execution"],
+          ["Arc Chutes", "Heavy De-ionizing Quenching Chutes"],
+          ["Operation", "Manual Centre-Off Toggle"],
+          ["Standard", "IEC 60947-3 Compliance"],
+        ],
+      },
+      {
+        name: "L&T Tripper Single & Three Phase Consumer Units",
+        model: "Tripper SPN & TPN Enclosures",
+        cat: "Distribution Boards",
+        desc: "Powder-coated sheet steel distribution panelboards with insulated copper pan busbars and dual neutral/earth brass links.",
+        image: "/images/products/panelboard.jpeg",
+        specs: [
+          ["Ways", "4, 6, 8, 12, 16-way TPN"],
+          ["Busbars", "Insulated Copper Interlocking Pan"],
+          ["Earthing", "Dual Neutral & Earth Brass Links"],
+          ["Finish", "Powder-Coated Anti-Corrosion"],
+        ],
+      },
+    ],
   },
   {
     slug: "vaf-power",
     name: "VAF Power",
     init: "VP",
     cat: "Wiring Accessories",
-    desc: "VAF Power offers a complete range of electrical products including switches, sockets, fans, distribution boards, and home & commercial decorative lighting solutions, combining modern designs, reliable performance, safety features, and quality construction for residential, commercial, and industrial applications. VAF Power also supplies lightning arresters and earthing copper accessories — including earth rods, tapes, clamps and cable lugs — for protection against lightning and electrical surges.",
+    tagline: "High-Performance Wiring Accessories, Earthing & Lighting",
+    catalogueTitle: "VAF Power Wiring Devices, Earthing & Distribution Catalogue",
+    desc: "VAF Power offers a complete catalogue of professional electrical products including designer switches, socket outlets, distribution boards, decorative lighting, and complete earthing and surge protection solutions. Built to East African and British Standards, VAF Power combines modern aesthetic styling with heavy-duty copper construction.",
     logo: "/images/brands/vaf-power.png",
+    highlights: [
+      "BS 1363 / East African Approved Quality",
+      "High-Grade Pure Copper Earthing Accessories",
+      "Contemporary Architectural Finishes & Cover Plates",
+      "Full Range In-Stock at A1 Electricals Kampala",
+    ],
+    rangeItems: [
+      "Modular Rocker Switches & 13A / 15A Socket Outlets",
+      "Pure Copper Earth Rods, Tapes, Clamps & Cable Lugs",
+      "Early Streamer Lightning Arresters & Surge Suppressors",
+      "Single & Three-Phase Flush / Surface Distribution Boards",
+      "Commercial & Decorative Architectural LED Fixtures",
+      "Weatherproof IP66 Exterior Switches & Isolators",
+    ],
+    products: [
+      {
+        name: "VAF Modular Rocker Light Switches & 13A Sockets",
+        model: "VAF Elegance Series",
+        cat: "Wiring Accessories",
+        desc: "Designer modular light switches and safety shuttered socket outlets in pure white and metallic finishes for contemporary architectural interiors.",
+        image: "/images/products/wiring_accessories.jpeg",
+        specs: [
+          ["Faceplates", "Pure White, Brushed Silver, Champagne"],
+          ["Socket Shutter", "Child-Safe Interlocking Mechanism"],
+          ["Switch Rating", "10AX / 20A Double Pole"],
+          ["Standards", "BS 1363 / BS EN 60669-1"],
+        ],
+      },
+      {
+        name: "VAF Pure Electrolytic Copper Earth Rods & Clamps",
+        model: "5/8\" & 3/4\" Copperbond Rods",
+        cat: "Earthing Accessories",
+        desc: "High-tensile carbon steel core earth rods molecularly bonded with 99.9% pure electrolytic copper for low-resistance earth grounding.",
+        image: "/images/products/ground_testing.jpeg",
+        specs: [
+          ["Copper Purity", "99.9% Electrolytic Copper Layer"],
+          ["Tensile Strength", "600 N/mm² High Carbon Steel Core"],
+          ["Lengths", "1.5m, 2.4m, 3.0m Threaded / Coupler"],
+          ["Standards", "BS 7430 / BS EN 50164-2"],
+        ],
+      },
+      {
+        name: "VAF Early Streamer Emission (ESE) Lightning Arresters",
+        model: "VAF StormShield ESE Terminals",
+        cat: "Lightning Protection",
+        desc: "Stainless steel Early Streamer Emission storm air terminals providing wide-radius structural lightning interception and high surge dissipation.",
+        image: "/images/products/lightning_protection.jpeg",
+        specs: [
+          ["Protection Radius", "Up to 107m (Level IV)"],
+          ["Material", "AISI 316L Stainless Steel"],
+          ["Test Standard", "NF C 17-102:2011 Verified"],
+          ["Surge Current", "Withstands 100kA (10/350µs)"],
+        ],
+      },
+      {
+        name: "VAF TPN Flush & Surface Distribution Boards",
+        model: "VAF ProPower TPN Series",
+        cat: "Distribution Boards",
+        desc: "Sheet steel low-voltage panelboards with 250A solid copper busbars and pre-punched entries for MCCB or 4-pole switch-disconnector incomers.",
+        image: "/images/products/distribution_board.jpeg",
+        specs: [
+          ["Busbar Capacity", "Solid Copper Rated to 250A"],
+          ["Ways Available", "4, 6, 8, 12, 16-Way Outgoing"],
+          ["Enclosure", "1.2mm CRCA Sheet Steel IP41/IP54"],
+          ["Incomer", "Pre-punched for 4P Isolator or MCCB"],
+        ],
+      },
+      {
+        name: "VAF Weatherproof IP66 Exterior Switches & Outlets",
+        model: "VAF AquaGuard Series",
+        cat: "Weatherproof Outlets",
+        desc: "Heavy-duty UV-stabilised polycarbonate weatherproof switched sockets with padlockable covers for garden, compound, and wash-bay applications.",
+        image: "/images/products/weatherproof_outlets.jpeg",
+        specs: [
+          ["Ingress Protection", "IP66 Water & Dust Tight"],
+          ["Impact Resistance", "IK08 Polycarbonate Housing"],
+          ["Features", "Padlockable lid with gel seal gasket"],
+          ["Configurations", "1-Gang & 2-Gang 13A Outlets"],
+        ],
+      },
+      {
+        name: "VAF Commercial Architectural Downlights & LED Panels",
+        model: "VAF LuminaLux Series",
+        cat: "Commercial Lighting",
+        desc: "Anti-glare microprismatic recessed LED downlights and 600x600 ceiling panels delivering uniform illumination with flicker-free drivers.",
+        image: "/images/products/led_lighting.jpeg",
+        specs: [
+          ["Efficiency", "110 lm/W High Output"],
+          ["Diffuser", "Microprismatic Anti-Glare UGR<19"],
+          ["Colour Temp", "3000K, 4000K, 6500K Selectable"],
+          ["Driver", "Isolated Constant Current Flicker-Free"],
+        ],
+      },
+    ],
   },
   {
     slug: "philips-signify",
+    aliases: ["philips", "philips-lighting", "signify"],
     name: "Philips & Signify",
     init: "PH",
     cat: "Light Fittings & Luminaires",
-    desc: "Philips & Signify Lighting provide innovative, energy-efficient lighting solutions for residential, commercial, industrial, architectural, and outdoor applications. The range includes LED lamps, panels, downlights, floodlights, street lighting, decorative luminaires, and smart connected lighting systems.",
+    tagline: "World Leader in Energy-Efficient LED & Architectural Lighting",
+    catalogueTitle: "Philips & Signify Commercial & Architectural Lighting Catalogue",
+    desc: "Philips & Signify Lighting deliver world-class, energy-efficient lighting solutions for commercial buildings, industrial warehouses, architectural spaces, and outdoor infrastructure. Sourced genuinely through A1 Electricals, the catalogue features long-life LED luminaires, slim panels, high-output floodlights, downlights, and smart lighting systems.",
     logo: "/images/brands/phillips.jpeg",
+    highlights: [
+      "High Luminous Efficacy (up to 140 lm/W)",
+      "50,000+ Hour L70 Rated Lifetime",
+      "Uniform Beam Distribution & Low Glare (UGR<19)",
+      "Official Genuine Warranty & Spares Availability",
+    ],
+    rangeItems: [
+      "CoreLine & SmartBright Highbay Industrial Luminaires",
+      "Heavy-Duty LED Floodlights & Area Projectors",
+      "Recessed Slim Downlights & 600x600 LED Panel Lights",
+      "Waterproof & Dustproof IP65 Linear Battens",
+      "Road, Street & Solar-Hybrid Exterior Lighting",
+      "Architectural Track Lights, Spotlights & Linear Profiles",
+    ],
+    products: [
+      {
+        name: "Philips CoreLine Highbay Gen4 Industrial LED Fixture",
+        model: "BY121P / BY122P (100W – 200W)",
+        cat: "Industrial High-Bays",
+        desc: "High-efficiency 140 lm/W die-cast aluminium LED highbay luminaire with IP65 water protection and IK08 impact resistance for warehouses.",
+        image: "/images/products/linear_luminaires.jpeg",
+        specs: [
+          ["Luminous Output", "14,000 – 28,000 lm (140 lm/W)"],
+          ["Housing", "Die-Cast Aluminium Heat Sink"],
+          ["Protection", "IP65 Waterproof / IK08 Impact"],
+          ["Lifetime", "50,000 Hours L70B50 at 35°C"],
+        ],
+      },
+      {
+        name: "Philips SmartBright LED Floodlights (30W – 300W)",
+        model: "BVP151 / BVP152 Series",
+        cat: "Exterior Floodlights",
+        desc: "Rugged outdoor floodlights with optical glass lens, robust 4kV surge protection, and high-efficiency beam output for yards and facades.",
+        image: "/images/products/solar_flood_lights.jpeg",
+        specs: [
+          ["Efficacy", "120 lm/W High Lumen Package"],
+          ["Surge Protection", "Built-in 4kV / 6kV SPD"],
+          ["Optics", "Symmetrical & Asymmetrical Beams"],
+          ["Operating Temp", "-40°C to +50°C Ambient"],
+        ],
+      },
+      {
+        name: "Philips Slim Downlights & Clean-Ceiling 600x600 Panels",
+        model: "RC048B / DN027B Series",
+        cat: "Commercial Panels",
+        desc: "Ultra-slim low-glare office LED panels (UGR<19) providing uniform, flicker-free illumination with CRI > 80 natural color rendering.",
+        image: "/images/products/luminaire_layouts.jpg",
+        specs: [
+          ["Glare Rating", "UGR<19 Low Glare Office Grade"],
+          ["Thickness", "Ultra-Slim 11mm Profile"],
+          ["Colour Rendering", "CRI > 80 Natural Illumination"],
+          ["Warranty", "5-Year Philips Signify Warranty"],
+        ],
+      },
+      {
+        name: "Philips CoreLine Waterproof IP65 Linear LED Battens",
+        model: "WT120C Series (1200mm / 1500mm)",
+        cat: "Weatherproof Luminaires",
+        desc: "Impact-resistant polycarbonate weatherproof battens with wide 110° beam distribution and integrated through-wiring for parking and workshops.",
+        image: "/images/products/weatherproof_battens.jpeg",
+        specs: [
+          ["Ingress Rating", "IP65 & IK08 High Impact"],
+          ["Through Wiring", "Integrated Phase Passthrough"],
+          ["Beam Spread", "Wide 110° Light Distribution"],
+          ["Mounting", "Ceiling, Wall or Suspended Brackets"],
+        ],
+      },
+      {
+        name: "Philips RoadFlair & GreenVision Solar/Grid Street Lights",
+        model: "BRP391 / BRP392 Series",
+        cat: "Street Lighting",
+        desc: "Precision road and highway LED luminaires featuring specialized street optics, corrosion-resistant housings, and NEMA photocell sockets.",
+        image: "/images/products/solar_compound.jpeg",
+        specs: [
+          ["Wattage Range", "50W to 240W High Efficiency"],
+          ["Optics", "Specialized Road & Pedestrian Lenses"],
+          ["Socket", "NEMA 7-Pin Photocell Ready"],
+          ["Housing", "Corrosion-Resistant Die-Cast Aluminium"],
+        ],
+      },
+      {
+        name: "Philips MasterConnect & Hue Smart Architectural Spotlights",
+        model: "RS140B Track & Recessed Spots",
+        cat: "Architectural Lighting",
+        desc: "High-CRI 90+ architectural track spotlights with interchangeable beam optics (15°/24°/36°) and DALI-2 dimming for retail and galleries.",
+        image: "/images/products/decorative_finishes.jpeg",
+        specs: [
+          ["CRI Rating", "CRI > 90 High Fidelity Rendering"],
+          ["Dimming", "DALI-2 / 1-10V / Wireless Zigbee"],
+          ["Beam Angles", "15°, 24°, 36° Interchangeable"],
+          ["Finishes", "Matte White & Matte Jet Black"],
+        ],
+      },
+    ],
+  },
+  {
+    slug: "ledvance",
+    aliases: ["osram", "ledvance-osram"],
+    name: "LEDVANCE",
+    init: "LV",
+    cat: "Light Fittings & Luminaires",
+    tagline: "General Lighting Innovations & Smart Commercial Luminaires",
+    catalogueTitle: "LEDVANCE & OSRAM Commercial & Industrial Lighting Catalogue",
+    desc: "LEDVANCE, originating from the general lighting division of OSRAM, is a global leader in advanced LED luminaires, smart lighting, and replacement lamps. Sourced through A1 Electricals in Uganda, LEDVANCE luminaires deliver German photometric precision, exceptional energy savings, high CRI color rendering, and robust IP65/IK08 ratings for demanding commercial, warehouse, and outdoor applications.",
+    logo: "/images/brands/ledvance.jpeg",
+    highlights: [
+      "Engineered by OSRAM Heritage Lighting Experts",
+      "High Colour Rendering (CRI > 80/90) & Flicker-Free Drivers",
+      "Robust Die-Cast Aluminium & Polycarbonate Construction",
+      "Energy Savings up to 85% Compared to Legacy Fittings",
+    ],
+    rangeItems: [
+      "High Bay Gen 4 Luminaires (100W – 200W IP65)",
+      "Damp Proof IP65 Weatherproof LED Battens",
+      "Panel Comfort 600x600 Glare-Free Office Fixtures",
+      "Floodlight Performance Area & Facade Projectors",
+      "Spotlight & Downlight Architectural Recessed Series",
+      "Retrofit OSRAM LED Tubes, PAR Lamps & High-Wattage Bulbs",
+    ],
+    products: [
+      {
+        name: "LEDVANCE High Bay Gen 4 IP65 Fixtures (100W – 200W)",
+        model: "Performance Gen 4 (150 lm/W)",
+        cat: "Industrial High-Bays",
+        desc: "Class-leading 150 lm/W industrial LED highbay with narrow and wide beam optical lenses, integrated 4kV surge suppressor, and die-cast housing.",
+        image: "/images/products/linear_luminaires.jpeg",
+        specs: [
+          ["Efficiency", "150 lm/W High Efficacy"],
+          ["Optics", "Narrow 70° & Wide 110° Lenses"],
+          ["Surge Protection", "Integrated 4kV Surge Suppressor"],
+          ["Mounting", "Heavy-Duty Suspension Hook Included"],
+        ],
+      },
+      {
+        name: "LEDVANCE Damp Proof IP65 Weatherproof Battens",
+        model: "Damp Proof Housing & Tubes",
+        cat: "Weatherproof Battens",
+        desc: "Vandal-resistant IK08 moisture-proof fittings with stainless steel quick-latches and tool-free 5x2.5mm² through-wiring for tunnels and wash-bays.",
+        image: "/images/products/weatherproof_battens.jpeg",
+        specs: [
+          ["Ingress Rating", "IP65 Dust & Water Jet Proof"],
+          ["Impact Strength", "IK08 Vandal Resistant"],
+          ["Clips", "Stainless Steel Tool-Free Latches"],
+          ["Through-Wiring", "5x2.5mm² Pre-installed Cables"],
+        ],
+      },
+      {
+        name: "LEDVANCE Panel Comfort 600x600 Glare-Free Luminaires",
+        model: "Panel Comfort UGR<19",
+        cat: "Office Panel Lights",
+        desc: "Microprismatic PMMA light guide panels engineered for low glare office and educational environments with ENEC certified flicker-free drivers.",
+        image: "/images/products/luminaire_layouts.jpg",
+        specs: [
+          ["UGR Rating", "UGR < 19 Workplace Compliant"],
+          ["Light Guide", "Non-Yellowing PMMA Optical Plate"],
+          ["Drivers", "ENEC Certified Flicker-Free Driver"],
+          ["Lifetime", "60,000 Hours L80/B10 Rating"],
+        ],
+      },
+      {
+        name: "LEDVANCE Floodlight Performance Asymmetrical 50W – 200W",
+        model: "Performance Asymmetric Flood",
+        cat: "Exterior Floodlights",
+        desc: "High-output asymmetric beam floodlights designed for sports facilities, compounds, and architectural facade illumination.",
+        image: "/images/products/solar_flood_lights.jpeg",
+        specs: [
+          ["Optics", "55° x 110° Asymmetric Beam Spread"],
+          ["Application", "Facades, Sports Grounds, Parking"],
+          ["Glass", "Impact-Resistant Thermal Treated"],
+          ["Housing", "Matte Dark Grey Powder Coating"],
+        ],
+      },
+      {
+        name: "OSRAM SubstiTUBE High Output T8 & T5 LED Tubes",
+        model: "SubstiTUBE HO T8 (600mm / 1200mm / 1500mm)",
+        cat: "Retrofit Lamps",
+        desc: "Shatterproof PET-coated glass retrofit LED tubes delivering up to 68% energy savings over conventional fluorescent tubes with single-pin safety.",
+        image: "/images/products/led_lighting.jpeg",
+        specs: [
+          ["Energy Savings", "Up to 68% vs Fluorescent"],
+          ["Safety", "Single-Ended Pin Protection"],
+          ["Glass Body", "Shatterproof PET Coated Glass"],
+          ["Luminous Flux", "Up to 3,100 Lumens Output"],
+        ],
+      },
+      {
+        name: "LEDVANCE Surface Circular & Downlight Slim Series",
+        model: "Downlight Slim Selectable CCT",
+        cat: "Downlights & Ceiling",
+        desc: "Ultra-slim 25mm depth downlights with an on-fixture switch to toggle between 3000K, 4000K, and 6500K color temperatures.",
+        image: "/images/products/decorative_finishes.jpeg",
+        specs: [
+          ["CCT Switch", "3000K / 4000K / 6500K Selectable"],
+          ["Profile", "25mm Ultra-Slim Recessed Depth"],
+          ["Driver", "Integrated Quick-Box External Driver"],
+          ["Emergency", "Compatible with 3h Battery Packs"],
+        ],
+      },
+    ],
   },
   {
     slug: "marshall-tufflex",
     name: "Marshall-Tufflex",
     init: "MT",
     cat: "PVC Trunking & Conduits",
-    desc: "Marshall-Tufflex provides high-quality cable management and electrical installation solutions for commercial, industrial, and building projects. The range includes trunking, conduit, cable trays, dado systems, floor systems, and accessories for safe and organised cable routing, offering durable construction, easy installation, professional finish, and reliable long-term performance.",
+    tagline: "Premium British Cable Management & Containment Systems",
+    catalogueTitle: "Marshall-Tufflex Cable Management & Trunking Catalogue",
+    desc: "Marshall-Tufflex is the UK's leading manufacturer of cable management and containment systems. Engineered from heavy-duty, self-extinguishing PVC and steel, the range includes perimeter dado trunking, conduit systems, cable trays, flush floor boxes, and complete routing accessories for clean, compliant and future-proof cable installations.",
     logo: "/images/brands/marshall-tufflex.jpeg",
+    highlights: [
+      "BS 7671 & BS 4678 British Standards Compliant",
+      "High Impact Resistant, Flame-Retardant PVC",
+      "Fast-Fit Clip-On Lids & Pre-Punched Base Systems",
+      "Ideal for Commercial Offices, Hospitals & Schools",
+    ],
+    rangeItems: [
+      "Maxi & Mini Surface PVC Trunking with Snap-On Lids",
+      "Heavy Duty Rigid & Flexible PVC Conduits & Couplers",
+      "Sterling & Two-Compartment Perimeter Dado Trunking",
+      "Raised Access & Screed Flush Floor Outlet Boxes",
+      "Galvanised Perforated Cable Trays & Wire Baskets",
+      "Moulded Corners, Flat Bends, End Caps & Accessories",
+    ],
+    products: [
+      {
+        name: "Marshall-Tufflex Maxi & Mini PVC Surface Trunking",
+        model: "MTRS / MMTR Series",
+        cat: "PVC Trunking",
+        desc: "High-impact, self-extinguishing PVCu surface trunking with positive snap-fit lids for domestic, commercial, and laboratory cable containment.",
+        image: "/images/products/pvc-trunking-conduits.png",
+        specs: [
+          ["Material", "Self-Extinguishing PVCu"],
+          ["Sizes", "16x16mm to 150x150mm"],
+          ["Lid Fit", "Tamper-Proof Snap-Fit"],
+          ["Standards", "BS 4678 & BS 7671 Compliant"],
+        ],
+      },
+      {
+        name: "Marshall-Tufflex Sterling Profile Perimeter Dado Trunking",
+        model: "Sterling Profile 1 & 2",
+        cat: "Dado Trunking",
+        desc: "Multi-compartment dado containment system with internal screening dividers for segregating 240V power, CAT6A data, and telecoms in offices.",
+        image: "/images/products/containment_fittings.jpeg",
+        specs: [
+          ["Compartments", "2 or 3 Segregated Channels"],
+          ["Data Ready", "Compliant with 50mm Bend Radii"],
+          ["Accessories", "Moulded Flat Tees, Bends & End Caps"],
+          ["Applications", "Offices, Hospitals & Universities"],
+        ],
+      },
+      {
+        name: "Marshall-Tufflex Heavy-Duty Rigid & Flexible PVC Conduits",
+        model: "CR Series (20mm & 25mm)",
+        cat: "PVC Conduits",
+        desc: "UV-stabilized high-impact PVC conduits with pre-formed bell couplers and expansion couplings for surface or concealed building wiring.",
+        image: "/images/products/cable-trays-conduits.png",
+        specs: [
+          ["Classification", "Heavy Gauge (BS EN 61386-21)"],
+          ["Cold Bending", "Internal Spring Cold Bendable"],
+          ["Fittings", "Couplers, Inspection Bends & Tees"],
+          ["Corrosion", "100% Acid, Alkali & Rust Proof"],
+        ],
+      },
+      {
+        name: "Marshall-Tufflex Raised Access & Screed Floor Boxes",
+        model: "FB3 / FB4 Floor Service Boxes",
+        cat: "Floor Outlets",
+        desc: "Galvanised steel flush floor outlet boxes with carpet recess lid and modular plates for power, data RJ45, and AV multimedia connections.",
+        image: "/images/products/modular_grid.jpeg",
+        specs: [
+          ["Compartments", "3-Way & 4-Way Configurations"],
+          ["Lid Material", "Reinforced Galvanised Steel Lid"],
+          ["Adjustability", "75mm to 110mm Screed Depth"],
+          ["Load Rating", "Heavy Foot Traffic Tested"],
+        ],
+      },
+      {
+        name: "Marshall-Tufflex Perforated Galvanised Cable Trays",
+        model: "MT Tray System (50mm – 600mm)",
+        cat: "Cable Trays",
+        desc: "Pre-galvanised and hot-dip steel perforated cable trays with return flanges for rigid industrial and commercial power cable support.",
+        image: "/images/products/steel-cable-tranking.png",
+        specs: [
+          ["Finishes", "Pre-Galvanised & Hot-Dip Galvanised"],
+          ["Flange Heights", "25mm, 50mm, 75mm Heavy Flange"],
+          ["Perforations", "Staggered Slots for Rapid Cable Ties"],
+          ["Accessories", "90° Bends, Tees, Reducers & Couplers"],
+        ],
+      },
+      {
+        name: "Marshall-Tufflex Fast-Fit Moulded Accessories & Boxes",
+        model: "MT Fast-Fit Component Range",
+        cat: "Containment Accessories",
+        desc: "Surface mounting switch boxes, ceiling roses, conduit adaptors, and joint covers manufactured to rigorous British Standards.",
+        image: "/images/products/containment_fittings.jpeg",
+        specs: [
+          ["Components", "Switch Boxes, Couplers, Adaptors"],
+          ["Knockouts", "20mm & 25mm Pre-scored Ports"],
+          ["Material", "Rigid Flame-Retardant Thermoplastic"],
+          ["Certification", "BS 4607 Part 1 Approved"],
+        ],
+      },
+    ],
   },
   {
     slug: "orient-electric",
+    aliases: ["orient"],
     name: "Orient Electric",
     init: "OE",
     cat: "Ventilation & Fans",
-    desc: "Orient Electric offers a wide range of high-quality fans and air-circulation solutions for residential, commercial, and industrial applications. The range includes ceiling fans, wall fans, exhaust fans, pedestal fans, and energy-efficient smart fan solutions, combining modern design, powerful airflow, energy efficiency, quiet operation, and reliable long-lasting performance.",
+    tagline: "Next-Gen Air Circulation, Energy-Saving Fans & Domestic Solutions",
+    catalogueTitle: "Orient Electric Ventilation, Fans & Electricals Catalogue",
+    desc: "Orient Electric delivers trusted air circulation and ventilation equipment engineered for tropical climates. The catalogue features high-efficiency ceiling fans, heavy-duty industrial wall and pedestal fans, exhaust louvers, and smart BLDC inverter motors designed for whisper-quiet operation, maximum airflow delivery, and outstanding energy savings.",
     logo: "/images/brands/orient_electric.jpg",
+    highlights: [
+      "High Air Delivery (CMM) with Aerodynamic Blades",
+      "Energy-Efficient BLDC Motor Inverter Technology",
+      "Double Ball-Bearing Construction for Durability",
+      "Supplied Complete with Genuine Regulators & Downrods",
+    ],
+    rangeItems: [
+      "High-Speed Commercial & Domestic Ceiling Fans (48\" / 56\")",
+      "Industrial Heavy-Duty Wall Mount & Pedestal Fans",
+      "High-Capacity Kitchen & Bathroom Exhaust Fans",
+      "Inverter Energy-Saver Smart Remote Fans",
+      "Commercial Air Curtains & Ventilation Blowers",
+      "Solid-State Fan Step Regulators & Accessories",
+    ],
+    products: [
+      {
+        name: "Orient High-Speed Commercial Ceiling Fans (48\" / 56\")",
+        model: "Summer Pride & Summer Crown",
+        cat: "Ceiling Fans",
+        desc: "Heavy-duty 100% copper wound ceiling fans with double ball-bearing construction and aerodynamic aluminium blades for maximum air delivery.",
+        image: "/images/products/ventilation_fans.png",
+        specs: [
+          ["Motor", "100% Pure Copper Wound"],
+          ["Bearings", "Double Ball-Bearing Silent Running"],
+          ["Air Delivery", "230 CMM at 380 RPM"],
+          ["Blades", "Corrosion-Resistant Aluminium"],
+        ],
+      },
+      {
+        name: "Orient Heavy-Duty Industrial Wall & Pedestal Fans",
+        model: "Tornado & Windstorm (18\" – 30\")",
+        cat: "Industrial Fans",
+        desc: "High-velocity air circulation fans with 90° motorized oscillation and thermal overload protected motors for factories and workshops.",
+        image: "/images/products/ventilation_fans.png",
+        specs: [
+          ["Sizes", "18\", 24\", 30\" Heavy-Duty Fans"],
+          ["Oscillation", "90° Motorized Wide Sweep"],
+          ["Speed Control", "3-Speed Rotary with Thermal Fuse"],
+          ["Guard", "Close-Mesh Finger-Proof Wire Guard"],
+        ],
+      },
+      {
+        name: "Orient High-Capacity Louver Exhaust Fans",
+        model: "Hill Air & Ventilator Dx",
+        cat: "Exhaust Fans",
+        desc: "Corrosion-proof ABS plastic exhaust fans with automatic gravity backdraft louvers and dynamically balanced whisper-quiet impellers.",
+        image: "/images/products/ventilation_fans.png",
+        specs: [
+          ["Sizes", "6\", 8\", 9\", 12\" Duct & Wall Models"],
+          ["Shutter", "Automatic Gravity Back-Draft Louvers"],
+          ["Body", "Rust-Proof High-Impact ABS Housing"],
+          ["Sound Level", "Whisper-Quiet Operation"],
+        ],
+      },
+      {
+        name: "Orient Smart BLDC Inverter Energy-Saver Ceiling Fans",
+        model: "Ecogale / Aeroslim BLDC",
+        cat: "Inverter BLDC Fans",
+        desc: "Next-gen BLDC inverter ceiling fan consuming only 28W at top speed with intelligent RF remote controller and 3x longer battery backup runtime.",
+        image: "/images/products/ventilation_fans.png",
+        specs: [
+          ["Power Draw", "Only 28W (50% Energy Savings)"],
+          ["Control", "Smart RF Remote with Timer Modes"],
+          ["Voltage Range", "Operates Smoothly 120V – 280V"],
+          ["Backup Runtime", "3x Longer on Solar/Inverter Backup"],
+        ],
+      },
+      {
+        name: "Orient Commercial Air Curtains & Ventilation Blowers",
+        model: "Orient AirShield (3ft / 4ft / 5ft)",
+        cat: "Air Curtains",
+        desc: "Twin-shaft high velocity air curtains creating an invisible thermal and dust barrier across retail, hotel, and hospital entrances.",
+        image: "/images/products/ventilation_fans.png",
+        specs: [
+          ["Air Velocity", "15 – 18 m/s Barrier Velocity"],
+          ["Motors", "Twin-Shaft Dual Centrifugal Blowers"],
+          ["Applications", "Entrances, Cold Storage, Hospitals"],
+          ["Control", "Hi/Low Airflow with Magnetic Switch"],
+        ],
+      },
+      {
+        name: "Orient Solid-State Step Fan Speed Regulators",
+        model: "5-Step Electronic Regulators",
+        cat: "Fan Regulators",
+        desc: "Capacitor-based hum-free electronic fan speed regulators tested for over 10,000 switching operations with smooth rotary control.",
+        image: "/images/products/smart_controls.jpeg",
+        specs: [
+          ["Step Control", "5-Step Micro-Capacitor Regulation"],
+          ["Hum-Free", "Zero Hum or Buzzing Noise on Motor"],
+          ["Format", "1-Module & 2-Module Grid Sizing"],
+          ["Durability", "10,000 Step Switching Cycles Tested"],
+        ],
+      },
+    ],
   },
   {
     slug: "rr-electric",
+    aliases: ["rr-kabel", "rr-global", "rr"],
     name: "RR Electric",
     init: "RR",
     cat: "Cables & Wires",
-    desc: "RR Motor Rewinding Wire offers high-quality enameled copper winding wires designed for motors, transformers, pumps, and other electrical equipment. The wires provide excellent conductivity, thermal resistance, insulation, and reliable performance in demanding applications, and are available in various sizes and insulation grades to ensure efficient motor operation, durability, and long service life.",
+    tagline: "Specialist Copper Winding Wires & Motor Rewinding Materials",
+    catalogueTitle: "RR Electric Motor Rewinding Wire & Magnetics Catalogue",
+    desc: "RR Electric produces high-purity enameled copper winding wires designed specifically for rewinding motors, transformers, submersible pumps, and heavy industrial coils. With superior thermal index ratings and dual-coat insulation, RR wires provide reliable electrical conductivity, high breakdown voltage, and extended service life under continuous thermal stress.",
     logo: "/images/brands/rr.png",
+    highlights: [
+      "99.99% Pure High-Conductivity Electrolytic Copper",
+      "Dual-Coated Enamel Insulation (Class H / 200°C Rated)",
+      "High Dielectric Breakdown Strength & Flexibility",
+      "Supplied in Full Standard Reels from SWG 14 to SWG 40",
+    ],
+    rangeItems: [
+      "Super Enameled Copper Magnet Wire (SWG 14 to SWG 40)",
+      "Submersible Pump Motor Winding Wires with Poly Wrap",
+      "High-Temperature Insulating Nomex & Kraft Paper",
+      "Class H Air-Drying & Baking Motor Insulating Varnishes",
+      "Heat-Resistant Fibreglass Sleevings & Binding Tapes",
+      "Enameled Aluminium Winding Wires for Distribution Units",
+    ],
+    products: [
+      {
+        name: "RR Super Enameled Copper Magnet Wire (SWG 14 – SWG 40)",
+        model: "RR Dual-Coat Class H (200°C)",
+        cat: "Winding Wires",
+        desc: "High-purity 99.99% electrolytic copper winding wire with modified polyester base and polyamideimide overcoat for electric motor and transformer rewinding.",
+        image: "/images/products/cables-wires.png",
+        specs: [
+          ["Copper Purity", "99.99% Electrolytic Pure Copper"],
+          ["Enamel Topcoat", "Polyester Base + Polyamideimide"],
+          ["Thermal Index", "Class H 200°C High Thermal Withstand"],
+          ["Sizes Available", "SWG 14 (2.0mm) to SWG 40 (0.12mm)"],
+        ],
+      },
+      {
+        name: "RR Submersible Pump Motor Poly-Winding Wire",
+        model: "RR Poly-Wrap Motor Wire",
+        cat: "Submersible Wire",
+        desc: "Multi-layer biaxially oriented polypropylene (BOPP) insulated copper wire impervious to continuous water submersion in borehole pumps.",
+        image: "/images/products/cable_standards.jpeg",
+        specs: [
+          ["Insulation", "Multi-Layer Biaxially Oriented PP"],
+          ["Waterproof", "100% Continuous Water Submersion"],
+          ["Dielectric", "Breakdown Voltage over 5kV"],
+          ["Applications", "Submersible Borehole & Sump Pumps"],
+        ],
+      },
+      {
+        name: "RR Class H Motor Insulating Baking & Air-Drying Varnishes",
+        model: "RR-Varn Class H Resin",
+        cat: "Insulating Varnishes",
+        desc: "High-dielectric strength insulating varnishes providing superior moisture sealing, chemical resistance, and thermal stability for rewound armatures.",
+        image: "/images/products/motor_control_panel.jpeg",
+        specs: [
+          ["Drying Types", "Quick Air-Drying & Oven-Baking"],
+          ["Bonding Strength", "High Mechanical Strength at 180°C+"],
+          ["Sealing", "Moisture, Chemical & Acid Resistant"],
+          ["Packaging", "1L, 5L, 20L Sealed Metal Cans"],
+        ],
+      },
+      {
+        name: "RR Nomex & Kraft Insulating Paper Sheets & Slot Liners",
+        model: "DuPont Nomex & Pressboard",
+        cat: "Slot Insulation",
+        desc: "High-temperature Nomex-Mylar-Nomex (NMN) composite paper sheets engineered for high dielectric puncture resistance in stator slots.",
+        image: "/images/products/control_cabinet.jpeg",
+        specs: [
+          ["Materials", "Nomex-Mylar-Nomex (NMN) & Pressboard"],
+          ["Thickness", "0.13mm, 0.18mm, 0.25mm, 0.35mm"],
+          ["Dielectric Barrier", "High Dielectric Puncture Resistance"],
+          ["Usage", "Armature Slot Liners & Phase Barriers"],
+        ],
+      },
+      {
+        name: "RR Silicone Coated Fibreglass Sleevings (1kV – 4kV)",
+        model: "Silicone Glass Fibre Sleeves",
+        cat: "Insulating Sleevings",
+        desc: "Flexible, non-fraying Class H thermal insulating glass fibre sleevings for motor lead out wires, terminal joints, and transformer taps.",
+        image: "/images/products/cable_termination_glands.jpeg",
+        specs: [
+          ["Withstand Voltage", "1.5kV to 4.0kV Dielectric Strength"],
+          ["Thermal Rating", "Class H (200°C Operating Temperature)"],
+          ["Diameters", "1.0mm to 25.0mm Inner Diameter"],
+          ["Flexibility", "Non-Fraying Flame-Retardant Sleeve"],
+        ],
+      },
+      {
+        name: "RR Enameled Aluminium Winding Wires",
+        model: "RR Enameled Aluminium Wire",
+        cat: "Aluminium Magnet Wire",
+        desc: "Lightweight high-conductivity EC grade aluminium magnet wire offering 50% weight reduction for distribution transformers and welders.",
+        image: "/images/products/cables-wires.png",
+        specs: [
+          ["Conductivity", "High-Purity EC Grade Aluminium"],
+          ["Weight Saving", "50% Lighter than Copper Equivalent"],
+          ["Thermal Class", "Class F (155°C) & Class H (180°C)"],
+          ["Applications", "Distribution Transformers & Welders"],
+        ],
+      },
+    ],
   },
   {
     slug: "sollatek",
     name: "Sollatek",
     init: "SO",
     cat: "Power Protection",
-    desc: "Sollatek Protection provides reliable power protection and voltage regulation solutions for residential, commercial, and industrial applications. The range includes voltage stabilizers, surge protectors, automatic voltage switches, power conditioners, and specialized protection systems, helping protect sensitive electrical and electronic equipment from voltage fluctuations, surges, spikes, and unstable power.",
+    tagline: "World-Class Voltage Regulation & Automatic Power Protection",
+    catalogueTitle: "Sollatek Voltage Regulators & Power Protection Catalogue",
+    desc: "Sollatek is the internationally renowned pioneer in power protection and voltage regulation. Engineered specifically to protect delicate appliances, commercial IT networks, and industrial machinery from East Africa's grid voltage spikes, brownouts, and lightning surges, the Sollatek catalogue at A1 Electricals delivers complete peace of mind.",
     logo: "/images/brands/sollatek.jpeg",
+    highlights: [
+      "Microprocessor-Controlled AVS Voltage Disconnect",
+      "Surge & Spike Suppression with Spike Protection",
+      "Single & Three-Phase Heavy Duty Protection",
+      "Genuine UK Engineering with Comprehensive Warranty",
+    ],
+    rangeItems: [
+      "Automatic Voltage Switchers (AVS13, AVS30, AVS3P)",
+      "FridgeGuard, TVGuard & Air Conditioner Surge Protectors",
+      "Single-Phase Automatic Voltage Regulators (AVR 1kVA – 10kVA)",
+      "Three-Phase Commercial Voltage Stabilizers (up to 100kVA+)",
+      "Main Panelboard Lightning & Surge Protection Devices (SPDs)",
+      "Solar Charge Inverters & Battery Power Backup Systems",
+    ],
+    products: [
+      {
+        name: "Sollatek Automatic Voltage Switchers (AVS13, AVS30, AVS3P)",
+        model: "AVS Micro / AVS30 / AVS3P-0",
+        cat: "Voltage Switchers",
+        desc: "Microprocessor-controlled high/low voltage disconnect units with selectable intelligent startup delay timers to protect AC units, motors, and commercial appliances.",
+        image: "/images/products/power-protection.png",
+        specs: [
+          ["Ratings", "13A Plug-in, 30A Terminal, 3-Phase Contactor"],
+          ["Protection", "Under/Over Voltage, Spikes & Surges"],
+          ["Startup Delay", "Selectable 10s / 1min / 3min Delay"],
+          ["Microprocessor", "Digital Voltage Sensor Circuit"],
+        ],
+      },
+      {
+        name: "Sollatek FridgeGuard, TVGuard & Voltshield Protectors",
+        model: "Sollatek Consumer Guards",
+        cat: "Appliance Protection",
+        desc: "Plug-and-play surge and under-voltage protectors engineered to safeguard domestic and office electronic appliances against grid voltage dips.",
+        image: "/images/products/smart_controls.jpeg",
+        specs: [
+          ["Applications", "Fridges, Freezers, LED TVs, Hi-Fi"],
+          ["Response Time", "Instantaneous Sub-Nanosecond Clamp"],
+          ["Surge Energy", "High Joule Metal Oxide Varistor (MOV)"],
+          ["Warranty", "Full Sollatek Official Warranty"],
+        ],
+      },
+      {
+        name: "Sollatek Single-Phase Automatic Voltage Regulators (AVR)",
+        model: "Sollatek AVR 1kVA – 10kVA",
+        cat: "Voltage Regulators",
+        desc: "Rapid electronic step-regulation voltage stabilizers providing steady 230V ± 4% output from unstable grid supplies without mechanical wear.",
+        image: "/images/products/distribution_transformer.jpeg",
+        specs: [
+          ["Input Range", "Wide 140V – 280V Grid Input"],
+          ["Output Voltage", "Stable 230V ± 4% Regulated AC"],
+          ["Efficiency", "High Efficiency Toroidal Auto-Transformer"],
+          ["Cooling", "Convection Natural Air Cooled Silent Run"],
+        ],
+      },
+      {
+        name: "Sollatek Three-Phase Commercial Voltage Stabilizers",
+        model: "Sollatek 3-Phase AVR (up to 100kVA+)",
+        cat: "Commercial Stabilizers",
+        desc: "Independent 3-phase microprocessor-controlled voltage stabilizers with auto and manual maintenance bypass for commercial facilities and hospitals.",
+        image: "/images/products/medium_voltage_switchgear.jpeg",
+        specs: [
+          ["Phase Control", "Individual Regulation Across Unbalanced Phases"],
+          ["Bypass Mechanism", "Integrated Auto & Manual Bypass"],
+          ["Digital Metering", "LED Screen for Input/Output V & I"],
+          ["Applications", "Hospitals, Telecom, Commercial Blocks"],
+        ],
+      },
+      {
+        name: "Sollatek Main Panelboard Type 1+2 Lightning Surge Arresters",
+        model: "DSP Series Panel SPDs",
+        cat: "Surge Protection Devices",
+        desc: "DIN-rail modular main incomer surge protection devices (SPDs) with volt-free remote signaling contact and high discharge capacity.",
+        image: "/images/products/lightning_protection.jpeg",
+        specs: [
+          ["Discharge Current", "Imax up to 50kA / 100kA (8/20µs)"],
+          ["Mounting", "DIN Rail Modular Incomer SPD"],
+          ["Remote Signaling", "Volt-Free Dry Contact for Telemetry"],
+          ["Standards", "IEC 61643-11 & BS EN 62305"],
+        ],
+      },
+      {
+        name: "Sollatek Solar Charge Controllers & Pure Sine Wave Inverters",
+        model: "Sollatek PowerMaster Inverters",
+        cat: "Solar & Inverters",
+        desc: "High-efficiency MPPT solar inverters with pure sine wave output (<3% THD) supporting lithium and deep-cycle AGM batteries.",
+        image: "/images/products/solar_system.jpeg",
+        specs: [
+          ["Waveform", "Pure Sine Wave Output (<3% THD)"],
+          ["Charge Control", "High-Efficiency MPPT Solar Tracking"],
+          ["Battery System", "12V / 24V / 48V Lithium & AGM"],
+          ["Display", "Interactive LCD System Status Monitor"],
+        ],
+      },
+    ],
   },
   {
     slug: "eaton",
     name: "Eaton",
     init: "EA",
     cat: "Security & Fire Alarms",
-    desc: "Eaton Fire Alarm Systems provide reliable fire detection, alarm, and life-safety solutions for residential, commercial, and industrial buildings. The range includes fire alarm panels, detectors, sounders, manual call points, modules, emergency signaling, and system accessories, offering fast detection, dependable performance, easy integration, and enhanced safety for complete fire protection systems.",
-    logo: "/images/eaton.jpeg",
+    tagline: "Intelligent Power Management & Life-Safety Fire Systems",
+    catalogueTitle: "Eaton Fire Alarms, Life Safety & Protection Catalogue",
+    desc: "Eaton life-safety and power management systems protect commercial, residential, and industrial facilities with certified fire detection and power control technology. The Eaton catalogue includes addressable and conventional fire alarm panels, optical smoke detectors, manual call points, sounder beacons, and emergency lighting systems built to rigorous EN 54 safety standards.",
+    logo: "/images/brands/eaton.png",
+    highlights: [
+      "Certified to International EN 54 & BS 5839 Fire Standards",
+      "Scalable from Small Retail to Multi-Storey Commercial",
+      "Low False Alarm Rates with Intelligent Optical Sensing",
+      "Complete Range of Spares, Detectors & Panels in Kampala",
+    ],
+    rangeItems: [
+      "Conventional 2, 4 & 8-Zone Fire Alarm Control Panels",
+      "Analogue Addressable Fire Alarm Panels & Repeater Boards",
+      "Optical Smoke, Multi-Criteria & Heat Detectors",
+      "Manual Break-Glass Call Points & Combined Sounder Beacons",
+      "Fire-Resistant Cables, Isolator Bases & Loop Modules",
+      "Emergency Exit Signage & Maintained Battery Luminaires",
+    ],
+    products: [
+      {
+        name: "Eaton Conventional 2, 4 & 8-Zone Fire Alarm Panels",
+        model: "FX2200 / CF3000 Series",
+        cat: "Conventional Fire Panels",
+        desc: "Certified EN 54-2/4 conventional fire alarm control panels with integral power supply, battery charger, and line monitoring for sounder circuits.",
+        image: "/images/products/fire_alarms.png",
+        specs: [
+          ["Zones", "2, 4, 8 Zone Control Assemblies"],
+          ["Sounder Circuits", "Dual Monitored Lines (1.6A Total)"],
+          ["Batteries", "Built-in Standby Battery Charger"],
+          ["Certification", "EN 54-2 & EN 54-4 Approved"],
+        ],
+      },
+      {
+        name: "Eaton Analogue Addressable Fire Alarm Loop Panels",
+        model: "CF1000 / DF6000 Loop System",
+        cat: "Addressable Fire Panels",
+        desc: "Intelligent addressable fire alarm panels supporting up to 200 devices per loop with backlit graphic LCD display and networkability up to 126 panels.",
+        image: "/images/products/control_cabinet.jpeg",
+        specs: [
+          ["Loop Capacity", "1 to 4 Loops (200 Devices/Loop)"],
+          ["Networkable", "Up to 126 Panels via RS485"],
+          ["Screen", "Backlit Graphic LCD Operator Display"],
+          ["Soft Addressing", "Automated Device Address Allocation"],
+        ],
+      },
+      {
+        name: "Eaton Optical Smoke & Multi-Criteria Heat Detectors",
+        model: "FXN Series (Optical & Thermal)",
+        cat: "Fire Detectors",
+        desc: "Dual-angle optical chamber smoke and thermal heat detectors with dust accumulation compensation to minimize false alarms.",
+        image: "/images/products/industrial_sensors.jpeg",
+        specs: [
+          ["Chamber", "Precision Optical Scattering Chamber"],
+          ["Heat Sensor", "Class A1R Rate-of-Rise & Fixed Thermal"],
+          ["Drift Compensation", "Automatic Dust Compensation"],
+          ["Base Type", "Standard 2-Wire & Relay Base Options"],
+        ],
+      },
+      {
+        name: "Eaton Manual Break-Glass Call Points & Sounders",
+        model: "Menvier & Rooperlite Series",
+        cat: "Call Points & Sounders",
+        desc: "High-visibility red break-glass manual emergency triggers and high-output 106 dB(A) combined sounder beacons with IP65 outdoor variants.",
+        image: "/images/products/emergency_backup.jpeg",
+        specs: [
+          ["Ingress Rating", "IP24D Indoor & IP67 Weatherproof"],
+          ["Audible Output", "Up to 106 dB(A) Multi-Tone Sounder"],
+          ["Beacon", "High-Intensity Red Xenon / LED Flasher"],
+          ["Standard", "EN 54-11 & EN 54-3 Certified"],
+        ],
+      },
+      {
+        name: "Eaton Fire-Resistant FP200 Gold Alarm Cables",
+        model: "FP200 Gold (1.5mm² – 2.5mm²)",
+        cat: "Fire Rated Cables",
+        desc: "Certified 30/60-minute fire integrity cables with Insudite fire-resistant insulation and low smoke zero halogen (LSZH) outer sheath.",
+        image: "/images/products/cable_standards.jpeg",
+        specs: [
+          ["Fire Integrity", "30 & 60 Min Fire Survival (BS 5839)"],
+          ["Conductor", "Plain Annealed Solid Copper (1.5 – 2.5mm²)"],
+          ["Insulation", "Insudite High-Performance Fire Barrier"],
+          ["Sheath", "Low Smoke Zero Halogen (LSZH) Red/White"],
+        ],
+      },
+      {
+        name: "Eaton Emergency Exit Signage & Maintained Luminaires",
+        model: "Briteloop & SafeLite Series",
+        cat: "Emergency Lighting",
+        desc: "Self-contained maintained LED emergency luminaires providing 3 hours of illumination upon mains power failure with 24m/32m viewing distance.",
+        image: "/images/products/linear_luminaires.jpeg",
+        specs: [
+          ["Battery Autonomy", "3 Hours Maintained Emergency Backup"],
+          ["Battery Cells", "High-Temperature Ni-Cd / LiFePO4"],
+          ["Viewing Distance", "24m & 32m ISO Exit Sign Legends"],
+          ["Compliance", "EN 60598-2-22 & BS 5266 Verified"],
+        ],
+      },
+    ],
   },
   {
     slug: "neelkanth-cables",
+    aliases: ["neelkanth"],
     name: "Neelkanth Cables",
     init: "NC",
     cat: "Cables & Wires",
-    desc: "Neelkanth Cable offers a complete range of wires and cables for house, commercial and factory wiring. PVC/XLPE insulated, copper and aluminium cables, including single, multicore and flexible types, plus armoured and power cables for safe, reliable and long-lasting electrical installations. Cable glands in brass, nickel-plated brass and other types are supplied for safe cable entry and protection.",
+    tagline: "Heavy-Duty Armoured, Power & Building Installation Cables",
+    catalogueTitle: "Neelkanth Heavy Duty Power, Armoured & Building Cable Catalogue",
+    desc: "Neelkanth Cables produces high-conductivity copper and aluminium power cables manufactured to BS 5467, BS 6004, and UNBS standards. Sourced through A1 Electricals, the catalogue features single-core building wires, flexible multi-core cables, steel wire armoured (SWA) underground feeders, and complete cable gland and lug accessories for secure terminations.",
     logo: "/images/brands/neelkanth.png",
+    highlights: [
+      "100% Annealed Electrolytic Pure Copper Conductors",
+      "UNBS & BS 5467 / BS 6004 Standards Certified",
+      "Steel Wire Armoured (SWA) Underground Mechanical Protection",
+      "Custom Meterage Cut-to-Length & Bulk Drum Supply",
+    ],
+    rangeItems: [
+      "Single Core Building Wires (1.5mm² – 16mm² Cu/PVC)",
+      "Flat Twin & Earth / 3-Core Flexible Cables",
+      "Steel Wire Armoured (SWA) Multi-Core Power Cables (up to 300mm²)",
+      "Aluminium XLPE Low Voltage Underground Feeder Cables",
+      "Heavy Duty Brass Cable Glands (Indoor BW & Outdoor CW IP66)",
+      "Tinned Copper Cable Lugs, Ferrules & Heat Shrink Shrouds",
+    ],
+    products: [
+      {
+        name: "Neelkanth Single Core PVC Building Wires (1.5mm² – 16mm²)",
+        model: "Cu/PVC 450/750V (BS 6004)",
+        cat: "Building Wires",
+        desc: "High-conductivity pure annealed electrolytic copper conductors with flame-retardant grade TI 1 PVC insulation for conduit wiring.",
+        image: "/images/products/cables-wires.png",
+        specs: [
+          ["Conductor", "100% Pure Annealed Electrolytic Copper"],
+          ["Insulation", "Grade TI 1 Flame-Retardant PVC"],
+          ["Voltage Rating", "450/750V AC Rated"],
+          ["Standards", "UNBS Certified & BS 6004 Compliant"],
+        ],
+      },
+      {
+        name: "Neelkanth Flat Twin & Earth 3-Core Domestic Cables",
+        model: "6242Y Twin & Earth (1.5mm² – 6mm²)",
+        cat: "Domestic Cables",
+        desc: "Grey PVC sheathed multi-conductor domestic cables with integrated bare circuit protective conductor (CPC) for domestic circuits.",
+        image: "/images/products/cable_standards.jpeg",
+        specs: [
+          ["Construction", "2 Insulated Cores + Bare CPC Wire"],
+          ["Sheath", "Grey Flame-Retardant PVC Compound"],
+          ["Voltage Rating", "300/500V Domestic Installation"],
+          ["Applications", "Concealed Conduit & Dry Plaster Wiring"],
+        ],
+      },
+      {
+        name: "Neelkanth Steel Wire Armoured (SWA) Power Cables",
+        model: "BS 5467 XLPE/SWA/PVC 0.6/1kV",
+        cat: "Armoured Power Cables",
+        desc: "Galvanized steel wire armoured multi-core power cables (up to 300mm²) providing heavy mechanical impact protection for direct burial.",
+        image: "/images/wires-and-cables.webp",
+        specs: [
+          ["Cores & Sizes", "2, 3, 4-Core (4mm² up to 300mm²)"],
+          ["Armour Shield", "Galvanized Steel Wire (SWA) Armor"],
+          ["Insulation", "Cross-Linked Polyethylene (XLPE 90°C)"],
+          ["Installation", "Direct Underground Burial & Trays"],
+        ],
+      },
+      {
+        name: "Neelkanth Aluminium XLPE Low Voltage Feeder Cables",
+        model: "Al/XLPE/PVC (16mm² – 400mm²)",
+        cat: "Aluminium Feeders",
+        desc: "High-conductivity EC grade aluminium low voltage feeder cables providing a lightweight, cost-effective solution for long distribution runs.",
+        image: "/images/products/cables-wires.png",
+        specs: [
+          ["Conductor", "EC Grade High-Conductivity Aluminium"],
+          ["Cost Saving", "Economical Main Incomer Feeders"],
+          ["Insulation", "90°C Operating Temperature XLPE"],
+          ["Standards", "IEC 60502-1 & BS 5467 Specifications"],
+        ],
+      },
+      {
+        name: "Neelkanth Heavy Duty Flexible Rubber Trailing Cables",
+        model: "HO7RN-F Heavy Duty Elastomer",
+        cat: "Flexible Cables",
+        desc: "Oil, grease, and weather-resistant flexible rubber cables with Class 5 copper conductors for generators, submersible pumps, and cranes.",
+        image: "/images/products/cable_termination_glands.jpeg",
+        specs: [
+          ["Outer Jacket", "Heavy Oil-Resistant Polychloroprene"],
+          ["Flexibility", "Class 5 Extra-Fine Copper Strands"],
+          ["Applications", "Boreholes, Generators, Cranes"],
+          ["Temperature", "-25°C to +85°C Operating Range"],
+        ],
+      },
+      {
+        name: "Neelkanth Heavy Duty Brass Cable Glands & Crimp Lugs",
+        model: "BW (Indoor) & CW (Outdoor IP66) Glands",
+        cat: "Cable Termination",
+        desc: "Precision threaded brass cable glands and heavy-duty electrolytic tinned copper crimp lugs with complete earth tags and shrouds.",
+        image: "/images/products/cable_termination_glands.jpeg",
+        specs: [
+          ["Gland Types", "BW Indoor & CW Outdoor IP66"],
+          ["Crimp Lugs", "Tinned Electrolytic Copper Lugs"],
+          ["Sizes", "Glands 20mm–90mm; Lugs up to 500mm²"],
+          ["Accessories", "Earth Tags, PVC Shrouds & Locknuts"],
+        ],
+      },
+    ],
   },
   {
     slug: "servo-stabilizers",
     name: "Servo Stabilizers",
     init: "SV",
     cat: "Power Protection",
-    desc: "Servo Automatic Voltage Stabilizers protect appliances and electrical equipment against high and low voltage fluctuations, providing stable output voltage with overload and short-circuit protection for reliable operation.",
+    tagline: "High-Precision Motorized Voltage Regulators for Demanding Loads",
+    catalogueTitle: "Servo Industrial Automatic Voltage Stabilizers Catalogue",
+    desc: "Servo Automatic Voltage Regulators are heavy-duty, motorized voltage stabilizers designed to safeguard industrial machinery, medical equipment, printing presses, and commercial facilities against extreme voltage fluctuations. Featuring fast servo motor response, precision voltage correction (±1%), and robust overload protection, Servo stabilizers deliver steady, reliable power across unpredictable grids.",
     logo: null,
+    highlights: [
+      "Ultra-Precise Voltage Output Regulation (±1% Accuracy)",
+      "High Overload Capacity & Built-in Automatic Bypass",
+      "Air-Cooled and Oil-Cooled Industrial Configurations",
+      "Phase-Failure, Under/Over Voltage Electronic Interlocks",
+    ],
+    rangeItems: [
+      "Single-Phase Servo Voltage Stabilizers (5kVA – 20kVA)",
+      "Three-Phase Air-Cooled Servo Stabilizers (30kVA – 150kVA)",
+      "Oil-Cooled Heavy Industrial Servo Stabilizers (200kVA – 1000kVA)",
+      "Digital Output Metering & Auto/Manual Bypass Panels",
+      "Heavy-Duty Copper Toroidal Variable Autotransformers",
+      "Tailored Power Conditioning for Hospitals & Processing Plants",
+    ],
+    products: [
+      {
+        name: "Servo Single-Phase Automatic Voltage Stabilizers (5kVA – 20kVA)",
+        model: "SVC Series (5kVA, 10kVA, 15kVA, 20kVA)",
+        cat: "Single-Phase Stabilizers",
+        desc: "Motorized copper toroidal variac voltage stabilizers delivering ultra-precise 230V ± 1% regulated output across severe 130V–270V grid fluctuations.",
+        image: "/images/products/distribution_transformer.jpeg",
+        specs: [
+          ["Input Range", "Wide 130V – 270V Single Phase"],
+          ["Output Accuracy", "Ultra-Precise 230V ± 1% Output"],
+          ["Motor Drive", "High-Torque AC Servo Motor Drive"],
+          ["Display", "Dual Digital Meters for Input/Output V"],
+        ],
+      },
+      {
+        name: "Servo Three-Phase Air-Cooled Industrial Stabilizers",
+        model: "SBW Series (30kVA to 150kVA)",
+        cat: "3-Phase Air-Cooled",
+        desc: "Individual phase regulation for unbalanced loads with digital multimeter monitoring, automatic maintenance bypass, and >98% efficiency.",
+        image: "/images/products/medium_voltage_switchgear.jpeg",
+        specs: [
+          ["Input Range", "300V – 470V 3-Phase Grid Support"],
+          ["Phase Control", "Individual Regulation for Unbalanced Phases"],
+          ["Efficiency", "> 98% Ultra-High Operating Efficiency"],
+          ["Protection", "Over/Under Voltage, Phase Loss Interlocks"],
+        ],
+      },
+      {
+        name: "Servo Oil-Cooled Heavy Industrial Stabilizers",
+        model: "Heavy Industrial SBW-F (up to 1000kVA)",
+        cat: "Oil-Cooled Stabilizers",
+        desc: "Heavy-duty transformer oil cooled stabilizers built for 24/7 continuous operation in steel mills, manufacturing plants, and hospitals.",
+        image: "/images/products/distribution_transformer.jpeg",
+        specs: [
+          ["Cooling", "ONAN Transformer Oil Immersed Cooling"],
+          ["Duty Cycle", "24/7 Continuous Heavy Factory Duty"],
+          ["Tank", "Sealed Steel Tank with Oil Level Gauge"],
+          ["Applications", "Factories, Mills, Data Centers, Hospitals"],
+        ],
+      },
+      {
+        name: "Servo Digital Control & Protection Bypass Panelboards",
+        model: "Servo Auto/Manual Bypass Cabinet",
+        cat: "Stabilizer Bypass Panels",
+        desc: "Sheet steel interlocked maintenance bypass cabinets ensuring continuous uninterrupted factory operation during routine servicing.",
+        image: "/images/products/panelboard.jpeg",
+        specs: [
+          ["Bypass Type", "Mechanical & Electrical Interlocked"],
+          ["Switching", "Zero-Break Maintenance Changeover"],
+          ["Enclosure", "IP41 / IP54 Sheet Steel Enclosure"],
+          ["Metering", "Digital Multifunction Power Analyzer"],
+        ],
+      },
+      {
+        name: "Servo Toroidal Pure Copper Variable Autotransformers",
+        model: "Heavy Toroidal Variac Core",
+        cat: "Variac Assemblies",
+        desc: "High-permeability silicon steel CRGO toroidal cores wound with high-conductivity copper and long-life self-lubricating carbon brushes.",
+        image: "/images/products/distribution_transformer.jpeg",
+        specs: [
+          ["Conductor", "High-Grade Electrolytic Copper Toroid"],
+          ["Core", "High Permeability Silicon Steel CRGO"],
+          ["Carbon Brush", "Self-Lubricating Long Life Brush"],
+          ["Waveform", "Pure Sine Wave Zero Distortion"],
+        ],
+      },
+      {
+        name: "Servo Medical & Printing Precision Power Conditioners",
+        model: "Precision Hospital & Press Stabilizer",
+        cat: "Medical Power Conditioning",
+        desc: "Ultra-clean power conditioning units with ±0.5% regulation and built-in isolation transformers to protect CT scanners, MRI, and offset printing presses.",
+        image: "/images/products/power-protection.png",
+        specs: [
+          ["Applications", "CT Scanners, MRI, Heidelberg Presses"],
+          ["Regulation", "±0.5% Microprocessor Precision"],
+          ["Isolation", "Built-in Ultra-Isolation Transformer"],
+          ["Surge Suppression", "Class B+C Heavy Lightning SPDs"],
+        ],
+      },
+    ],
   },
 ];
 
-export const findBrand = (slug) => BRANDS.find((b) => b.slug === slug);
+export const findBrand = (slug) =>
+  BRANDS.find(
+    (b) =>
+      b.slug === slug ||
+      (Array.isArray(b.aliases) && b.aliases.includes(slug)) ||
+      (b.name && b.name.toLowerCase() === (slug || "").toLowerCase())
+  );
 
 export const PRODUCT_SUB_CATEGORIES = {
   "switchgear-protection-equipment": [
@@ -272,26 +1548,6 @@ export const PRODUCT_SUB_CATEGORIES = {
       image: "/images/products/cable_termination_glands.jpeg",
       content:
         "Available on 100m coils or 500m/1000m wooden drums, our cables are ready for immediate dispatch from our Kampala warehouse. Our technical staff provides voltage drop calculations, current-carrying capacity guidance, and correct gland/lug selection for your cable cross-section.",
-    },
-  ],
-  "wiring-accessories": [
-    {
-      heading: "Specialized Wiring Accessories & Dimmers",
-      image: "/images/products/wiring_accessories.jpeg",
-      content:
-        "Consumer-facing electrical accessories must combine internal electrical safety with clean visual design. Our specialized wiring accessory range includes electronic LED dimmers, 45A double-pole cooker control units, dual USB-A/C charging modules, shaver supply units, shaver sockets, and multi-gang grid switch assemblies.",
-    },
-    {
-      heading: "Modular Grid Systems & Decorative Finishes",
-      image: "/images/products/modular_grid.jpeg",
-      content:
-        "Built on flexible modular grid systems, our accessories enable custom plate configurations combining power, data, audio-visual, and switching points on a single faceplate. We supply durable white moulded polycarbonate ranges alongside high-end brushed steel, polished chrome, and heavy-duty metal-clad fittings for industrial workshops.",
-    },
-    {
-      heading: "Wiring Accessory Standards & Contractor Packs",
-      image: "/images/products.jpeg",
-      content:
-        "Compliant with BS EN standards and tested for high switching endurance, our wiring accessories are ideal for hotel fit-outs, commercial office blocks, and residential housing projects. We offer bulk contractor packs and matching accessories across complete interior ranges for aesthetic consistency.",
     },
   ],
   "switches-sockets": [
@@ -796,7 +2052,23 @@ export const PRODUCT_SUB_CATEGORIES = {
   ],
 };
 
-export function brandRangeItems(cat) {
+export function brandRangeItems(catOrBrand) {
+  if (catOrBrand && typeof catOrBrand === "object") {
+    if (Array.isArray(catOrBrand.rangeItems) && catOrBrand.rangeItems.length > 0) {
+      return catOrBrand.rangeItems;
+    }
+    if (catOrBrand.cat) {
+      return brandRangeItems(catOrBrand.cat);
+    }
+  }
+
+  const brand = BRANDS.find(
+    (b) => b.slug === catOrBrand || b.name === catOrBrand
+  );
+  if (brand && Array.isArray(brand.rangeItems) && brand.rangeItems.length > 0) {
+    return brand.rangeItems;
+  }
+
   const map = {
     "Switchgear Distribution": [
       "Circuit breakers",
@@ -846,14 +2118,75 @@ export function brandRangeItems(cat) {
       "Industrial electricals",
       "Protection relays",
     ],
+    "Cables & Wires": [
+      "Building wire",
+      "Armoured cable",
+      "Flexible cables",
+      "Cable glands & lugs",
+    ],
+    "Security & Fire Alarms": [
+      "Fire alarm panels",
+      "Smoke & heat detectors",
+      "Call points & sounders",
+      "Emergency lighting",
+    ],
+    "Ventilation & Fans": [
+      "Ceiling fans",
+      "Exhaust fans",
+      "Wall & pedestal fans",
+      "Air circulation units",
+    ],
   };
+
   return (
-    map[cat] || [
+    map[catOrBrand] || [
       "Electrical accessories",
       "Related components",
       "Genuine spare parts",
     ]
   );
+}
+
+export function slugify(text) {
+  return (text || "")
+    .toString()
+    .toLowerCase()
+    .trim()
+    .replace(/[^\w\s-]/g, "")
+    .replace(/[\s_-]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+export function findBrandProduct(brandOrSlug, productSlug) {
+  const brand =
+    typeof brandOrSlug === "string" ? findBrand(brandOrSlug) : brandOrSlug;
+  if (!brand || !Array.isArray(brand.products)) return null;
+  const target = (productSlug || "").toLowerCase();
+  return (
+    brand.products.find(
+      (p) =>
+        (p.slug && p.slug.toLowerCase() === target) ||
+        slugify(p.name) === target ||
+        slugify(p.model || "") === target ||
+        slugify(`${p.name}-${p.model || ""}`) === target
+    ) || null
+  );
+}
+
+export function getBrandProducts(brandOrSlug) {
+  if (!brandOrSlug) return [];
+  const brand =
+    typeof brandOrSlug === "string" ? findBrand(brandOrSlug) : brandOrSlug;
+  if (!brand) return [];
+
+  if (Array.isArray(brand.products) && brand.products.length > 0) {
+    return brand.products.map((p) => ({
+      ...p,
+      slug: p.slug || slugify(`${p.name}-${p.model || ""}`),
+    }));
+  }
+
+  return [];
 }
 
 export function getLeadingBrand(cat) {

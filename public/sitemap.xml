@@ -4,7 +4,6 @@
   <url><loc>https://a1electricalsltd.com/products</loc><priority>0.9</priority></url>
   <url><loc>https://a1electricalsltd.com/products/cables-wires</loc><priority>0.8</priority></url>
   <url><loc>https://a1electricalsltd.com/products/light-fittings-luminaires</loc><priority>0.8</priority></url>
-  <url><loc>https://a1electricalsltd.com/products/wiring-accessories</loc><priority>0.8</priority></url>
   <url><loc>https://a1electricalsltd.com/products/cable-trays-conduits</loc><priority>0.8</priority></url>
   <url><loc>https://a1electricalsltd.com/products/steel-cable-trunking</loc><priority>0.8</priority></url>
   <url><loc>https://a1electricalsltd.com/products/pvc-trunking-conduits</loc><priority>0.8</priority></url>
@@ -22,20 +21,21 @@
   <url><loc>https://a1electricalsltd.com/products/bespoke-requirements</loc><priority>0.8</priority></url>
   <url><loc>https://a1electricalsltd.com/brands</loc><priority>0.9</priority></url>
   <url><loc>https://a1electricalsltd.com/brands/abb</loc><priority>0.7</priority></url>
-  <url><loc>https://a1electricalsltd.com/brands/schneider-electric</loc><priority>0.7</priority></url>
-  <url><loc>https://a1electricalsltd.com/brands/havells</loc><priority>0.7</priority></url>
-  <url><loc>https://a1electricalsltd.com/brands/crabtree-electrical</loc><priority>0.7</priority></url>
-  <url><loc>https://a1electricalsltd.com/brands/thorn-lighting</loc><priority>0.7</priority></url>
-  <url><loc>https://a1electricalsltd.com/brands/osram</loc><priority>0.7</priority></url>
-  <url><loc>https://a1electricalsltd.com/brands/ledvance</loc><priority>0.7</priority></url>
-  <url><loc>https://a1electricalsltd.com/brands/philips-lighting</loc><priority>0.7</priority></url>
-  <url><loc>https://a1electricalsltd.com/brands/marshall-tufflex</loc><priority>0.7</priority></url>
-  <url><loc>https://a1electricalsltd.com/brands/sollatek</loc><priority>0.7</priority></url>
-  <url><loc>https://a1electricalsltd.com/brands/crompton-greaves</loc><priority>0.7</priority></url>
+  <url><loc>https://a1electricalsltd.com/brands/siemens</loc><priority>0.7</priority></url>
   <url><loc>https://a1electricalsltd.com/brands/larsen-toubro</loc><priority>0.7</priority></url>
+  <url><loc>https://a1electricalsltd.com/brands/vaf-power</loc><priority>0.7</priority></url>
+  <url><loc>https://a1electricalsltd.com/brands/philips-signify</loc><priority>0.7</priority></url>
+  <url><loc>https://a1electricalsltd.com/brands/ledvance</loc><priority>0.7</priority></url>
+  <url><loc>https://a1electricalsltd.com/brands/marshall-tufflex</loc><priority>0.7</priority></url>
+  <url><loc>https://a1electricalsltd.com/brands/orient-electric</loc><priority>0.7</priority></url>
+  <url><loc>https://a1electricalsltd.com/brands/rr-electric</loc><priority>0.7</priority></url>
+  <url><loc>https://a1electricalsltd.com/brands/sollatek</loc><priority>0.7</priority></url>
+  <url><loc>https://a1electricalsltd.com/brands/eaton</loc><priority>0.7</priority></url>
+  <url><loc>https://a1electricalsltd.com/brands/neelkanth-cables</loc><priority>0.7</priority></url>
+  <url><loc>https://a1electricalsltd.com/brands/servo-stabilizers</loc><priority>0.7</priority></url>
   <url><loc>https://a1electricalsltd.com/about</loc><priority>0.6</priority></url>
   <url><loc>https://a1electricalsltd.com/contact</loc><priority>0.8</priority></url>
   <url><loc>https://a1electricalsltd.com/customer-service</loc><priority>0.6</priority></url>
-  <url><loc>https://a1electricalsltd.com/ordering-delivery</loc><priority>0.6</priority></url>
+  <url><loc>https://a1electricalsltd.com/careers</loc><priority>0.6</priority></url>
   <url><loc>https://a1electricalsltd.com/privacy</loc><priority>0.3</priority></url>
 </urlset>
