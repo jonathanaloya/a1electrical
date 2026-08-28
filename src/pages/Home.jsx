@@ -4,11 +4,23 @@ import {
   SplitSection,
   SplitList,
   CtaStrip,
-  LogoRow,
   Statement,
 } from "../components/Shared.jsx";
-import { ArrowIcon, PlugIcon } from "../components/icons.jsx";
+import {
+  ArrowIcon,
+  ShieldCheckIcon,
+  BoxesIcon,
+  WarehouseIcon,
+  TagIcon,
+  HeadsetIcon,
+  TruckIcon,
+  SupportIcon,
+  WhatsAppIcon,
+  PhoneIcon,
+  PinIcon,
+} from "../components/icons.jsx";
 import { findProduct } from "../data/products.js";
+import { COMPANY } from "../data/company.js";
 
 const TILES = [
   { slug: "cables-cable-accessories", photo: "/images/banner.jpeg", bg: null },
@@ -29,6 +41,49 @@ const TILES = [
   },
 ];
 
+const WHY_CHOOSE_ITEMS = [
+  {
+    icon: ShieldCheckIcon,
+    tag: "01",
+    text: "Genuine branded products from trusted global and regional manufacturers",
+  },
+  {
+    icon: BoxesIcon,
+    tag: "02",
+    text: "Wide product range covering electrical, lighting, cables, switches, solar and more",
+  },
+  {
+    icon: WarehouseIcon,
+    tag: "03",
+    text: "Ready stock available at our Kampala showroom and warehouse",
+  },
+  {
+    icon: TagIcon,
+    tag: "04",
+    text: "Competitive and fair pricing for both individual and bulk requirements",
+  },
+  {
+    icon: HeadsetIcon,
+    tag: "05",
+    text: "Experienced team to assist with product selection and sourcing",
+  },
+  {
+    icon: WhatsAppIcon,
+    tag: "06",
+    text: "Fast and convenient ordering through WhatsApp, email and phone",
+  },
+  {
+    icon: TruckIcon,
+    tag: "07",
+    text: "Flexible collection and delivery options across Kampala and Uganda",
+  },
+  {
+    icon: SupportIcon,
+    tag: "08",
+    text: "Reliable after-sales service and ongoing customer support",
+  },
+];
+
 export default function Home() {
   return (
     <>
@@ -36,8 +91,9 @@ export default function Home() {
       <section className="tight">
         <div className="wrap">
           <p className="hero-statement">
-            A1 Electricals are Kampala's leading supplier and distributor of
-            Electrical and Lighting products across Uganda and East Africa
+            A1 Electricals is Kampala’s leading supplier and distributor of
+            electrical and lighting products, serving customers across Uganda
+            and the wider East African region.
           </p>
 
           <div className="promogrid">
@@ -53,9 +109,9 @@ export default function Home() {
               <div className="pbody">
                 <h3>Product Range</h3>
                 <p>
-                  We supply a comprehensive range of electrical products. Many
-                  are available from stock in our Kampala showroom and can be
-                  delivered quickly across Uganda.
+                  We supply a comprehensive range of electrical and lighting
+                  products, with many items readily available from stock at our
+                  Kampala showroom and fast delivery available across Uganda.
                 </p>
                 <Link to="/products" className="promo-btn">
                   View Products
@@ -74,9 +130,10 @@ export default function Home() {
               <div className="pbody">
                 <h3>Leading Brands</h3>
                 <p>
-                  A1 Electricals only supply products from leading manufacturers
-                  like ABB, Siemens and VAF Power so you can be confident they
-                  have been manufactured to the highest standards.
+                  A1 Electricals supplies products from leading manufacturers
+                  such as ABB, Siemens, Philips and VAF Power, giving you
+                  confidence in genuine, reliable products manufactured to the
+                  highest industry standards.
                 </p>
                 <Link to="/brands" className="promo-btn">
                   View Brands
@@ -95,9 +152,10 @@ export default function Home() {
               <div className="pbody">
                 <h3>About A1 Electricals</h3>
                 <p>
-                  With years of experience sourcing and supplying genuine
-                  electrical products to customers across Uganda, we are well
-                  placed to meet your needs.
+                  About A1 Electricals - With years of experience sourcing and
+                  supplying genuine electrical products across Uganda, A1
+                  Electricals is well positioned to understand your needs and
+                  deliver the right solutions with confidence.
                 </p>
                 <Link to="/about" className="promo-btn">
                   About A1 Electricals
@@ -120,27 +178,29 @@ export default function Home() {
         heading="Trusted Electrical Supplier"
       >
         <p>
-          A1 Electricals has been offering a comprehensive range of electrical
-          products to customers across Kampala and Uganda.
+          A1 Electricals has been supplying a comprehensive range of electrical
+          and lighting products to customers across Kampala and Uganda.
         </p>
         <p>
-          Supplying thousands of electrical and lighting products from leading
-          manufacturers, we have experience working with homeowners, contractors
-          and businesses of every size.
+          With thousands of products from leading manufacturers, we have
+          extensive experience serving industries, contractors, builders,
+          businesses and housing projects of every size.
         </p>
         <p>
-          Our prompt service, quality products and fair pricing are the reason
-          customers keep coming back to A1 Electricals for their electrical
-          supply needs.
+          Our commitment to prompt service, genuine quality products,
+          competitive pricing and, most importantly, reliable after-sales
+          support has made A1 Electricals a trusted choice for customers seeking
+          dependable electrical supply solutions.
         </p>
         <SplitList
           items={[
             <>
-              Wide range of electrical and <b>lighting products</b> available
-              from stock
+              Wide range of electrical and <b>lighting products</b> readily
+              available from stock
             </>,
-            "Genuine, branded products from trusted manufacturers",
-            "Team of experts available to help with sourcing and orders",
+            "Genuine, branded products from trusted leading manufacturers",
+            "Experienced team of professionals ready to assist with sourcing, product selection and orders",
+            "Convenient ordering through WhatsApp, email or phone, with flexible collection and delivery options",
           ]}
         />
         <p>
@@ -149,55 +209,102 @@ export default function Home() {
           <b>ordering service</b> — including orders placed over WhatsApp.
         </p>
       </SplitSection>
-
       <SplitSection
         reverse
         media={
           <img
-            src="/images/a1-storefront.webp"
+            src="/images/item_list.jpeg"
+            alt="After-Sales Services"
+            loading="lazy"
+            decoding="async"
+          />
+        }
+        heading="After-Sales Service"
+      >
+        <p>
+          Our relationship with customers does not end when the sale is
+          completed. At A1 Electricals, we take pride in providing reliable and
+          responsive after-sales service, ensuring our customers continue to
+          receive value, support and confidence in the products they purchase.
+        </p>
+        <p>
+          Our team is available to assist with product guidance, technical
+          support, warranty-related matters, troubleshooting and general
+          customer assistance whenever required. We work closely with our
+          customers and leading suppliers to address concerns efficiently and
+          provide practical solutions.
+        </p>
+        <p>
+          We believe that excellent after-sales service is an essential part of
+          building long-term customer relationships. Our commitment to
+          supporting customers beyond the point of purchase is one of the
+          reasons businesses and professionals continue to rely on A1
+          Electricals for their electrical supply needs.
+        </p>
+        <p>
+          Whatever electrical products you need, our team is ready to provide a
+          reliable, cost-effective and professional service — from helping you
+          select the right products to processing your order, arranging prompt
+          delivery and supporting you after the purchase.
+        </p>
+        <b>
+          A1 Electricals — Quality Products. Reliable Service. Trusted
+          Solutions.
+        </b>
+      </SplitSection>
+      <SplitSection
+        media={
+          <img
+            src="/images/customer-service.png"
             alt="A1 Electricals stock"
             loading="lazy"
             decoding="async"
           />
         }
-        heading="Showroom &amp; Stock in Kampala"
+        heading="Showroom, Stock &amp; Delivery"
       >
         <p>
-          Our Kampala showroom holds a wide range of electrical and lighting
-          lines, so the majority of orders are ready for collection or delivery
-          the same day.
+          Our Kampala showroom and warehouse carry a wide range of electrical
+          and lighting products, with many items readily available for same-day
+          collection or delivery.
         </p>
         <p>
-          Whether you're a homeowner picking up a few fittings or a contractor
-          placing a bulk order, our team picks and prepares your order in-house
-          so nothing gets left behind.
+          Whether you're a homeowner looking for a few fittings or a contractor
+          placing a bulk order, our experienced team picks, checks and prepares
+          every order in-house, helping ensure that your requirements are
+          complete and ready when you need them.
         </p>
         <SplitList
           items={[
             <>
-              Showroom stocked with <b>genuine electrical products</b>
+              Showroom and warehouse stocked with{" "}
+              <b>genuine electrical products</b>
             </>,
-            "Orders prepared and dispatched from one site",
-            "Delivery arranged across Kampala and wider Uganda",
+            "Orders picked, checked and prepared in-house from one convenient location",
+            "Same-day collection and delivery available for many in-stock products",
+            "Delivery arranged across Kampala and throughout Uganda",
           ]}
         />
         <p>
-          Wherever you're ordering from, our team works to the same standard of
-          care that's kept customers choosing A1 Electricals{" "}
-          <b>year after year</b>.
+          Wherever you're ordering from, you can expect the same professional
+          service, attention to detail and commitment to quality that has kept
+          customers choosing A1 Electricals year after year.
         </p>
+        <b>A1 Electricals — Your Trusted Electrical Supply Partner.</b>
       </SplitSection>
 
       <Statement heading="Why Choose A1 Electricals?">
         <p>
-          A1 Electricals is a trusted supplier of branded electrical equipment
-          in Kampala, Uganda, serving homes, businesses and contractors with a
-          reputation for quality and service.
+          A1 Electricals is a trusted supplier and distributor of branded
+          electrical and lighting products in Kampala, Uganda, serving homes,
+          businesses, industries and contractors with a strong reputation for
+          quality, reliability and excellent customer service.
         </p>
         <p>
-          Our catalogue draws on leading manufacturers including ABB, Siemens,
-          VAF Power, Philips &amp; Signify, Marshall-Tufflex, Orient Electric,
-          RR Electric, Sollatek, Eaton and Neelkanth Cables.
+          Our extensive product range includes trusted brands such as ABB,
+          Siemens, VAF Power, Philips & Signify, Marshall-Tufflex, Orient
+          Electric, RR Electric, Sollatek, Eaton and Neelkanth Cables, giving
+          our customers access to genuine products from leading manufacturers.
         </p>
         <p>
           Whatever electrical products you need, our team is on hand to deliver
@@ -211,6 +318,97 @@ export default function Home() {
           Contact Us
         </Link>
       </Statement>
+
+      {/* Redesigned "Why Customers Choose Us" Section */}
+      <section
+        className="why-choose-section"
+        id="why-choose-us"
+        aria-label="Why Customers Choose Us"
+      >
+        <div className="wrap">
+          {/* Header */}
+          <div className="why-choose-header">
+            <h2>Why Customers Choose Us</h2>
+          </div>
+
+          {/* 8 Feature Advantage Cards */}
+          <div className="why-cards-grid">
+            {WHY_CHOOSE_ITEMS.map((item, idx) => {
+              const Icon = item.icon;
+              return (
+                <div key={idx} className="why-card">
+                  <div className="why-card-top">
+                    <div className="why-card-icon">
+                      <Icon />
+                    </div>
+                    <span className="why-card-badge">{item.tag}</span>
+                  </div>
+                  <p className="why-card-text">{item.text}</p>
+                </div>
+              );
+            })}
+          </div>
+
+          {/* Visual Customer Service & Action Banner */}
+          <div className="why-banner-card">
+            <div className="why-banner-content">
+              <p className="why-banner-para">
+                Whatever electrical or lighting products you need, our team is
+                ready to provide a cost-effective, reliable and professional
+                ordering experience from product selection through to delivery
+                and after-sales support.
+              </p>
+              <p className="why-banner-para">
+                Make A1 Electricals your first call for electrical and lighting
+                supplies in Kampala and across Uganda.
+              </p>
+              <p className="why-banner-tagline">
+                A1 Electricals — Quality Products. Reliable Service. Trusted
+                Solutions.
+              </p>
+              <div className="why-banner-actions">
+                <a
+                  href={COMPANY.whatsappUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="why-btn-wa"
+                >
+                  <WhatsAppIcon style={{ width: 18, height: 18 }} />
+                  WhatsApp Us
+                </a>
+                <a href={`tel:${COMPANY.phoneRaw}`} className="why-btn-phone">
+                  <PhoneIcon style={{ width: 16, height: 16 }} />
+                  Call {COMPANY.phone}
+                </a>
+                <Link to="/contact" className="why-btn-contact">
+                  Contact Us
+                  <ArrowIcon style={{ width: 12, height: 12 }} />
+                </Link>
+              </div>
+            </div>
+            <div className="why-banner-media">
+              <img
+                src="/images/customer-service.png"
+                alt="Why Customers Choose Us"
+                loading="lazy"
+                decoding="async"
+              />
+              <div className="why-banner-overlay-badge">
+                <div className="why-banner-badge-title">
+                  <PinIcon
+                    style={{ width: 16, height: 16, color: "var(--amber)" }}
+                  />
+                  Bugolobi Showroom &amp; Warehouse
+                </div>
+                <p className="why-banner-badge-desc">
+                  Plot 49 Luthuli Ave, Industrial Area, Kampala ·{" "}
+                  {COMPANY.openingHours}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="tight">
         <div className="wrap">
           <div className="section-head">

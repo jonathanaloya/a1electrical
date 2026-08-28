@@ -126,9 +126,9 @@ export function LogoRow() {
   );
 }
 
-export function Statement({ heading, children }) {
+export function Statement({ heading, children, className = "" }) {
   return (
-    <div className="statement">
+    <div className={`statement ${className}`.trim()}>
       <div className="wrap">
         <h2>{heading}</h2>
         {children}
