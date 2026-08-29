@@ -23,20 +23,28 @@ import { findProduct } from "../data/products.js";
 import { COMPANY } from "../data/company.js";
 
 const TILES = [
-  { slug: "cables-cable-accessories", photo: "/images/banner.jpeg", bg: null },
+  {
+    slug: "cables-cable-accessories",
+    photo: "/images/wires-and-cables.webp",
+    photoSmall: null,
+    bg: null,
+  },
   {
     slug: "indoor-outdoor-led-lighting",
     photo: "/images/a1_lights.jpeg",
+    photoSmall: "/images/a1_lights_small.png",
     bg: "#EAEAE4",
   },
   {
     slug: "electrical-panels-distribution-boards",
     photo: "/images/latestblog.jpeg",
+    photoSmall: "/images/latestblog_small.png",
     bg: "var(--ink)",
   },
   {
     slug: "transformers-power-distribution",
     photo: "/images/eaton.jpeg",
+    photoSmall: "/images/eaton_small.png",
     bg: "#EAEAE4",
   },
 ];
@@ -95,8 +103,35 @@ export default function Home() {
             electrical and lighting products, serving customers across Uganda
             and the wider East African region.
           </p>
-
           <div className="promogrid">
+            <div className="promocard">
+              <div className="pimg">
+                <picture>
+                  <source
+                    media="(max-width: 600px)"
+                    srcSet="/images/a1_storefront_small.png"
+                  />
+                  <img
+                    src="/images/a1-storefront.webp"
+                    alt="A1 Electricals showroom"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </picture>
+              </div>
+              <div className="pbody">
+                <h3>About A1 Electricals</h3>
+                <p>
+                  About A1 Electricals - With years of experience sourcing and
+                  supplying genuine electrical products across Uganda, A1
+                  Electricals is well positioned to understand your needs and
+                  deliver the right solutions with confidence.
+                </p>
+                <Link to="/about" className="promo-btn">
+                  About A1 Electricals
+                </Link>
+              </div>
+            </div>
             <div className="promocard">
               <div className="pimg">
                 <img
@@ -131,34 +166,12 @@ export default function Home() {
                 <h3>Leading Brands</h3>
                 <p>
                   A1 Electricals supplies products from leading manufacturers
-                  such as ABB, Siemens, Philips and VAF Power, giving you
-                  confidence in genuine, reliable products manufactured to the
-                  highest industry standards.
+                  such as ABB, Siemens, Philips &amp; Signify and VAF Power,
+                  giving you confidence in genuine, reliable products
+                  manufactured to the highest industry standards.
                 </p>
                 <Link to="/brands" className="promo-btn">
                   View Brands
-                </Link>
-              </div>
-            </div>
-            <div className="promocard">
-              <div className="pimg">
-                <img
-                  src="/images/a1-storefront.webp"
-                  alt="A1 Electricals showroom"
-                  loading="lazy"
-                  decoding="async"
-                />
-              </div>
-              <div className="pbody">
-                <h3>About A1 Electricals</h3>
-                <p>
-                  About A1 Electricals - With years of experience sourcing and
-                  supplying genuine electrical products across Uganda, A1
-                  Electricals is well positioned to understand your needs and
-                  deliver the right solutions with confidence.
-                </p>
-                <Link to="/about" className="promo-btn">
-                  About A1 Electricals
                 </Link>
               </div>
             </div>
@@ -168,12 +181,18 @@ export default function Home() {
 
       <SplitSection
         media={
-          <img
-            src="/images/drop_lights2.jpeg"
-            alt="A1 Electricals showroom"
-            loading="lazy"
-            decoding="async"
-          />
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcSet="/images/drop_lights_small.png"
+            />
+            <img
+              src="/images/drop_lights2.jpeg"
+              alt="A1 Electricals showroom"
+              loading="lazy"
+              decoding="async"
+            />
+          </picture>
         }
         heading="Trusted Electrical Supplier"
       >
@@ -212,12 +231,18 @@ export default function Home() {
       <SplitSection
         reverse
         media={
-          <img
-            src="/images/item_list.jpeg"
-            alt="After-Sales Services"
-            loading="lazy"
-            decoding="async"
-          />
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcSet="/images/items_list_small.png"
+            />
+            <img
+              src="/images/item_list.jpeg"
+              alt="After-Sales Services"
+              loading="lazy"
+              decoding="async"
+            />
+          </picture>
         }
         heading="After-Sales Service"
       >
@@ -302,9 +327,10 @@ export default function Home() {
         </p>
         <p>
           Our extensive product range includes trusted brands such as ABB,
-          Siemens, VAF Power, Philips & Signify, Marshall-Tufflex, Orient
-          Electric, RR Electric, Sollatek, Eaton and Neelkanth Cables, giving
-          our customers access to genuine products from leading manufacturers.
+          Siemens, Philips &amp; Signify, VAF Power, Marshall-Tufflex, Orient
+          Electric, RR Electric, Sollatek, Eaton, Servo Stabilizers, Neelkanth
+          Cable and Masar Cable Trays, giving our customers access to genuine
+          products from leading manufacturers.
         </p>
         <p>
           Whatever electrical products you need, our team is on hand to deliver
@@ -318,120 +344,44 @@ export default function Home() {
           Contact Us
         </Link>
       </Statement>
-
-      {/* Redesigned "Why Customers Choose Us" Section */}
-      <section
-        className="why-choose-section"
-        id="why-choose-us"
-        aria-label="Why Customers Choose Us"
-      >
-        <div className="wrap">
-          {/* Header */}
-          <div className="why-choose-header">
-            <h2>Why Customers Choose Us</h2>
-          </div>
-
-          {/* 8 Feature Advantage Cards */}
-          <div className="why-cards-grid">
-            {WHY_CHOOSE_ITEMS.map((item, idx) => {
-              const Icon = item.icon;
-              return (
-                <div key={idx} className="why-card">
-                  <div className="why-card-top">
-                    <div className="why-card-icon">
-                      <Icon />
-                    </div>
-                    <span className="why-card-badge">{item.tag}</span>
-                  </div>
-                  <p className="why-card-text">{item.text}</p>
-                </div>
-              );
-            })}
-          </div>
-
-          {/* Visual Customer Service & Action Banner */}
-          <div className="why-banner-card">
-            <div className="why-banner-content">
-              <p className="why-banner-para">
-                Whatever electrical or lighting products you need, our team is
-                ready to provide a cost-effective, reliable and professional
-                ordering experience from product selection through to delivery
-                and after-sales support.
-              </p>
-              <p className="why-banner-para">
-                Make A1 Electricals your first call for electrical and lighting
-                supplies in Kampala and across Uganda.
-              </p>
-              <p className="why-banner-tagline">
-                A1 Electricals — Quality Products. Reliable Service. Trusted
-                Solutions.
-              </p>
-              <div className="why-banner-actions">
-                <a
-                  href={COMPANY.whatsappUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="why-btn-wa"
-                >
-                  <WhatsAppIcon style={{ width: 18, height: 18 }} />
-                  WhatsApp Us
-                </a>
-                <a href={`tel:${COMPANY.phoneRaw}`} className="why-btn-phone">
-                  <PhoneIcon style={{ width: 16, height: 16 }} />
-                  Call {COMPANY.phone}
-                </a>
-                <Link to="/contact" className="why-btn-contact">
-                  Contact Us
-                  <ArrowIcon style={{ width: 12, height: 12 }} />
-                </Link>
-              </div>
-            </div>
-            <div className="why-banner-media">
-              <img
-                src="/images/customer-service.png"
-                alt="Why Customers Choose Us"
-                loading="lazy"
-                decoding="async"
-              />
-              <div className="why-banner-overlay-badge">
-                <div className="why-banner-badge-title">
-                  <PinIcon
-                    style={{ width: 16, height: 16, color: "var(--amber)" }}
-                  />
-                  Bugolobi Showroom &amp; Warehouse
-                </div>
-                <p className="why-banner-badge-desc">
-                  Plot 49 Luthuli Ave, Industrial Area, Kampala ·{" "}
-                  {COMPANY.openingHours}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <section className="tight">
         <div className="wrap">
           <div className="section-head">
             <div>
               <div className="eyebrow">Product range</div>
-              <h2>Everything an electrical installation needs, in one place</h2>
+              <h2>The power to supply all your electrical products</h2>
             </div>
           </div>
         </div>
         <div className="tilegrid">
           {TILES.map((t) => {
             const p = findProduct(t.slug);
+            const mainImg =
+              t.photo || p?.heroImage || "/images/a1-storefront.webp";
             return (
               <Link key={t.slug} to={`/products/${t.slug}`} className="ptile">
                 <div className="ptile-visual">
-                  <img
-                    src={
-                      t.photo || p?.heroImage || "/images/a1-storefront.webp"
-                    }
-                    alt={p?.name || "A1 Electricals"}
-                    loading="lazy"
-                    decoding="async"
-                  />
+                  {t.photoSmall ? (
+                    <picture>
+                      <source
+                        media="(max-width: 600px)"
+                        srcSet={t.photoSmall}
+                      />
+                      <img
+                        src={mainImg}
+                        alt={p?.name || "A1 Electricals"}
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </picture>
+                  ) : (
+                    <img
+                      src={mainImg}
+                      alt={p?.name || "A1 Electricals"}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  )}
                 </div>
                 <div className="ptile-label">
                   <span>{p.name}</span>

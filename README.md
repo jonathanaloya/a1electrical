@@ -105,9 +105,9 @@ was written.
 
 ## Notes
 - Brand logos: real logo images are used where available in the repo (ABB,
-  Siemens, LEDVANCE, Philips, Marshall Tufflex, Sollatek, Larsen &
-  Toubro); the rest fall back to initials badges since no logo file exists
-  for them yet — drop a file in `public/images/brands/` and add the path in
-  `src/data/brands.js` to swap one in.
+  Siemens, Philips & Signify, Marshall-Tufflex, Sollatek, Eaton, VAF Power,
+  Orient Electric, RR Electric, Neelkanth Cable); initials badges are used
+  for Servo Stabilizers and Masar Cable Trays — drop a file in `public/images/brands/`
+  and add the path in `src/data/brands.js` to swap one in.
 - Forms don't submit anywhere real yet — see `EnquiryForm.jsx` for where a
   `fetch()` to a real endpoint would go.

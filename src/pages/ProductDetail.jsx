@@ -127,8 +127,9 @@ export default function ProductDetail() {
         </p>
         <p>
           Our catalogue draws on leading manufacturers including ABB, Siemens,
-          VAF Power, Philips &amp; Signify, Marshall-Tufflex, Orient Electric,
-          RR Electric, Sollatek, Eaton and Neelkanth Cables.
+          Philips &amp; Signify, VAF Power, Marshall-Tufflex, Orient Electric,
+          RR Electric, Sollatek, Eaton, Servo Stabilizers, Neelkanth Cable and
+          Masar Cable Trays.
         </p>
         <p>
           Whatever electrical products you need, our team is on hand to deliver

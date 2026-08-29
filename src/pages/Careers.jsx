@@ -20,7 +20,7 @@ const OPENINGS = [
       "Drive technical sales of low-voltage switchgear, VFDs, circuit protection and distribution systems to consultants, electrical contractors, and industrial plants across Uganda.",
     responsibilities: [
       "Interpret single-line diagrams (SLDs), technical bill of quantities (BOQs), and electrical tender specifications.",
-      "Recommend suitable products from ABB, Siemens, Larsen & Toubro, and other partner brands for project requirements.",
+      "Recommend suitable products from ABB, Siemens, Eaton, and other partner brands for project requirements.",
       "Prepare detailed commercial quotations and technical submittals for electrical contractors and consulting engineers.",
       "Conduct product demonstrations and technical client visits across Kampala and industrial estates.",
       "Maintain active relationships with key accounts, panel builders, and project managers.",
@@ -359,8 +359,8 @@ export default function Careers() {
               <h4>Manufacturer Training &amp; Certifications</h4>
               <p>
                 Get direct exposure and technical training from world-leading
-                engineering manufacturers including ABB, Siemens, Larsen &
-                Toubro, and VAF Power.
+                engineering manufacturers including ABB, Siemens, Eaton,
+                and VAF Power.
               </p>
             </div>
 

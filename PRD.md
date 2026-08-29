@@ -1,9 +1,9 @@
 # Product Requirements Document (PRD)
 ## A1 Electricals Ltd — React E-Commerce Website
 
-**Version:** 1.0  
-**Date:** August 2026  
-**Owner:** A1 Electricals Ltd  
+**Version:** 1.0
+**Date:** August 2026
+**Owner:** A1 Electricals Ltd
 **Status:** Draft for Review
 
 ---
@@ -254,7 +254,7 @@ src/
 │   └── formSecurity.js      Honeypot, throttle, validation
 ├── data/
 │   ├── products.js          15 product records
-│   ├── brands.js            11 brand records + helpers
+│   ├── brands.js            12 brand records + helpers
 │   └── heroSlides.js        Carousel slide data
 ├── components/
 │   ├── Header.jsx            Navigation with dropdowns
@@ -416,7 +416,7 @@ src/
 The site is considered ready for production launch when:
 
 1. **All 15 product detail pages** render with correct sub-category split sections and manufacturer branding.
-2. **All 11 brand detail pages** render with correct branding and related product grids.
+2. **All 12 brand detail pages** render with correct branding and related product grids.
 3. **Contact form** submits successfully (mock or real) with validation and anti-spam measures.
 4. **Responsive design** passes testing on mobile (320px), tablet (768px), and desktop (1440px).
 5. **Security headers** are active on the production domain.
@@ -450,7 +450,7 @@ The site is considered ready for production launch when:
 | Solar & Energy-Efficient Electrical Solutions | Solar LED Lighting |
 
 ### 16.2 Brand List
-ABB, Siemens, VAF Power, Philips & Signify, Marshall-Tufflex, Orient Electric, RR Electric, Sollatek, Eaton, Neelkanth Cables, Servo Stabilizers.
+ABB, Siemens, Philips & Signify, VAF Power, Marshall-Tufflex, Orient Electric, RR Electric, Sollatek, Eaton, Servo Stabilizers, Neelkanth Cable, Masar Cable Trays.
 
 ### 16.3 Contact Details
 - **Address:** Plot no. 49 Luthuli Avenue, Industrial Area, Bugolobi, P.O Box 31503, Kampala, Uganda

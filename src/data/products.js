@@ -275,7 +275,7 @@ export const PRODUCTS = [
     split1:
       "Reliable power transmission relies on high-grade conductors insulated for long-term thermal and mechanical stresses. We stock single-core PVC building wires (1.5mm² to 16mm²), multi-core flexible rubber cables, and Steel Wire Armoured (SWA) XLPE power cables designed for direct underground burial, external cable trays, and main distribution feeders.",
     split2:
-      "Manufactured to strict BS 6004, BS 5467, and IEC 60502 specifications by certified producers such as Neelkanth Cables, our copper and EC-grade aluminium cables guarantee optimal conductivity and flame retardancy. We support complete cable runs with indoor/outdoor brass glands (CW/BW), IP68 nylon glands, and heavy-duty copper crimp lugs.",
+      "Manufactured to strict BS 6004, BS 5467, and IEC 60502 specifications by certified producers such as Neelkanth Cable, our copper and EC-grade aluminium cables guarantee optimal conductivity and flame retardancy. We support complete cable runs with indoor/outdoor brass glands (CW/BW), IP68 nylon glands, and heavy-duty copper crimp lugs.",
     split3:
       "Available on 100m coils or 500m/1000m wooden drums, our cables are ready for immediate dispatch from our Kampala warehouse. Our technical staff provides voltage drop calculations, current-carrying capacity guidance, and correct gland/lug selection for your cable cross-section.",
   },

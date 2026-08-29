@@ -10,7 +10,7 @@ export const HERO_SLIDES = [
   {
     eyebrow: "Genuine Brands",
     heading: "Trusted brands, honest prices",
-    lead: "ABB, Siemens, Philips, Sollatek, VAF Power and more — genuine brands, quality products, readily available in stock at our Kampala showroom.",
+    lead: "ABB, Siemens, Philips & Signify, Sollatek, VAF Power and more — genuine brands, quality products, readily available in stock at our Kampala showroom.",
     btnText: "View brands",
     btnHref: "/brands",
     img: "/images/drop_lights.jpeg",

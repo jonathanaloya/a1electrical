@@ -1329,6 +1329,12 @@
     background: var(--paper-2);
   }
 
+  .promocard .pimg picture {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
   .promocard .pimg img {
     width: 100%;
     height: 100%;
@@ -1405,6 +1411,32 @@
     .promogrid {
       grid-template-columns: repeat(2, 1fr);
     }
+
+    .promocard .pimg {
+      height: 220px;
+      display: block;
+      background: var(--paper-2);
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .promocard .pimg img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .card-img {
+      height: 200px;
+      background: #ffffff;
+      padding: 8px;
+    }
+
+    .card-img img {
+      object-fit: contain;
+      object-position: center;
+    }
   }
 
   @media(max-width:600px) {
@@ -1413,7 +1445,24 @@
     }
 
     .promocard .pimg {
-      height: 180px;
+      height: 200px;
+      display: block;
+      background: var(--paper-2);
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .promocard .pimg picture {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    .promocard .pimg img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
     }
 
     .promocard .pbody {
@@ -1422,6 +1471,15 @@
 
     .promocard h3 {
       font-size: 20px;
+    }
+
+    .card-img {
+      height: 180px;
+      padding: 6px;
+    }
+
+    .card-img img {
+      object-fit: contain;
     }
   }
 
@@ -1460,6 +1518,12 @@
     justify-content: center;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
     border: 1px solid var(--line);
+  }
+
+  .split-media picture {
+    display: block;
+    width: 100%;
+    height: 100%;
   }
 
   .split-media img {
@@ -1557,16 +1621,29 @@
     .split-media {
       grid-area: auto;
       width: 100%;
-      height: 300px;
+      height: 320px;
       min-height: 280px;
+      max-height: 360px;
       order: 1 !important;
       padding: 0;
+      display: block;
+      overflow: hidden;
+      background: var(--paper-2);
+      border-radius: 8px;
     }
 
     .split-media img {
       width: 100%;
       height: 100%;
-      inset: 0;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 8px;
+      display: block;
+    }
+
+    .split-media img.brand-manufacturer-logo {
+      object-fit: contain;
+      padding: 24px;
     }
 
     .split-content {
@@ -1587,14 +1664,33 @@
     }
 
     .split-media {
-      height: 220px;
-      min-height: 200px;
+      width: 100%;
+      height: 260px;
+      min-height: 240px;
+      max-height: 300px;
       padding: 0;
+      display: block;
+      overflow: hidden;
+      border-radius: 6px;
+    }
+
+    .split-media picture {
+      display: block;
+      width: 100%;
+      height: 100%;
     }
 
     .split-media img {
       width: 100%;
       height: 100%;
+      object-fit: cover;
+      object-position: top center;
+      border-radius: 6px;
+    }
+
+    .split-media img.brand-manufacturer-logo {
+      object-fit: contain;
+      padding: 18px;
     }
 
     .split-content {
@@ -1701,6 +1797,12 @@
     bottom: 0;
     overflow: hidden;
     background: var(--paper-2);
+  }
+
+  .ptile-visual picture {
+    width: 100%;
+    height: 100%;
+    display: block;
   }
 
   .ptile-visual img {
@@ -1817,8 +1919,23 @@
     }
 
     .ptile {
-      height: 360px;
+      height: 320px;
       border-bottom: 1px solid #fff;
+    }
+
+    .ptile-visual {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--paper-2);
+    }
+
+    .ptile-visual img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+      padding: 10px;
     }
   }
 
@@ -1828,7 +1945,11 @@
     }
 
     .ptile {
-      height: 300px;
+      height: 280px;
+    }
+
+    .ptile-visual img {
+      padding: 8px;
     }
   }
 
@@ -4622,7 +4743,26 @@
     padding: 28px 24px;
   }
   .why-banner-media {
-    min-height: 220px;
+    min-height: 250px;
+    height: auto;
+    background: #171518;
+    padding: 16px 16px 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .why-banner-media img {
+    width: 100%;
+    height: auto;
+    max-height: 240px;
+    object-fit: contain;
+    opacity: 0.95;
+  }
+  .why-banner-overlay-badge {
+    bottom: 12px;
+    left: 12px;
+    right: 12px;
+    padding: 10px 14px;
   }
 }
 
@@ -4646,6 +4786,14 @@
   }
   .why-card {
     padding: 18px 16px;
+  }
+  .why-banner-media {
+    min-height: 230px;
+    padding: 12px 12px 82px;
+  }
+  .why-banner-media img {
+    max-height: 200px;
+    object-fit: contain;
   }
   .why-banner-content h3 {
     font-size: 20px;
