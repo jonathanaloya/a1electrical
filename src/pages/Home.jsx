@@ -156,7 +156,7 @@ export default function Home() {
             <div className="promocard">
               <div className="pimg">
                 <img
-                  src="/images/image.png"
+                  src="/images/image.optimized.jpg"
                   alt="A1 Electricals showroom"
                   loading="lazy"
                   decoding="async"
@@ -280,7 +280,7 @@ export default function Home() {
       <SplitSection
         media={
           <img
-            src="/images/customer-service.png"
+            src="/images/customer-service.optimized.jpg"
             alt="A1 Electricals stock"
             loading="lazy"
             decoding="async"

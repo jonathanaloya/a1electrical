@@ -21,6 +21,8 @@ export default function Footer() {
               className="footer-logo"
               src="/images/a1-logo.jpeg"
               alt="A1 Electricals Ltd logo"
+              loading="lazy"
+              decoding="async"
             />
             <p style={{ maxWidth: 280, fontSize: "13.5px", color: "white" }}>
               Kampala's one-stop shop for genuine electrical products and

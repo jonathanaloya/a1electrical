@@ -109,6 +109,9 @@ export default function Header() {
               className="brandmark"
               src="/images/a1-logo.jpeg"
               alt="A1 Electricals Ltd logo"
+              loading="eager"
+              fetchPriority="high"
+              decoding="async"
             />
           </Link>
 

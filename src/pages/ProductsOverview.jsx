@@ -28,7 +28,12 @@ export default function ProductsOverview() {
                 <span className="cbl" />
                 <span className="cbr" />
                 <div className="card-img">
-                  <img src={p.heroImage ?? "/images/a1-storefront.webp"} alt={p.name} />
+                  <img
+                    src={p.heroImage ?? "/images/a1-storefront.webp"}
+                    alt={p.name}
+                    loading="lazy"
+                    decoding="async"
+                  />
                 </div>
                 <div className="card-body">
                   <div className="n">{p.n} / 20</div>

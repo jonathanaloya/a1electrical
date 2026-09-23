@@ -17,12 +17,23 @@ export default function CustomerService() {
   return (
     <>
       <section className="pdhero">
-        <img src="/images/customer-service.png" alt="Customer Service" />
+        <img
+          src="/images/customer-service.optimized.jpg"
+          alt="Customer Service"
+          loading="eager"
+          fetchPriority="high"
+          decoding="async"
+        />
         <div className="pdhero-label">Customer Service</div>
       </section>
       <SplitSection
         media={
-          <img src="/images/a1-storefront.webp" alt="A1 Electricals showroom" />
+          <img
+            src="/images/a1-storefront.webp"
+            alt="A1 Electricals showroom"
+            loading="lazy"
+            decoding="async"
+          />
         }
         heading="Expert Advice"
       >
@@ -44,7 +55,12 @@ export default function CustomerService() {
       <SplitSection
         reverse
         media={
-          <img src="/images/wires-and-cables.webp" alt="A1 Electricals stock" />
+          <img
+            src="/images/wires-and-cables.webp"
+            alt="A1 Electricals stock"
+            loading="lazy"
+            decoding="async"
+          />
         }
         heading="Fast Delivery"
       >
@@ -64,7 +80,12 @@ export default function CustomerService() {
 
       <SplitSection
         media={
-          <img src="/images/wires-and-cables.webp" alt="Leading manufacturers" />
+          <img
+            src="/images/wires-and-cables.webp"
+            alt="Leading manufacturers"
+            loading="lazy"
+            decoding="async"
+          />
         }
         heading="Leading Manufacturers"
       >

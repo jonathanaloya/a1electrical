@@ -108,7 +108,12 @@ export default function BrandsOverview() {
                   <div className="brand-card-header">
                     <div className="brand-card-logo-wrap">
                       {b.logo ? (
-                        <img src={b.logo} alt={`${b.name} logo`} loading="lazy" />
+                        <img
+                          src={b.logo}
+                          alt={`${b.name} logo`}
+                          loading="lazy"
+                          decoding="async"
+                        />
                       ) : (
                         <div
                           className="bmark"
@@ -219,4 +224,3 @@ export default function BrandsOverview() {
     </>
   );
 }
-

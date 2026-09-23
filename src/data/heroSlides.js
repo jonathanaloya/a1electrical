@@ -5,7 +5,7 @@ export const HERO_SLIDES = [
     lead: "Cables, switches, lighting, solar solutions and more — all available in stock at our Kampala showroom. Order conveniently via WhatsApp and enjoy fast, reliable delivery across Kampala and beyond.",
     btnText: "Product range",
     btnHref: "/products",
-    img: "/images/hero1.png",
+    img: "/images/hero1.optimized.jpg",
   },
   {
     eyebrow: "Genuine Brands",
@@ -22,7 +22,7 @@ export const HERO_SLIDES = [
     lead: "Send us your requirements via WhatsApp, and we'll have your order prepared for quick collection or fast delivery across Kampala.",
     btnText: "Contact us",
     btnHref: "/contact",
-    img: "/images/hero3.png",
+    img: "/images/hero3.optimized.jpg",
     left: true,
   },
 ];

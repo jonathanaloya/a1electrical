@@ -1,7 +1,7 @@
 export const PRODUCTS = [
   {
     slug: "switchgear-protection-equipment",
-    heroImage: "/images/products/switchgear-distribution.png",
+    heroImage: "/images/products/switchgear-distribution.optimized.jpg",
     name: "Switchgear & Protection Equipment",
     n: "01",
     cat: "Switchgear Distribution",
@@ -63,7 +63,7 @@ export const PRODUCTS = [
   },
   {
     slug: "contactors-motor-starters",
-    heroImage: "/images/products/motor-controls-starters.png",
+    heroImage: "/images/products/motor-controls-starters.optimized.jpg",
     name: "Contactors & Motor Starters",
     n: "03",
     cat: "Motor Controls & Starters",
@@ -125,7 +125,7 @@ export const PRODUCTS = [
   },
   {
     slug: "electrical-panels-distribution-boards",
-    heroImage: "/images/products/switchgear-distribution.png",
+    heroImage: "/images/products/switchgear-distribution.optimized.jpg",
     name: "Electrical Panels & Distribution Boards",
     n: "05",
     cat: "Switchgear Distribution",
@@ -156,7 +156,7 @@ export const PRODUCTS = [
   },
   {
     slug: "indoor-outdoor-led-lighting",
-    heroImage: "/images/products/light-fittings-luminaires.png",
+    heroImage: "/images/products/light-fittings-luminaires.optimized.jpg",
     name: "Indoor & Outdoor LED Lighting",
     n: "06",
     cat: "Light Fittings & Luminaires",
@@ -249,7 +249,7 @@ export const PRODUCTS = [
   },
   {
     slug: "cables-cable-accessories",
-    heroImage: "/images/products/cables-wires.png",
+    heroImage: "/images/products/cables-wires.optimized.jpg",
     name: "Electrical Cables & Cable Accessories",
     n: "09",
     cat: "Cables & Wires",
@@ -312,7 +312,7 @@ export const PRODUCTS = [
   },
   {
     slug: "conduits-cable-management",
-    heroImage: "/images/products/cable-trays-conduits.png",
+    heroImage: "/images/products/cable-trays-conduits.optimized.jpg",
     name: "Conduits & Cable Management Systems",
     n: "11",
     cat: "Cable Trays & Conduits",
@@ -343,7 +343,7 @@ export const PRODUCTS = [
   },
   {
     slug: "earthing-lightning-protection",
-    heroImage: "/images/products/lightning-protection.png",
+    heroImage: "/images/products/lightning-protection.optimized.jpg",
     name: "Earthing & Lightning Protection Systems",
     n: "12",
     cat: "Lightning Protection",
@@ -375,7 +375,7 @@ export const PRODUCTS = [
   },
   {
     slug: "transformers-power-distribution",
-    heroImage: "/images/products/power-protection.png",
+    heroImage: "/images/products/power-protection.optimized.jpg",
     name: "Transformers & Power Distribution Equipment",
     n: "13",
     cat: "Switchgear Distribution",
@@ -406,7 +406,7 @@ export const PRODUCTS = [
   },
   {
     slug: "solar-energy-efficient-solutions",
-    heroImage: "/images/products/solar-led-lighting.png",
+    heroImage: "/images/products/solar-led-lighting.optimized.jpg",
     name: "Solar & Energy-Efficient Electrical Solutions",
     n: "14",
     cat: "Solar LED Lighting",

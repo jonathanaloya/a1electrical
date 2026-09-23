@@ -11,7 +11,13 @@ export default function Contact() {
   return (
     <>
       <section className="pdhero">
-        <img src="/images/hero-banner-2.jpeg" alt="A1 Electricals" />
+        <img
+          src="/images/hero-banner-2.jpeg"
+          alt="A1 Electricals"
+          loading="eager"
+          fetchPriority="high"
+          decoding="async"
+        />
         <div className="pdhero-label">Contact Us</div>
       </section>
 

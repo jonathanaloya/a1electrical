@@ -25,6 +25,24 @@ export default function HeroCarousel() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  useEffect(() => {
+    const preloadRemainingSlides = () => {
+      HERO_SLIDES.slice(1).forEach((item) => {
+        const img = new Image();
+        img.decoding = "async";
+        img.src = item.img;
+      });
+    };
+
+    if ("requestIdleCallback" in window) {
+      const id = window.requestIdleCallback(preloadRemainingSlides);
+      return () => window.cancelIdleCallback(id);
+    }
+
+    const id = window.setTimeout(preloadRemainingSlides, 1500);
+    return () => window.clearTimeout(id);
+  }, []);
+
   function handleDotClick(i) {
     setFading(true);
     setTimeout(() => {
@@ -35,6 +53,7 @@ export default function HeroCarousel() {
   }
 
   const slide = HERO_SLIDES[index];
+  const isFirstSlide = index === 0;
 
   return (
     <section className="hero">
@@ -44,7 +63,8 @@ export default function HeroCarousel() {
           style={{ opacity: fading ? 0 : 1 }}
           src={slide.img}
           alt="A1 Electricals"
-          fetchPriority="high"
+          loading={isFirstSlide ? "eager" : "lazy"}
+          fetchPriority={isFirstSlide ? "high" : "auto"}
           decoding="async"
         />
         <div className="hero-diagonal" />

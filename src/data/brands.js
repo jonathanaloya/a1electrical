@@ -448,7 +448,7 @@ export const BRANDS = [
         model: "MTRS / MMTR Series",
         cat: "PVC Trunking",
         desc: "High-impact, self-extinguishing PVCu surface trunking with positive snap-fit lids for domestic, commercial, and laboratory cable containment.",
-        image: "/images/products/pvc-trunking-conduits.png",
+        image: "/images/products/pvc-trunking-conduits.optimized.jpg",
         specs: [
           ["Material", "Self-Extinguishing PVCu"],
           ["Sizes", "16x16mm to 150x150mm"],
@@ -474,7 +474,7 @@ export const BRANDS = [
         model: "CR Series (20mm & 25mm)",
         cat: "PVC Conduits",
         desc: "UV-stabilized high-impact PVC conduits with pre-formed bell couplers and expansion couplings for surface or concealed building wiring.",
-        image: "/images/products/cable-trays-conduits.png",
+        image: "/images/products/cable-trays-conduits.optimized.jpg",
         specs: [
           ["Classification", "Heavy Gauge (BS EN 61386-21)"],
           ["Cold Bending", "Internal Spring Cold Bendable"],
@@ -500,7 +500,7 @@ export const BRANDS = [
         model: "MT Tray System (50mm – 600mm)",
         cat: "Cable Trays",
         desc: "Pre-galvanised and hot-dip steel perforated cable trays with return flanges for rigid industrial and commercial power cable support.",
-        image: "/images/products/steel-cable-tranking.png",
+        image: "/images/products/steel-cable-tranking.optimized.jpg",
         specs: [
           ["Finishes", "Pre-Galvanised & Hot-Dip Galvanised"],
           ["Flange Heights", "25mm, 50mm, 75mm Heavy Flange"],
@@ -553,7 +553,7 @@ export const BRANDS = [
         model: "Summer Pride & Summer Crown",
         cat: "Ceiling Fans",
         desc: "Heavy-duty 100% copper wound ceiling fans with double ball-bearing construction and aerodynamic aluminium blades for maximum air delivery.",
-        image: "/images/products/ventilation_fans.png",
+        image: "/images/products/ventilation_fans.optimized.jpg",
         specs: [
           ["Motor", "100% Pure Copper Wound"],
           ["Bearings", "Double Ball-Bearing Silent Running"],
@@ -566,7 +566,7 @@ export const BRANDS = [
         model: "Tornado & Windstorm (18\" – 30\")",
         cat: "Industrial Fans",
         desc: "High-velocity air circulation fans with 90° motorized oscillation and thermal overload protected motors for factories and workshops.",
-        image: "/images/products/ventilation_fans.png",
+        image: "/images/products/ventilation_fans.optimized.jpg",
         specs: [
           ["Sizes", "18\", 24\", 30\" Heavy-Duty Fans"],
           ["Oscillation", "90° Motorized Wide Sweep"],
@@ -579,7 +579,7 @@ export const BRANDS = [
         model: "Hill Air & Ventilator Dx",
         cat: "Exhaust Fans",
         desc: "Corrosion-proof ABS plastic exhaust fans with automatic gravity backdraft louvers and dynamically balanced whisper-quiet impellers.",
-        image: "/images/products/ventilation_fans.png",
+        image: "/images/products/ventilation_fans.optimized.jpg",
         specs: [
           ["Sizes", "6\", 8\", 9\", 12\" Duct & Wall Models"],
           ["Shutter", "Automatic Gravity Back-Draft Louvers"],
@@ -592,7 +592,7 @@ export const BRANDS = [
         model: "Ecogale / Aeroslim BLDC",
         cat: "Inverter BLDC Fans",
         desc: "Next-gen BLDC inverter ceiling fan consuming only 28W at top speed with intelligent RF remote controller and 3x longer battery backup runtime.",
-        image: "/images/products/ventilation_fans.png",
+        image: "/images/products/ventilation_fans.optimized.jpg",
         specs: [
           ["Power Draw", "Only 28W (50% Energy Savings)"],
           ["Control", "Smart RF Remote with Timer Modes"],
@@ -605,7 +605,7 @@ export const BRANDS = [
         model: "Orient AirShield (3ft / 4ft / 5ft)",
         cat: "Air Curtains",
         desc: "Twin-shaft high velocity air curtains creating an invisible thermal and dust barrier across retail, hotel, and hospital entrances.",
-        image: "/images/products/ventilation_fans.png",
+        image: "/images/products/ventilation_fans.optimized.jpg",
         specs: [
           ["Air Velocity", "15 – 18 m/s Barrier Velocity"],
           ["Motors", "Twin-Shaft Dual Centrifugal Blowers"],
@@ -658,7 +658,7 @@ export const BRANDS = [
         model: "RR Dual-Coat Class H (200°C)",
         cat: "Winding Wires",
         desc: "High-purity 99.99% electrolytic copper winding wire with modified polyester base and polyamideimide overcoat for electric motor and transformer rewinding.",
-        image: "/images/products/cables-wires.png",
+        image: "/images/products/cables-wires.optimized.jpg",
         specs: [
           ["Copper Purity", "99.99% Electrolytic Pure Copper"],
           ["Enamel Topcoat", "Polyester Base + Polyamideimide"],
@@ -723,7 +723,7 @@ export const BRANDS = [
         model: "RR Enameled Aluminium Wire",
         cat: "Aluminium Magnet Wire",
         desc: "Lightweight high-conductivity EC grade aluminium magnet wire offering 50% weight reduction for distribution transformers and welders.",
-        image: "/images/products/cables-wires.png",
+        image: "/images/products/cables-wires.optimized.jpg",
         specs: [
           ["Conductivity", "High-Purity EC Grade Aluminium"],
           ["Weight Saving", "50% Lighter than Copper Equivalent"],
@@ -762,7 +762,7 @@ export const BRANDS = [
         model: "AVS Micro / AVS30 / AVS3P-0",
         cat: "Voltage Switchers",
         desc: "Microprocessor-controlled high/low voltage disconnect units with selectable intelligent startup delay timers to protect AC units, motors, and commercial appliances.",
-        image: "/images/products/power-protection.png",
+        image: "/images/products/power-protection.optimized.jpg",
         specs: [
           ["Ratings", "13A Plug-in, 30A Terminal, 3-Phase Contactor"],
           ["Protection", "Under/Over Voltage, Spikes & Surges"],
@@ -866,7 +866,7 @@ export const BRANDS = [
         model: "FX2200 / CF3000 Series",
         cat: "Conventional Fire Panels",
         desc: "Certified EN 54-2/4 conventional fire alarm control panels with integral power supply, battery charger, and line monitoring for sounder circuits.",
-        image: "/images/products/fire_alarms.png",
+        image: "/images/products/fire_alarms.optimized.jpg",
         specs: [
           ["Zones", "2, 4, 8 Zone Control Assemblies"],
           ["Sounder Circuits", "Dual Monitored Lines (1.6A Total)"],
@@ -1035,7 +1035,7 @@ export const BRANDS = [
         model: "Precision Hospital & Press Stabilizer",
         cat: "Medical Power Conditioning",
         desc: "Ultra-clean power conditioning units with ±0.5% regulation and built-in isolation transformers to protect CT scanners, MRI, and offset printing presses.",
-        image: "/images/products/power-protection.png",
+        image: "/images/products/power-protection.optimized.jpg",
         specs: [
           ["Applications", "CT Scanners, MRI, Heidelberg Presses"],
           ["Regulation", "±0.5% Microprocessor Precision"],
@@ -1075,7 +1075,7 @@ export const BRANDS = [
         model: "Cu/PVC 450/750V (BS 6004)",
         cat: "Building Wires",
         desc: "High-conductivity pure annealed electrolytic copper conductors with flame-retardant grade TI 1 PVC insulation for conduit wiring.",
-        image: "/images/products/cables-wires.png",
+        image: "/images/products/cables-wires.optimized.jpg",
         specs: [
           ["Conductor", "100% Pure Annealed Electrolytic Copper"],
           ["Insulation", "Grade TI 1 Flame-Retardant PVC"],
@@ -1114,7 +1114,7 @@ export const BRANDS = [
         model: "Al/XLPE/PVC (16mm² – 400mm²)",
         cat: "Aluminium Feeders",
         desc: "High-conductivity EC grade aluminium low voltage feeder cables providing a lightweight, cost-effective solution for long distribution runs.",
-        image: "/images/products/cables-wires.png",
+        image: "/images/products/cables-wires.optimized.jpg",
         specs: [
           ["Conductor", "EC Grade High-Conductivity Aluminium"],
           ["Cost Saving", "Economical Main Incomer Feeders"],
@@ -1180,7 +1180,7 @@ export const BRANDS = [
         model: "Masar HD-CT Series (50mm, 75mm, 100mm Flanges)",
         cat: "Perforated Cable Trays",
         desc: "Precision perforated sheet steel cable trays with return flanges for rigid structural strength, efficient heat dissipation, and versatile cable tie fastening.",
-        image: "/images/products/cable-trays-conduits.png",
+        image: "/images/products/cable-trays-conduits.optimized.jpg",
         specs: [
           ["Material", "Pre-Galvanised & Hot-Dip Galvanised Steel"],
           ["Flange Height", "50mm, 75mm, 100mm Return Flange"],
@@ -1193,7 +1193,7 @@ export const BRANDS = [
         model: "Masar CL Series (Heavy Industrial)",
         cat: "Cable Ladder Systems",
         desc: "High-capacity side rail ladder systems with welded slotted rungs for maximum ventilation and heavy power cable distribution across wide support spans.",
-        image: "/images/products/steel-cable-tranking.png",
+        image: "/images/products/steel-cable-tranking.optimized.jpg",
         specs: [
           ["Span Capacity", "Supports up to 6-Metre Span Loads"],
           ["Rung Spacing", "250mm / 300mm Welded Slotted Rungs"],
@@ -1232,7 +1232,7 @@ export const BRANDS = [
         model: "Masar Unistrut Channel System (41x41 & 41x21)",
         cat: "Structural Support Systems",
         desc: "Cold-rolled slotted steel strut channels, spring nuts, channel brackets, and cantilever wall arms for secure ceiling suspension and wall mounting.",
-        image: "/images/products/steel-cable-tranking.png",
+        image: "/images/products/steel-cable-tranking.optimized.jpg",
         specs: [
           ["Channel Profile", "41x41mm & 41x21mm Slotted Profiles"],
           ["Thickness", "1.5mm / 2.0mm / 2.5mm Gauge Steel"],
@@ -1245,7 +1245,7 @@ export const BRANDS = [
         model: "Masar TC Series Protective Covers",
         cat: "Protective Tray Covers",
         desc: "Solid and ventilated pre-galvanised snap-on protective covers designed to shield power and control cables from dust, mechanical debris, and direct sunlight.",
-        image: "/images/products/cable-trays-conduits.png",
+        image: "/images/products/cable-trays-conduits.optimized.jpg",
         specs: [
           ["Cover Types", "Solid Closed & Louvered Ventilated Covers"],
           ["Fixing", "Heavy-Duty Quick Snap Clips / Screw Clamps"],
@@ -1449,7 +1449,7 @@ export const PRODUCT_SUB_CATEGORIES = {
   "switches-sockets": [
     {
       heading: "Wall Switches & Switched Socket Outlets",
-      image: "/images/products/wiring-accessories.png",
+      image: "/images/products/wiring-accessories.optimized.jpg",
       content:
         "Everyday power points and light control points demand high mechanical durability and low contact resistance. We stock 1-gang to 4-gang 10AX/20A light switches, 13A switched single and double socket outlets with child-safety shutter mechanisms, and 15A round-pin sockets suited for heavy inductive loads.",
     },
@@ -1469,13 +1469,13 @@ export const PRODUCT_SUB_CATEGORIES = {
   "conduits-cable-management": [
     {
       heading: "Cable Trays & Ladder Containment Racks",
-      image: "/images/products/steel-cable-tranking.png",
+      image: "/images/products/steel-cable-tranking.optimized.jpg",
       content:
         "Structured cable containment prevents physical cable damage, ensures fire code compliance, and simplifies future wiring expansion. Our inventory includes perforated steel cable trays (50mm to 900mm wide), heavy-duty cable ladder racks for industrial power feeders, and steel or PVC trunking for surface cable routing.",
     },
     {
       heading: "Steel Conduit & PVC Containment Systems",
-      image: "/images/products/pvc-trunking-conduits.png",
+      image: "/images/products/pvc-trunking-conduits.optimized.jpg",
       content:
         "Manufactured in hot-dip galvanised steel, 316 stainless steel for aggressive environments, or self-extinguishing flame-retardant PVC compound (BS EN 61386), our containment systems resist UV radiation and mechanical impact. Our dado and skirting trunking systems from Marshall-Tufflex provide segregated compartments for power and data cables.",
     },
@@ -1555,13 +1555,13 @@ export const PRODUCT_SUB_CATEGORIES = {
     },
     {
       heading: "Product Range",
-      image: "/images/products/steel-cable-tranking.png",
+      image: "/images/products/steel-cable-tranking.optimized.jpg",
       content:
         "A1 Electricals can supply a wide range of wires and cables including underground cables and systems, medium and low voltage cables, voice video and data transmission cables, optical fibres and optical and copper cables. We provide a solution for a wide variety of applications such as power grids, underground cabling, telecoms, infrastructure and transport.",
     },
     {
       heading: "Cable Management",
-      image: "/images/products/pvc-trunking-conduits.png",
+      image: "/images/products/pvc-trunking-conduits.optimized.jpg",
       content:
         "We also stock and supply cable trays and conduits from leading manufacturers, ensuring your cable runs are properly contained and protected. Our team can help you select the right containment solution for your installation, whether it's a domestic property, commercial building or industrial facility.",
     },
@@ -1581,7 +1581,7 @@ export const PRODUCT_SUB_CATEGORIES = {
     },
     {
       heading: "Street and Security Lighting",
-      image: "/images/products/solar-led-lighting.png",
+      image: "/images/products/solar-led-lighting.optimized.jpg",
       content:
         "Whether you require conventional, LED energy saving or solar street lighting, A1 Electricals can offer luminaires, poles and highmast fittings to meet your every need. A full range of downlights, spotlights and floodlights mean whatever your needs we can supply quickly at the most competitive prices.",
     },
@@ -1595,7 +1595,7 @@ export const PRODUCT_SUB_CATEGORIES = {
     },
     {
       heading: "Switches and Dimmers",
-      image: "/images/image.png",
+      image: "/images/image.optimized.jpg",
       content:
         "Our comprehensive range enables us to offer a wide choice of standard white accessories, or more decorative accessories including black nickel, stainless steel, polished chrome and polished brass depending on the finish you are looking for. We stock dimmer switches for LED and conventional lamps, cooker and shower connection units, and grid switch plates with modular faceplate systems.",
     },
@@ -1609,19 +1609,19 @@ export const PRODUCT_SUB_CATEGORIES = {
   "Cable Trays & Conduits": [
     {
       heading: "Cable Trays and Cable Ladders",
-      image: "/images/products/steel-cable-tranking.png",
+      image: "/images/products/steel-cable-tranking.optimized.jpg",
       content:
         "In order to meet all your requirements for internal wiring systems we offer a full range of commercial and industrial cable trays and cable ladders in galvanised steel. These are available in a number of lengths, widths and configurations. Our extensive range offers solutions to all your commercial, industrial and residential wiring problems and can be supplied with suitable wiring accessories, power distribution units and floor outlet boxes. Special products for zone 1 and zone 2 installations available on request.",
     },
     {
       heading: "Conduits",
-      image: "/images/products/pvc-trunking-conduits.png",
+      image: "/images/products/pvc-trunking-conduits.optimized.jpg",
       content:
         "We offer a range of conduits for your cable management systems in either galvanised steel or PVC and GRP plastic. These are available in a number of lengths, widths and configurations and we can also supply all the wiring accessories you require. Rigid steel conduit provides maximum mechanical protection for containment runs where cables are exposed to potential damage.",
     },
     {
       heading: "Containment Fittings",
-      image: "/images/products/cable-trays-conduits.png",
+      image: "/images/products/cable-trays-conduits.optimized.jpg",
       content:
         "Every tray and conduit system we supply comes with a full range of matched fittings including bends, tees, reducers, couplers and support brackets so you can complete a containment run without mixing incompatible components. Hot-dip galvanising provides long-term corrosion resistance in humid climates, while stainless steel is available for the most demanding external or chemical environments.",
     },
@@ -1629,19 +1629,19 @@ export const PRODUCT_SUB_CATEGORIES = {
   "Steel Cable Trunking": [
     {
       heading: "Mini Trunking",
-      image: "/images/products/pvc-trunking-conduits.png",
+      image: "/images/products/pvc-trunking-conduits.optimized.jpg",
       content:
         "50x50mm mini trunking for light data and signal runs, pre-galvanised or painted, with matching lids and accessories for clean, professional finishes. Mini trunking is ideal for domestic and light commercial applications where a discreet, low-profile cable management solution is required.",
     },
     {
       heading: "Standard Trunking",
-      image: "/images/products/steel-cable-tranking.png",
+      image: "/images/products/steel-cable-tranking.optimized.jpg",
       content:
         "100x50mm to 150x75mm medium trunking for mixed power and data circuits, with single and multi-compartment options for EMC compliance. Single and multi-compartment options allow power and data cables to be segregated within the same trunking run, an important consideration for EMC compliance and signal integrity in office and industrial environments.",
     },
     {
       heading: "Heavy-Duty Trunking",
-      image: "/images/products/cable-trays-conduits.png",
+      image: "/images/products/cable-trays-conduits.optimized.jpg",
       content:
         "300x150mm heavy-duty trunking for large power cable bundles, complete with bends, tees, flat angles, flanged couplers and end caps. All sections are supplied with matching lids, and a full range of accessories is available to complete any run.",
     },
@@ -1649,19 +1649,19 @@ export const PRODUCT_SUB_CATEGORIES = {
   "PVC Trunking & Conduits": [
     {
       heading: "PVC Trunking",
-      image: "/images/products/pvc-trunking-conduits.png",
+      image: "/images/products/pvc-trunking-conduits.optimized.jpg",
       content:
         "Self-extinguishing, flame-retardant PVC trunking from 16mm mini-trunking for telephone and data cables to 100x50mm multi-compartment sections for power circuits. Lightweight, easy to cut and clip, our range makes first-fix installation fast and cost-effective without compromising on cable protection or finished appearance.",
     },
     {
       heading: "Round Conduit",
-      image: "/images/products/steel-cable-tranking.png",
+      image: "/images/products/steel-cable-tranking.optimized.jpg",
       content:
         "Round PVC conduit from 20mm to 32mm with junction boxes, bends and couplers, UV-stabilised for external and semi-exposed installations. All PVC products in our range are manufactured from self-extinguishing, flame-retardant compound, so they won't propagate a fire along a cable run.",
     },
     {
       heading: "Cable Management Accessories",
-      image: "/images/products/cable-trays-conduits.png",
+      image: "/images/products/cable-trays-conduits.optimized.jpg",
       content:
         "Conduit clips, saddles and white-finish trunking as standard, with other colours available to order for matched interior aesthetics. From 16mm mini-trunking for telephone and data cables to 100x50mm multi-compartment sections for busier runs, we stock the sizes most commonly used in domestic and commercial installations.",
     },
@@ -1695,7 +1695,7 @@ export const PRODUCT_SUB_CATEGORIES = {
     },
     {
       heading: "Fluorescent Tubes",
-      image: "/images/products/light-fittings-luminaires.png",
+      image: "/images/products/light-fittings-luminaires.optimized.jpg",
       content:
         "A1 Electricals offer an excellent range of retro-fit LED tubes – top quality with double ended rotatable power end caps in either T8 or T5 models. Energy saving, long life with superb packaging and real value for money. We also offer a full range of standard fluorescent tubes suitable for all applications. All tubes are available in a variety of colours including daylight, cool white, warm white and white.",
     },
@@ -1709,13 +1709,13 @@ export const PRODUCT_SUB_CATEGORIES = {
   "Solar LED Lighting": [
     {
       heading: "Solar LED Street Lights",
-      image: "/images/products/solar-led-lighting.png",
+      image: "/images/products/solar-led-lighting.optimized.jpg",
       content:
         "In today's rapidly evolving solar market, A1 Electricals are perfectly positioned to provide you with a range of solar lighting products suitable for commercial and residential usage. Solar powered LED lighting is easy to install with no digging up roads, trenching or cables required. Ongoing maintenance is low and the units will produce light within 24 hours of installation. We work with industry-leading providers to ensure the products we supply are reliable and durable and comply with all relevant standards.",
     },
     {
       heading: "Advantages of Solar LED Lighting",
-      image: "/images/products/light-fittings-luminaires.png",
+      image: "/images/products/light-fittings-luminaires.optimized.jpg",
       content:
         "Solar LED street lighting is cost effective, easy to install and not reliant on the local electricity supply. It can be used in a wide range of locations including car parks, bus stops and shelters, ports and harbours, and parks and public areas. With solar LED lighting you will have no problems with electricity supply, no changing bulbs or ballasts and the units start working immediately.",
     },
@@ -1735,7 +1735,7 @@ export const PRODUCT_SUB_CATEGORIES = {
     },
     {
       heading: "Distribution Boards",
-      image: "/images/products/switchgear-distribution.png",
+      image: "/images/products/switchgear-distribution.optimized.jpg",
       content:
         "A1 Electricals supply a wide range of medium and low voltage power distribution products. These include panel boards, switchboards, transformers and busways. We also supply a range of switches, disconnects and enclosed circuit breakers. From a domestic consumer unit to a 630A industrial distribution board, our switchgear range covers the full spectrum of LV power distribution.",
     },
@@ -1761,7 +1761,7 @@ export const PRODUCT_SUB_CATEGORIES = {
     },
     {
       heading: "Fuses and Surge Protection",
-      image: "/images/products/power-protection.png",
+      image: "/images/products/power-protection.optimized.jpg",
       content:
         "HRC fuses and fuse bases, moulded case circuit breakers up to 630A, surge protection devices and isolators for complete circuit protection. Whether you're populating a new distribution board, replacing a tripped or faulty device, or upgrading an older installation to current standards, we hold stock of the most commonly specified protective devices for immediate supply.",
     },
@@ -1775,13 +1775,13 @@ export const PRODUCT_SUB_CATEGORIES = {
     },
     {
       heading: "Star-Delta Starters",
-      image: "/images/products/generators.png",
+      image: "/images/products/generators.optimized.jpg",
       content:
         "Star-delta starters for motors up to 150kW, providing reduced-current starting for larger industrial loads with proper interlocking arrangements. Contactors and overload relays from ABB and Siemens form the core of our motor control range, with thermal and electronic overload relays providing accurate motor protection across the full load range.",
     },
     {
       heading: "Soft-Start Units",
-      image: "/images/products/power-protection.png",
+      image: "/images/products/power-protection.optimized.jpg",
       content:
         "Soft-start units for smooth motor acceleration, reducing mechanical stress and inrush current on motors driving conveyors, compressors and process machinery. IP54 and IP65 enclosures are available for installations in wet or dusty environments. We supply motor control equipment to industrial plants, water utilities, building services contractors and process engineers across Uganda.",
     },
@@ -1789,7 +1789,7 @@ export const PRODUCT_SUB_CATEGORIES = {
   "Power Protection": [
     {
       heading: "Protecting Your Assets",
-      image: "/images/products/power-protection.png",
+      image: "/images/products/power-protection.optimized.jpg",
       content:
         "We offer a comprehensive package of UPS systems and inverters. These are available in both three phase and single phase units and help to offer stable and regulated power supply to expensive IT and electronic equipment. A1 Electricals can supply a full range of reliable power protection solutions to protect against the damaging effects of lightning, utility switching, switching electric motors, and blackouts. All products comply with the latest industry standards.",
     },
@@ -1801,7 +1801,7 @@ export const PRODUCT_SUB_CATEGORIES = {
     },
     {
       heading: "Voltage Stabilisers and Surge Protection",
-      image: "/images/products/generators.png",
+      image: "/images/products/generators.optimized.jpg",
       content:
         "Servo-type automatic voltage regulators for continuous voltage correction and relay-type AVRs for cost-sensitive applications where battery backup isn't required. Type 1 surge protection devices for main distribution boards and Type 2 SPDs for sub-distribution and individual equipment protection. Power quality problems are often invisible until equipment fails or data is lost.",
     },
@@ -1809,19 +1809,19 @@ export const PRODUCT_SUB_CATEGORIES = {
   "Lightning Protection": [
     {
       heading: "Air Terminals",
-      image: "/images/products/power-protection.png",
+      image: "/images/products/power-protection.optimized.jpg",
       content:
         "Air terminal rods and early streamer emission ESE terminals engineered to BS EN 62305 for effective lightning strike interception. Uganda sits within one of the world's highest lightning density zones, making effective lightning protection a genuine life-safety requirement rather than an optional extra.",
     },
     {
       heading: "Down Conductors",
-      image: "/images/products/cables-wires.png",
+      image: "/images/products/cables-wires.optimized.jpg",
       content:
         "Flat tape and round conductor down conductors with test clamps and inspection joints, providing a low-impedance path from the air terminal network to earth. Copper is specified for the most demanding environments and where long service life is critical; aluminium offers a cost-effective alternative for less aggressive conditions.",
     },
     {
       heading: "Earthing Systems",
-      image: "/images/products/steel-cable-tranking.png",
+      image: "/images/products/steel-cable-tranking.optimized.jpg",
       content:
         "Copper and aluminium earth rods, inspection pits and equipotential bonding bars, sized according to BS EN 62305 risk-assessment standards. Earth resistance testing is an essential part of both commissioning and ongoing maintenance of a lightning protection system. We stock earth resistance test kits and can advise on testing methodology.",
     },
@@ -1829,7 +1829,7 @@ export const PRODUCT_SUB_CATEGORIES = {
   "Security & Fire Alarms": [
     {
       heading: "Comprehensive Product Range",
-      image: "/images/products/fire_alarms.png",
+      image: "/images/products/fire_alarms.optimized.jpg",
       content:
         "A1 Electricals provide a wide range of Security and Fire systems sourced from leading electrical product manufacturers for domestic, commercial and industrial applications. Whether you are installing fire detection or security systems our extensive product range will meet your needs. We can also source and supply most advanced equipment needed for specialist projects. Our range includes fire detection, security alarms, fire panels, smoke and heat detectors, alarm bells, electronic sounders, break glass units, emergency lighting, PIRs and CCTV.",
     },
@@ -1849,13 +1849,13 @@ export const PRODUCT_SUB_CATEGORIES = {
   "Ventilation & Fans": [
     {
       heading: "Axial Fans",
-      image: "/images/products/ventilation_fans.png",
+      image: "/images/products/ventilation_fans.optimized.jpg",
       content:
         "Axial wall fans for bathrooms and kitchens from 100mm to 150mm, with airflow rates from 15 to 500 cubic metres per hour and noise levels from 26dB(A). Good ventilation is essential in Uganda's hot, humid climate, both for occupant comfort and to prevent the moisture damage and mould growth that poor air movement encourages.",
     },
     {
       heading: "Centrifugal and Inline Fans",
-      image: "/images/products/generators.png",
+      image: "/images/products/generators.optimized.jpg",
       content:
         "Centrifugal fans for longer duct runs where higher pressure is required, specified for airflow, noise and humidity performance in commercial settings. Inline duct fans for commercial ventilation systems with humidistat, timer and pull-cord control options, rated IP24 to IP45 for wet-room applications.",
     },
@@ -1869,13 +1869,13 @@ export const PRODUCT_SUB_CATEGORIES = {
   Generators: [
     {
       heading: "Commercial Generators",
-      image: "/images/products/generators.png",
+      image: "/images/products/generators.optimized.jpg",
       content:
         "Loss of power to an office or industrial facility can cause considerable disruption and economic loss. A standby generator will supply lights and safety equipment in such an event. An alternate power source may be required in commercial premises by building codes and regulations. We can supply portable generators and emergency battery packs for small facilities through to standby generators and central battery systems for larger scale commercial operations.",
     },
     {
       heading: "Portable Generators",
-      image: "/images/products/power-protection.png",
+      image: "/images/products/power-protection.optimized.jpg",
       content:
         "Where power supply is intermittent we can supply a range of portable generators which are suitable for domestic and light commercial use. These come in a wide range of sizes and are designed to keep lights and appliances powered in the event of a power outage. Load shedding remains a fact of life across much of Uganda, and a reliable generating set is the most practical solution for homes and businesses that cannot afford downtime.",
     },
@@ -1901,7 +1901,7 @@ export const PRODUCT_SUB_CATEGORIES = {
     },
     {
       heading: "Import Coordination",
-      image: "/images/image.png",
+      image: "/images/image.optimized.jpg",
       content:
         "Import and logistics coordination for overseas manufacturers, with consolidation of bespoke items with standard stock orders for single delivery. Lead times and minimum order quantities vary by product and manufacturer, and we'll give you a realistic timeline and cost before you commit.",
     },
@@ -1909,7 +1909,7 @@ export const PRODUCT_SUB_CATEGORIES = {
   "Transformers & Power Distribution": [
     {
       heading: "Distribution Transformers",
-      image: "/images/products/generators.png",
+      image: "/images/products/generators.optimized.jpg",
       content:
         "Oil-filled distribution transformers from 25kVA to 2500kVA for utility, industrial and commercial step-down applications, alongside dry-type cast-resin transformers for indoor and fire-sensitive installations. Pole-mounted and pad-mounted options are available depending on your site layout and safety requirements.",
     },
@@ -1921,7 +1921,7 @@ export const PRODUCT_SUB_CATEGORIES = {
     },
     {
       heading: "Power Distribution Equipment",
-      image: "/images/products/switchgear-distribution.png",
+      image: "/images/products/switchgear-distribution.optimized.jpg",
       content:
         "Power distribution panels, ring main units (RMUs) and associated switchgear complete the supply chain from transformer to final distribution. We also stock transformer oil, bushings and spare parts to support ongoing maintenance of existing installations.",
     },
@@ -1929,13 +1929,13 @@ export const PRODUCT_SUB_CATEGORIES = {
   "Industrial Control & Automation": [
     {
       heading: "Drives & Motor Control",
-      image: "/images/products/motor-controls-starters.png",
+      image: "/images/products/motor-controls-starters.optimized.jpg",
       content:
         "Variable speed drives (VSDs/VFDs) and soft-starters provide precise motor speed control and smooth acceleration, reducing mechanical stress and energy consumption compared to fixed-speed operation. We stock drives suitable for pumps, fans and general industrial motor applications.",
     },
     {
       heading: "PLCs & Process Control",
-      image: "/images/products/fire_alarms.png",
+      image: "/images/products/fire_alarms.optimized.jpg",
       content:
         "Programmable logic controllers (PLCs) and HMI touch panels give plant managers precise control and visibility over industrial processes. We supply control relays, timers and industrial push-buttons alongside PLCs for building out complete control panels.",
     },

@@ -23,7 +23,13 @@ export default function ProductDetail() {
   return (
     <>
       <section className="pdhero">
-        <img src={heroImage} alt={p.name} />
+        <img
+          src={heroImage}
+          alt={p.name}
+          loading="eager"
+          fetchPriority="high"
+          decoding="async"
+        />
         <div className="pdhero-label">{p.name}</div>
       </section>
 
@@ -107,6 +113,8 @@ export default function ProductDetail() {
                         src={leadingBrand.logo}
                         alt={leadingBrand.name}
                         className="pdform-brand-logo"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </div>
                     <EnquiryForm />
@@ -167,6 +175,8 @@ export default function ProductDetail() {
                 <img
                   src={subCat.image || "/images/a1-storefront.webp"}
                   alt={subCat.heading || p.name}
+                  loading="lazy"
+                  decoding="async"
                 />
               }
               heading={subCat.heading}
@@ -187,6 +197,8 @@ export default function ProductDetail() {
                     src={leadingBrand.logo}
                     alt={leadingBrand.name}
                     className="brand-manufacturer-logo"
+                    loading="lazy"
+                    decoding="async"
                   />
                 ) : (
                   <div className="bmark">{leadingBrand.init}</div>
@@ -222,6 +234,8 @@ export default function ProductDetail() {
                     <img
                       src={r.heroImage || "/images/a1-storefront.webp"}
                       alt={r.name}
+                      loading="lazy"
+                      decoding="async"
                     />
                     <span className="mp-pill">{r.name}</span>
                   </Link>

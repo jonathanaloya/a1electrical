@@ -110,7 +110,13 @@ export default function BrandDetail() {
           <div className="brand-hero-grid">
             <div className="brand-hero-logo-card">
               {b.logo ? (
-                <img src={b.logo} alt={`${b.name} logo`} />
+                <img
+                  src={b.logo}
+                  alt={`${b.name} logo`}
+                  loading="eager"
+                  fetchPriority="high"
+                  decoding="async"
+                />
               ) : (
                 <div className="bmark">{b.init}</div>
               )}
@@ -230,6 +236,8 @@ export default function BrandDetail() {
                 <img
                   src={b.logo}
                   alt={b.name}
+                  loading="lazy"
+                  decoding="async"
                   style={{
                     maxWidth: "70%",
                     maxHeight: 70,
@@ -310,6 +318,7 @@ export default function BrandDetail() {
                       src={p.image || "/images/a1-storefront.webp"}
                       alt={p.name}
                       loading="lazy"
+                      decoding="async"
                     />
                     <span className="brand-product-badge">{p.cat}</span>
                   </div>
@@ -409,6 +418,8 @@ export default function BrandDetail() {
                   <img
                     src={selectedProduct.image || "/images/a1-storefront.webp"}
                     alt={selectedProduct.name}
+                    loading="eager"
+                    decoding="async"
                   />
                 </div>
 
@@ -586,6 +597,8 @@ export default function BrandDetail() {
                     <img
                       src={rb.logo}
                       alt={rb.name}
+                      loading="lazy"
+                      decoding="async"
                       style={{
                         width: 80,
                         height: 54,
@@ -608,5 +621,4 @@ export default function BrandDetail() {
     </>
   );
 }
-
 

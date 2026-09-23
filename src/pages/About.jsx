@@ -4,12 +4,23 @@ export default function About() {
   return (
     <>
       <section className="pdhero">
-        <img src="/images/mccb.jpeg" alt="About Us" />
+        <img
+          src="/images/mccb.jpeg"
+          alt="About Us"
+          loading="eager"
+          fetchPriority="high"
+          decoding="async"
+        />
         <div className="pdhero-label">About Us</div>
       </section>
       <SplitSection
         media={
-          <img src="/images/products.jpeg" alt="A1 Electricals showroom" />
+          <img
+            src="/images/products.jpeg"
+            alt="A1 Electricals showroom"
+            loading="lazy"
+            decoding="async"
+          />
         }
         heading="Uganda's Leading Electrical Supplier"
       >
@@ -34,7 +45,12 @@ export default function About() {
       <SplitSection
         reverse
         media={
-          <img src="/images/home_brochure.jpeg" alt="A1 Electricals stock" />
+          <img
+            src="/images/home_brochure.jpeg"
+            alt="A1 Electricals stock"
+            loading="lazy"
+            decoding="async"
+          />
         }
         heading="Our Vision & Mission"
       >
@@ -60,7 +76,12 @@ export default function About() {
 
       <SplitSection
         media={
-          <img src="/images/side.jpeg" alt="Leading manufacturers" />
+          <img
+            src="/images/side.jpeg"
+            alt="Leading manufacturers"
+            loading="lazy"
+            decoding="async"
+          />
         }
         heading="Leading Manufacturers"
       >
@@ -86,7 +107,12 @@ export default function About() {
       <SplitSection
         reverse
         media={
-          <img src="/images/a1-storefront.webp" alt="A1 Electricals team" />
+          <img
+            src="/images/a1-storefront.webp"
+            alt="A1 Electricals team"
+            loading="lazy"
+            decoding="async"
+          />
         }
         heading="Our Core Values"
       >
@@ -109,7 +135,12 @@ export default function About() {
       <SplitSection
         reverse
         media={
-          <img src="/images/banner2.jpeg" alt="Industries A1 Electricals serves" />
+          <img
+            src="/images/banner2.jpeg"
+            alt="Industries A1 Electricals serves"
+            loading="lazy"
+            decoding="async"
+          />
         }
         heading="Industries We Serve"
       >
@@ -172,7 +203,12 @@ export default function About() {
 
       <SplitSection
         media={
-          <img src="/images/customer-service.png" alt="Why choose A1 Electricals" />
+          <img
+            src="/images/customer-service.optimized.jpg"
+            alt="Why choose A1 Electricals"
+            loading="lazy"
+            decoding="async"
+          />
         }
         heading="Why Choose A1 Electricals Ltd"
       >
