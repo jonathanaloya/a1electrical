@@ -753,8 +753,6 @@ export const BRANDS = [
       "FridgeGuard, TVGuard & Air Conditioner Surge Protectors",
       "Single-Phase Automatic Voltage Regulators (AVR 1kVA – 10kVA)",
       "Three-Phase Commercial Voltage Stabilizers (up to 100kVA+)",
-      "Main Panelboard Lightning & Surge Protection Devices (SPDs)",
-      "Solar Charge Inverters & Battery Power Backup Systems",
     ],
     products: [
       {
@@ -844,7 +842,7 @@ export const BRANDS = [
     cat: "Security & Fire Alarms",
     tagline: "Intelligent Power Management & Life-Safety Fire Systems",
     catalogueTitle: "Eaton Fire Alarms, Life Safety & Protection Catalogue",
-    desc: "Eaton life-safety and power management systems protect commercial, residential, and industrial facilities with certified fire detection and power control technology. The Eaton catalogue includes addressable and conventional fire alarm panels, optical smoke detectors, manual call points, sounder beacons, and emergency lighting systems built to rigorous EN 54 safety standards.",
+    desc: "Eaton combines fire detection and life-safety solutions with trusted power management for commercial, residential, and industrial facilities. Explore addressable and conventional fire alarm panels, optical smoke detectors, manual call points, sounder beacons, and emergency lighting, with applicable systems designed to meet relevant EN 54 requirements.",
     logo: "/images/brands/eaton.png",
     highlights: [
       "Certified to International EN 54 & BS 5839 Fire Standards",
@@ -879,7 +877,6 @@ export const BRANDS = [
         model: "CF1000 / DF6000 Loop System",
         cat: "Addressable Fire Panels",
         desc: "Intelligent addressable fire alarm panels supporting up to 200 devices per loop with backlit graphic LCD display and networkability up to 126 panels.",
-        image: "/images/products/control_cabinet.jpeg",
         specs: [
           ["Loop Capacity", "1 to 4 Loops (200 Devices/Loop)"],
           ["Networkable", "Up to 126 Panels via RS485"],
@@ -892,7 +889,6 @@ export const BRANDS = [
         model: "FXN Series (Optical & Thermal)",
         cat: "Fire Detectors",
         desc: "Dual-angle optical chamber smoke and thermal heat detectors with dust accumulation compensation to minimize false alarms.",
-        image: "/images/products/industrial_sensors.jpeg",
         specs: [
           ["Chamber", "Precision Optical Scattering Chamber"],
           ["Heat Sensor", "Class A1R Rate-of-Rise & Fixed Thermal"],
@@ -905,7 +901,6 @@ export const BRANDS = [
         model: "Menvier & Rooperlite Series",
         cat: "Call Points & Sounders",
         desc: "High-visibility red break-glass manual emergency triggers and high-output 106 dB(A) combined sounder beacons with IP65 outdoor variants.",
-        image: "/images/products/emergency_backup.jpeg",
         specs: [
           ["Ingress Rating", "IP24D Indoor & IP67 Weatherproof"],
           ["Audible Output", "Up to 106 dB(A) Multi-Tone Sounder"],
@@ -918,7 +913,6 @@ export const BRANDS = [
         model: "FP200 Gold (1.5mm² – 2.5mm²)",
         cat: "Fire Rated Cables",
         desc: "Certified 30/60-minute fire integrity cables with Insudite fire-resistant insulation and low smoke zero halogen (LSZH) outer sheath.",
-        image: "/images/products/cable_standards.jpeg",
         specs: [
           ["Fire Integrity", "30 & 60 Min Fire Survival (BS 5839)"],
           ["Conductor", "Plain Annealed Solid Copper (1.5 – 2.5mm²)"],
@@ -931,7 +925,6 @@ export const BRANDS = [
         model: "Briteloop & SafeLite Series",
         cat: "Emergency Lighting",
         desc: "Self-contained maintained LED emergency luminaires providing 3 hours of illumination upon mains power failure with 24m/32m viewing distance.",
-        image: "/images/products/linear_luminaires.jpeg",
         specs: [
           ["Battery Autonomy", "3 Hours Maintained Emergency Backup"],
           ["Battery Cells", "High-Temperature Ni-Cd / LiFePO4"],

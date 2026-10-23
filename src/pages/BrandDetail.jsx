@@ -25,6 +25,7 @@ export default function BrandDetail() {
   if (!b) return <NotFound />;
 
   const brandProducts = getBrandProducts(b);
+  const featuredBrandProducts = brandProducts.slice(0, 4);
   const items = brandRangeItems(b);
   const highlights = b.highlights || [
     "100% Genuine Manufacturer Certified",
@@ -305,23 +306,25 @@ export default function BrandDetail() {
               </p>
             </div>
 
-            <div className="grid-3">
-              {brandProducts.map((p, idx) => (
+            <div className="grid-4">
+              {featuredBrandProducts.map((p, idx) => (
                 <div
                   key={idx}
                   className="brand-product-card"
                   onClick={(e) => handleOpenProduct(p, e)}
                   title={`Click to view all ${p.name} details & specifications`}
                 >
-                  <div className="brand-product-img">
-                    <img
-                      src={p.image || "/images/a1-storefront.webp"}
-                      alt={p.name}
-                      loading="lazy"
-                      decoding="async"
-                    />
-                    <span className="brand-product-badge">{p.cat}</span>
-                  </div>
+                  {p.image && (
+                    <div className="brand-product-img">
+                      <img
+                        src={p.image}
+                        alt={p.name}
+                        loading="lazy"
+                        decoding="async"
+                      />
+                      <span className="brand-product-badge">{p.cat}</span>
+                    </div>
+                  )}
 
                   <div className="brand-product-body">
                     {p.model && (
@@ -414,14 +417,16 @@ export default function BrandDetail() {
             <div className="product-modal-content">
               {/* Left Media Column */}
               <div className="product-modal-media-col">
-                <div className="product-modal-img-wrap">
-                  <img
-                    src={selectedProduct.image || "/images/a1-storefront.webp"}
-                    alt={selectedProduct.name}
-                    loading="eager"
-                    decoding="async"
-                  />
-                </div>
+                {selectedProduct.image && (
+                  <div className="product-modal-img-wrap">
+                    <img
+                      src={selectedProduct.image}
+                      alt={selectedProduct.name}
+                      loading="eager"
+                      decoding="async"
+                    />
+                  </div>
+                )}
 
                 <div className="product-modal-trust-list">
                   <div className="product-modal-trust-item">
@@ -621,4 +626,3 @@ export default function BrandDetail() {
     </>
   );
 }
-

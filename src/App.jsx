@@ -32,7 +32,6 @@ const ProductDetail = lazyWithRetry(() => import("./pages/ProductDetail.jsx"));
 const BrandsOverview = lazyWithRetry(() => import("./pages/BrandsOverview.jsx"));
 const BrandDetail = lazyWithRetry(() => import("./pages/BrandDetail.jsx"));
 const CustomerService = lazyWithRetry(() => import("./pages/CustomerService.jsx"));
-const Careers = lazyWithRetry(() => import("./pages/Careers.jsx"));
 const About = lazyWithRetry(() => import("./pages/About.jsx"));
 const Contact = lazyWithRetry(() => import("./pages/Contact.jsx"));
 const Privacy = lazyWithRetry(() => import("./pages/Privacy.jsx"));
@@ -63,7 +62,6 @@ export default function App() {
               <Route path="/brands/:slug" element={<BrandDetail />} />
               <Route path="/brands/:slug/:productSlug" element={<BrandDetail />} />
               <Route path="/customer-service" element={<CustomerService />} />
-              <Route path="/careers" element={<Careers />} />
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/privacy" element={<Privacy />} />

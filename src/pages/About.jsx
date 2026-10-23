@@ -45,12 +45,19 @@ export default function About() {
       <SplitSection
         reverse
         media={
-          <img
-            src="/images/home_brochure.jpeg"
-            alt="A1 Electricals stock"
-            loading="lazy"
-            decoding="async"
-          />
+          <div
+            className="about-image-stage"
+            style={{ "--about-image": "url('/images/home_brochure.jpeg')" }}
+          >
+            <div className="about-image-backdrop" aria-hidden="true" />
+            <img
+              src="/images/home_brochure.jpeg"
+              alt="A1 Electricals stock"
+              className="about-fit-image"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
         }
         heading="Our Vision & Mission"
       >
@@ -76,12 +83,19 @@ export default function About() {
 
       <SplitSection
         media={
-          <img
-            src="/images/side.jpeg"
-            alt="Leading manufacturers"
-            loading="lazy"
-            decoding="async"
-          />
+          <div
+            className="about-image-stage"
+            style={{ "--about-image": "url('/images/a1-logo.jpeg')" }}
+          >
+            <div className="about-image-backdrop" aria-hidden="true" />
+            <img
+              src="/images/a1-logo.jpeg"
+              alt="Leading manufacturers"
+              className="about-fit-image"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
         }
         heading="Leading Manufacturers"
       >

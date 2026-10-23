@@ -100,8 +100,7 @@ export default function Home() {
         <div className="wrap">
           <p className="hero-statement">
             A1 Electricals is Kampala’s leading supplier and distributor of
-            electrical and lighting products, serving customers across Uganda
-            and the wider East African region.
+            electrical and lighting products, serving customers across Uganda.
           </p>
           <div className="promogrid">
             <div className="promocard">

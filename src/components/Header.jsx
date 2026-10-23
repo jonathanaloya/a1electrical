@@ -208,11 +208,6 @@ export default function Header() {
               >
                 <Link to="/customer-service">Customer service</Link>
               </li>
-              <li
-                className={`navitem${location.pathname === "/careers" ? " active" : ""}`}
-              >
-                <Link to="/careers">Careers</Link>
-              </li>
               <li className="navitem">
                 <Link to="/contact" className="navcta">
                   Contact
