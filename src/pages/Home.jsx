@@ -35,18 +35,6 @@ const TILES = [
     photoSmall: "/images/a1_lights_small.png",
     bg: "#EAEAE4",
   },
-  {
-    slug: "electrical-panels-distribution-boards",
-    photo: "/images/latestblog.jpeg",
-    photoSmall: "/images/latestblog_small.png",
-    bg: "var(--ink)",
-  },
-  {
-    slug: "transformers-power-distribution",
-    photo: "/images/eaton.jpeg",
-    photoSmall: "/images/eaton_small.png",
-    bg: "#EAEAE4",
-  },
 ];
 
 const WHY_CHOOSE_ITEMS = [

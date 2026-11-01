@@ -1863,7 +1863,7 @@
 
   .tilegrid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 16px;
   }
 
@@ -1898,20 +1898,6 @@
 
   .ptile:hover .ptile-visual img {
     transform: scale(1.08);
-  }
-
-  .tilegrid > .ptile:nth-child(3) .ptile-visual {
-    bottom: 90px;
-  }
-
-  .tilegrid > .ptile:nth-child(3) .ptile-visual img {
-    box-sizing: border-box;
-    object-fit: contain;
-    padding: 4px;
-  }
-
-  .tilegrid > .ptile:nth-child(3):hover .ptile-visual img {
-    transform: none;
   }
 
   .ptile-visual .icon-block {
