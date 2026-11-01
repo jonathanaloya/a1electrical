@@ -200,34 +200,41 @@ export default function BrandDetail() {
               ))}
             </div>
 
-            {/* Engineering & Compliance Note */}
-            <div
-              style={{
-                marginTop: 28,
-                background: "var(--paper-2)",
-                padding: "18px 20px",
-                borderRadius: "var(--radius)",
-                border: "1px solid var(--line)",
-              }}
-            >
-              <h4 style={{ fontSize: 16, margin: "0 0 6px", color: "var(--ink)" }}>
-                Genuine Products &amp; Engineering Support
-              </h4>
-              <p
+            {b.slug !== "abb" && (
+              <div
                 style={{
-                  fontSize: 13.5,
-                  color: "var(--steel)",
-                  margin: 0,
-                  lineHeight: 1.55,
+                  marginTop: 28,
+                  background: "var(--paper-2)",
+                  padding: "18px 20px",
+                  borderRadius: "var(--radius)",
+                  border: "1px solid var(--line)",
                 }}
               >
-                All {b.name} products distributed by A1 Electricals are 100%
-                authentic, covered by standard manufacturer warranties and
-                certified to international standards (IEC, BS EN, UNBS). Our
-                technical sales engineers in Kampala assist with sizing, fault
-                coordination, and custom panel configurations.
-              </p>
-            </div>
+                <h4
+                  style={{
+                    fontSize: 16,
+                    margin: "0 0 6px",
+                    color: "var(--ink)",
+                  }}
+                >
+                  Genuine Products &amp; Engineering Support
+                </h4>
+                <p
+                  style={{
+                    fontSize: 13.5,
+                    color: "var(--steel)",
+                    margin: 0,
+                    lineHeight: 1.55,
+                  }}
+                >
+                  All {b.name} products distributed by A1 Electricals are 100%
+                  authentic, covered by standard manufacturer warranties and
+                  certified to international standards (IEC, BS EN, UNBS). Our
+                  technical sales engineers in Kampala assist with sizing, fault
+                  coordination, and custom panel configurations.
+                </p>
+              </div>
+            )}
           </div>
 
           {/* Sidebar Enquiry Form */}

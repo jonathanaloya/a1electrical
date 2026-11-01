@@ -22,7 +22,6 @@ export const BRANDS = [
       "Emax 2 Air Circuit Breakers (ACBs up to 4000A)",
       "AF Series Industrial Contactors & Overload Relays",
       "ACS Variable Speed Drives (VFDs) & Soft Starters",
-      "Mistral & ArTu Low Voltage Distribution Enclosures",
     ],
     products: [
       {
@@ -543,9 +542,6 @@ export const BRANDS = [
       "High-Speed Commercial & Domestic Ceiling Fans (48\" / 56\")",
       "Industrial Heavy-Duty Wall Mount & Pedestal Fans",
       "High-Capacity Kitchen & Bathroom Exhaust Fans",
-      "Inverter Energy-Saver Smart Remote Fans",
-      "Commercial Air Curtains & Ventilation Blowers",
-      "Solid-State Fan Step Regulators & Accessories",
     ],
     products: [
       {
@@ -851,12 +847,10 @@ export const BRANDS = [
       "Complete Range of Spares, Detectors & Panels in Kampala",
     ],
     rangeItems: [
-      "Conventional 2, 4 & 8-Zone Fire Alarm Control Panels",
       "Analogue Addressable Fire Alarm Panels & Repeater Boards",
       "Optical Smoke, Multi-Criteria & Heat Detectors",
       "Manual Break-Glass Call Points & Combined Sounder Beacons",
-      "Fire-Resistant Cables, Isolator Bases & Loop Modules",
-      "Emergency Exit Signage & Maintained Battery Luminaires",
+      "Fire-Resistant Cables, Isolator Bases & Loop Modules"
     ],
     products: [
       {
