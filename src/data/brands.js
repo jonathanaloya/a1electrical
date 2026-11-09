@@ -10,6 +10,12 @@ export const BRANDS = [
     catalogueTitle: "ABB Power Distribution, Switchgear & Control Catalogue",
     desc: "ABB is a world-leading electrification leader offering dependable, precision-engineered electrical control solutions for residential, commercial and heavy industrial applications. The A1 Electricals ABB catalogue includes distribution boards, contactors, electronic overload relays, MCBs, MCCBs, ACBs, variable speed drives, motors, change-over switches and ATS assemblies — ensuring maximum safety, proven performance and long service life.",
     logo: "/images/brands/abb.jpeg",
+    catalogues: [
+      { title: "ABB Automatic Transfer Switches (OMD200 / OMD300 / OMD800)", file: "/catalogues/abb-ats-omd-catalogue.pdf", pages: 23 },
+      { title: "ABB Inora Switches & Sockets", file: "/catalogues/abb-inora-catalogue.pdf", pages: 15 },
+      { title: "ABB Framia Switches & Sockets", file: "/catalogues/abb-framia-catalogue.pdf", pages: 30 },
+      { title: "ABB System pro E energy Primo Distribution Boards", file: "/catalogues/abb-system-pro-e-primo-catalogue.pdf", pages: 10 },
+    ],
     highlights: [
       "IEC 61439 Certified Low Voltage Systems",
       "High Breaking Capacities (6kA up to 100kA)",
@@ -218,6 +224,9 @@ export const BRANDS = [
     catalogueTitle: "Philips & Signify Commercial & Architectural Lighting Catalogue",
     desc: "Philips & Signify Lighting deliver world-class, energy-efficient lighting solutions for commercial buildings, industrial warehouses, architectural spaces, and outdoor infrastructure. Sourced genuinely through A1 Electricals, the catalogue features long-life LED luminaires, slim panels, high-output floodlights, downlights, and smart lighting systems.",
     logo: "/images/brands/phillips.jpeg",
+    catalogues: [
+      { title: "Philips Professional Trade Lighting Catalogue 2024-2025", file: "/catalogues/philips-signify-trade-lighting-catalogue-2024-2025.pdf", pages: 49 },
+    ],
     highlights: [
       "High Luminous Efficacy (up to 140 lm/W)",
       "50,000+ Hour L70 Rated Lifetime",
@@ -312,6 +321,55 @@ export const BRANDS = [
         ],
       },
     ],
+  },
+  {
+    slug: "altech",
+    name: "Altech",
+    init: "AL",
+    cat: "Circuit Protection",
+    tagline: "Dependable, Safe, Reliable Protection",
+    catalogueTitle: "Altech Circuit Protection & Distribution Catalogue",
+    desc: "Altech supplies circuit protection and distribution equipment, including miniature circuit breakers, residual current devices, moulded case circuit breakers and distribution enclosures. Download the full Altech catalogue below, or contact A1 Electricals for pricing and availability.",
+    logo: null,
+    catalogues: [
+      { title: "Altech Product Catalogue", file: "/catalogues/altech-catalogue.pdf", pages: 26 },
+    ],
+    highlights: [
+      "Circuit Breakers & Residual Current Protection",
+      "Distribution Enclosures",
+      "Supplied Through A1 Electricals Kampala",
+    ],
+    rangeItems: [
+      "Miniature Circuit Breakers (MCBs)",
+      "Residual Current Devices (RCCBs / RCBOs)",
+      "Moulded Case Circuit Breakers (MCCBs)",
+      "Distribution Boards & Enclosures",
+    ],
+    products: [],
+  },
+  {
+    slug: "ecolink",
+    name: "Ecolink",
+    init: "EL",
+    cat: "Light Fittings & Luminaires",
+    tagline: "LED Lighting for Homes, Retail, Offices & Hospitality",
+    catalogueTitle: "Ecolink LED Lighting Product Catalogue",
+    desc: "Ecolink offers a range of LED lighting products including back-lit panels and other luminaires for home, retail, office and hospitality applications. Download the full Ecolink catalogue below, or contact A1 Electricals for pricing and availability.",
+    logo: null,
+    catalogues: [
+      { title: "Ecolink Product Catalogue", file: "/catalogues/ecolink-catalogue.pdf", pages: 27 },
+    ],
+    highlights: [
+      "Energy-Efficient LED Lighting",
+      "Home, Retail, Office & Hospitality Applications",
+      "Supplied Through A1 Electricals Kampala",
+    ],
+    rangeItems: [
+      "LED Back-Lit Panels",
+      "Commercial & Architectural LED Luminaires",
+      "Indoor Lighting for Retail & Hospitality",
+    ],
+    products: [],
   },
   {
     slug: "vaf-power",

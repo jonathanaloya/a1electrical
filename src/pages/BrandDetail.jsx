@@ -158,6 +158,40 @@ export default function BrandDetail() {
         </div>
       </section>
 
+      {/* Downloadable Brand Catalogues (PDFs watermarked "A1 Electricals Ltd") */}
+      {Array.isArray(b.catalogues) && b.catalogues.length > 0 && (
+        <section className="wrap" style={{ paddingTop: 36, paddingBottom: 0 }}>
+          <div className="eyebrow" style={{ marginBottom: 6 }}>
+            Downloads
+          </div>
+          <h2 style={{ fontSize: 24, marginBottom: 14 }}>
+            {b.name} Catalogues (PDF)
+          </h2>
+          <div className="brand-series-grid">
+            {b.catalogues.map((c) => (
+              <a
+                key={c.file}
+                href={c.file}
+                target="_blank"
+                rel="noopener noreferrer"
+                download
+                className="brand-series-card"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <ArrowIcon />
+                <span>
+                  <strong>{c.title}</strong>
+                  <br />
+                  <small>
+                    PDF{c.pages ? ` \u00b7 ${c.pages} pages` : ""} \u00b7 Download
+                  </small>
+                </span>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* Brand Overview & Technical Highlights */}
       <section className="wrap" style={{ paddingTop: 36, paddingBottom: 36 }}>
         <div className="pdsplit">
